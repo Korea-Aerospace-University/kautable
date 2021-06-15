@@ -1,6 +1,6 @@
 import React from "react";
 import SubjectList from "./subjectList";
-import Table from "./Table";
+import Table from "./table";
 import SubjectBasket from "./subjectBasket";
 
 interface Props {}
