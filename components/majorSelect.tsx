@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import Select from "react-select";
 import { majors, majorType } from "../types/major";
 import { SearchIcon } from "@heroicons/react/solid";
-import Button from "./common/Button";
+import Button from "./common/button";
 import { MajorContext } from "../pages/Timetable";
 
 interface Props {}

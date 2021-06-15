@@ -1,6 +1,6 @@
 import React from "react";
 import TableMenu from "./tableMenu";
-import Button from "./common/Button";
+import Button from "./common/button";
 import { DownloadIcon } from "@heroicons/react/solid";
 
 interface Props {}
