@@ -32,3 +32,10 @@
   opacity: 0;
   transform: translateY(-500px);
 }
+
+table {
+  border-width: 2px !important;
+}
+
+td {
+}

@@ -8,7 +8,7 @@ const TableMenu = (props: Props) => {
   return (
     <div>
       <Select
-        className="w-full text-xs lg:w-[300px] mr-5 border-blue-200"
+        className="w-full text-xs mr-5 border-blue-200"
         placeholder="학기를 선택하세요"
         blurInputOnSelect
         noOptionsMessage={() => "결과가 없습니다 :("}
