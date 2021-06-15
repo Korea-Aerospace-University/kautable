@@ -5,11 +5,13 @@ import ModalContainer from "./common/modalContainer";
 import SubjectDetail from "./subjectDetail";
 import SubjectItem from "./subjectItem";
 
-interface Props {}
+interface ISubjectResponse {
+  data: [];
+}
 
 export const ModalContext = createContext(null);
 
-const SubjectTable = (props: Props) => {
+const SubjectTable = () => {
   const [selectedSubject, setSelectedSubject] = useState(null);
   const [subjectDataList, setSubjectDataList] = useState(null);
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -27,6 +29,13 @@ const SubjectTable = (props: Props) => {
     const data = await getSubjectsAPI(semester.value, major);
     setSubjectDataList(data);
     console.log(subjectDataList);
+  };
+
+  const selectSubject = (id: string) => {
+    if (subjectDataList !== null) {
+      setSelectedSubject(subjectDataList.data.data.filter((subject) => subject.id === id)[0]);
+    }
+    console.log(selectedSubject);
   };
 
   return (
@@ -48,12 +57,15 @@ const SubjectTable = (props: Props) => {
         </thead>
         <ModalContext.Provider value={{ isModalOpen, setIsModalOpen }}>
           <tbody>
-            <SubjectItem />
+            {subjectDataList &&
+              subjectDataList.data.data.map((subject: any) => (
+                <SubjectItem key={subject.id} data={subject} selectSubject={selectSubject} />
+              ))}
           </tbody>
         </ModalContext.Provider>
       </table>
       <ModalContainer isOpen={isModalOpen} setIsOpen={setIsModalOpen}>
-        <SubjectDetail />
+        <SubjectDetail data={selectedSubject} />
       </ModalContainer>
     </div>
   );

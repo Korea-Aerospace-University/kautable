@@ -27,7 +27,12 @@ const customStyles = {
 
 const ModalContainer: React.FC<IProps> = ({ children, isOpen, setIsOpen }) => {
   return (
-    <Modal isOpen={isOpen} style={customStyles} onRequestClose={() => setIsOpen(false)}>
+    <Modal
+      isOpen={isOpen}
+      ariaHideApp={false}
+      style={customStyles}
+      onRequestClose={() => setIsOpen(false)}
+    >
       {children}
     </Modal>
   );

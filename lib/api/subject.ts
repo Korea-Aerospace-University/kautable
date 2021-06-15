@@ -6,6 +6,6 @@ export const getSubjectsAPI = async (semester: string, major: string) => {
     return result;
   } catch (err) {
     console.log(err);
-    return {};
+    return { data: { data: [] } };
   }
 };
