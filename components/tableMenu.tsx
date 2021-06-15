@@ -1,5 +1,5 @@
 import React from "react";
-import { semeter } from "../types/semester";
+import { defaultSemester, semester } from "../types/semester";
 import Select from "react-select";
 
 interface Props {}
@@ -12,7 +12,8 @@ const TableMenu = (props: Props) => {
         placeholder="학기를 선택하세요"
         blurInputOnSelect
         noOptionsMessage={() => "결과가 없습니다 :("}
-        options={semeter}
+        defaultValue={defaultSemester}
+        options={semester}
       />
     </div>
   );

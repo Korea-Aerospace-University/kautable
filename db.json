@@ -1,17 +1,45 @@
 {
-  "subjects": [
-    {
-      "id": "0690",
-      "name": "AI융합CApstoneDesignI",
-      "grade": 4,
-      "type": "전필",
-      "score": 3,
-      "prof": "길현영",
-      "max": 12,
-      "time": "화)10:00∼13:00",
-      "classroom": "전자관325",
-      "major": "소프트",
-      "classType": "PtBL"
-    }
-  ]
+  "2021-01": {
+    "software": [
+      {
+        "id": "0690",
+        "name": "AI융합CApstoneDesignI",
+        "grade": 4,
+        "type": "전필",
+        "score": 3,
+        "prof": "길현영",
+        "max": 12,
+        "time": "화)10:00∼13:00",
+        "classroom": "전자관325",
+        "major": "소프트",
+        "classType": "PtBL"
+      },
+      {
+        "id": "0690",
+        "name": "AI융합CApstoneDesignI",
+        "grade": 4,
+        "type": "전필",
+        "score": 3,
+        "prof": "길현영",
+        "max": 12,
+        "time": "화)10:00∼13:00",
+        "classroom": "전자관325",
+        "major": "소프트",
+        "classType": "PtBL"
+      },
+      {
+        "id": "0690",
+        "name": "AI융합CApstoneDesignI",
+        "grade": 4,
+        "type": "전필",
+        "score": 3,
+        "prof": "길현영",
+        "max": 12,
+        "time": "화)10:00∼13:00",
+        "classroom": "전자관325",
+        "major": "소프트",
+        "classType": "PtBL"
+      }
+    ]
+  }
 }
