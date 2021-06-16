@@ -9,7 +9,7 @@ const SubjectItem = ({ data, selectSubject }) => {
   console.log(data);
   return (
     <tr
-      className="flex lg:flex-row justify-between px-3 py-3 hover:bg-blue-100 transition-all cursor-pointer"
+      className="flex lg:flex-row justify-between m-2 p-2 rounded-lg hover:bg-blue-100 transition-all cursor-pointer"
       onClick={() => {
         setIsModalOpen(true);
         selectSubject(id);
