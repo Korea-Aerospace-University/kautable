@@ -5,17 +5,7 @@ export default async (req: NextApiRequest, res: NextApiResponse) => {
   if (req.method === "POST") {
     const { semester } = req.body;
     try {
-      // const result = await fetch(`/data/${semester}/${major}/data.json`, {
-      //   headers: {
-      //     "Content-Type": "application/json",
-      //     Accept: "application/json",
-      //   },
-      // });
-      // const data = await result.json();
       const data = getList(semester);
-      // var obj = JSON.parse(
-      //   fs.readFileSync(`http://localhost:3000/data/${semester}/${major}/data.json`, "utf8")
-      // );
       res.statusCode = 200;
       res.send(data);
     } catch (err) {
