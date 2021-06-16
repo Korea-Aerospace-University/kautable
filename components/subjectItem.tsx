@@ -27,21 +27,21 @@ const SubjectItem = ({ data, selectSubject }) => {
       }}
     >
       <td
-        className="hidden lg:flex justify-center items-center lg:w-[20%] text-sm lg:text-md"
+        className="hidden lg:flex justify-center items-center lg:w-[20%] text-xs lg:text-sm"
         valign="middle"
       >
         {major}
       </td>
       <td
-        className="lg:w-[15%] lg:flex justify-center items-center px-2 text-sm lg:text-md"
+        className="lg:w-[15%] lg:flex justify-center items-center px-2 text-xs lg:text-sm"
         valign="middle"
       >
         {profName}
       </td>
-      <td className="lg:w-[35%] lg:flex justify-center items-center text-sm lg:text-md">
+      <td className="lg:w-[35%] lg:flex justify-center items-center text-xs lg:text-sm">
         {subjectName}
       </td>
-      <td className="lg:w-[10%] lg:flex justify-center items-center px-2 text-sm lg:text-md">
+      <td className="lg:w-[10%] lg:flex justify-center items-center px-2 text-xs lg:text-sm">
         {subjectScore}
       </td>
     </tr>
