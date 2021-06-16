@@ -27,7 +27,7 @@ const SubjectTable = () => {
   }, [semester, major]);
 
   const getSubjectList = async () => {
-    const data = await getSubjectsAPI(semester.value);
+    const data = await getSubjectsAPI(semester);
     setSubjectDataList(data);
   };
 
@@ -49,7 +49,7 @@ const SubjectTable = () => {
               <th className="lg:w-[15%] p-2 text-center text-md lg:text-lg text-gray-600">
                 담당교수
               </th>
-              <th className="lg:w-[25%] p-2 text-center text-md lg:text-lg text-gray-600">
+              <th className="lg:w-[35%] p-2 text-center text-md lg:text-lg text-gray-600">
                 교과목명
               </th>
               <th className="lg:w-[10%] p-2 text-center text-md lg:text-lg text-gray-600">학점</th>

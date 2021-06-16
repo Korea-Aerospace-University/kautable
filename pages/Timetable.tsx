@@ -10,7 +10,7 @@ export const SemesterContext: React.Context<any> = createContext(null);
 
 const Timetable = (props: Props) => {
   const [major, setMajor] = useState(null);
-  const [semester, setSemester] = useState(defaultSemester);
+  const [semester, setSemester] = useState(defaultSemester.value);
 
   return (
     <MajorContext.Provider value={{ major, setMajor }}>

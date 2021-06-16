@@ -26,12 +26,24 @@ const SubjectItem = ({ data, selectSubject }) => {
         selectSubject(id);
       }}
     >
-      <td className="hidden lg:block lg:w-[20%] text-sm lg:text-md text-center  align-middle">
+      <td
+        className="hidden lg:flex justify-center items-center lg:w-[20%] text-sm lg:text-md"
+        valign="middle"
+      >
         {major}
       </td>
-      <td className="lg:w-[15%] px-2 text-sm lg:text-md text-center">{profName}</td>
-      <td className="lg:w-[25%] text-sm lg:text-md text-center">{subjectName}</td>
-      <td className="lg:w-[10%] px-2 text-sm lg:text-md text-center">{subjectScore}</td>
+      <td
+        className="lg:w-[15%] lg:flex justify-center items-center px-2 text-sm lg:text-md"
+        valign="middle"
+      >
+        {profName}
+      </td>
+      <td className="lg:w-[35%] lg:flex justify-center items-center text-sm lg:text-md">
+        {subjectName}
+      </td>
+      <td className="lg:w-[10%] lg:flex justify-center items-center px-2 text-sm lg:text-md">
+        {subjectScore}
+      </td>
     </tr>
   );
 };

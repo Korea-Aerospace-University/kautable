@@ -1,5 +1,6 @@
 [
   {
+    "id": 1,
     "major": "항전정학부",
     "classType": "일반",
     "subjectNumber": "0001",
@@ -13,6 +14,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 2,
     "major": "항전정학부",
     "classType": "일반",
     "subjectNumber": "0002",
@@ -26,6 +28,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 3,
     "major": "항전정학부",
     "classType": "FL",
     "subjectNumber": "0003",
@@ -39,6 +42,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 4,
     "major": "항전정학부",
     "classType": "FL",
     "subjectNumber": "0004",
@@ -52,6 +56,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 5,
     "major": "항전정학부",
     "classType": "FL",
     "subjectNumber": "0005",
@@ -65,6 +70,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 6,
     "major": "항전정학부",
     "classType": "FL",
     "subjectNumber": "0006",
@@ -78,6 +84,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 7,
     "major": "항전정학부",
     "classType": "FL",
     "subjectNumber": "0007",
@@ -91,6 +98,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 8,
     "major": "항전정학부",
     "classType": "FL",
     "subjectNumber": "0008",
@@ -104,6 +112,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 9,
     "major": "항전정학부",
     "classType": "FL",
     "subjectNumber": "0009",
@@ -117,6 +126,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 10,
     "major": "항전정학부",
     "classType": "FL",
     "subjectNumber": "0010",
@@ -130,6 +140,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 11,
     "major": "항전정학부",
     "classType": "FL",
     "subjectNumber": "0011",
@@ -143,6 +154,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 12,
     "major": "항전정학부",
     "classType": "FL",
     "subjectNumber": "0012",
@@ -156,6 +168,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 13,
     "major": "항전정학부",
     "classType": "FL",
     "subjectNumber": "0013",
@@ -169,6 +182,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 14,
     "major": "항전정학부",
     "classType": "FL",
     "subjectNumber": "0014",
@@ -182,6 +196,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 15,
     "major": "항전정학부",
     "classType": "FL",
     "subjectNumber": "0015",
@@ -195,6 +210,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 16,
     "major": "항전정학부",
     "classType": "FL",
     "subjectNumber": "0016",
@@ -208,6 +224,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 17,
     "major": "항전정학부",
     "classType": "FL",
     "subjectNumber": "0017",
@@ -221,6 +238,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 18,
     "major": "항전정학부",
     "classType": "FL",
     "subjectNumber": "0018",
@@ -234,6 +252,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 19,
     "major": "항전정학부",
     "classType": "FL",
     "subjectNumber": "0019",
@@ -247,6 +266,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 20,
     "major": "항전정학부",
     "classType": "FL",
     "subjectNumber": "0020",
@@ -260,6 +280,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 21,
     "major": "항전정학부",
     "classType": "FL",
     "subjectNumber": "0021",
@@ -273,6 +294,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 22,
     "major": "항전정학부",
     "classType": "FL",
     "subjectNumber": "0022",
@@ -286,6 +308,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 23,
     "major": "항전정학부",
     "classType": "FL",
     "subjectNumber": "0023",
@@ -299,6 +322,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 24,
     "major": "항전정학부",
     "classType": "FL",
     "subjectNumber": "0024",
@@ -312,6 +336,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 25,
     "major": "항전정학부",
     "classType": "FL",
     "subjectNumber": "0025",
@@ -325,6 +350,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 26,
     "major": "항전정학부",
     "classType": "FL",
     "subjectNumber": "0026",
@@ -338,6 +364,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 27,
     "major": "항전정학부",
     "classType": "FL",
     "subjectNumber": "0027",
@@ -351,6 +378,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 28,
     "major": "항전정학부",
     "classType": "FL",
     "subjectNumber": "0028",
@@ -364,6 +392,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 29,
     "major": "항전정학부",
     "classType": "FL",
     "subjectNumber": "0029",
@@ -377,6 +406,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 30,
     "major": "항전정학부",
     "classType": "FL",
     "subjectNumber": "0030",
@@ -390,6 +420,7 @@
     "subjectScore": "2"
   },
   {
+    "id": 31,
     "major": "항전정학부",
     "classType": "FL",
     "subjectNumber": "0031",
@@ -403,6 +434,7 @@
     "subjectScore": "2"
   },
   {
+    "id": 32,
     "major": "항전정학부",
     "classType": "FL",
     "subjectNumber": "0032",
@@ -416,6 +448,7 @@
     "subjectScore": "2"
   },
   {
+    "id": 33,
     "major": "항전정학부",
     "classType": "FL",
     "subjectNumber": "0033",
@@ -429,6 +462,7 @@
     "subjectScore": "2"
   },
   {
+    "id": 34,
     "major": "항전정학부",
     "classType": "FL",
     "subjectNumber": "0034",
@@ -442,6 +476,7 @@
     "subjectScore": "2"
   },
   {
+    "id": 35,
     "major": "항전정학부",
     "classType": "FL",
     "subjectNumber": "0035",
@@ -455,6 +490,7 @@
     "subjectScore": "2"
   },
   {
+    "id": 36,
     "major": "항전정학부",
     "classType": "FL",
     "subjectNumber": "0036",
@@ -468,6 +504,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 37,
     "major": "항전정학부",
     "classType": "일반",
     "subjectNumber": "0037",
@@ -481,6 +518,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 38,
     "major": "항전정학부",
     "classType": "FL",
     "subjectNumber": "0038",
@@ -494,6 +532,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 39,
     "major": "항전정학부",
     "classType": "FL",
     "subjectNumber": "0039",
@@ -507,6 +546,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 40,
     "major": "항전정학부",
     "classType": "FL",
     "subjectNumber": "0040",
@@ -520,6 +560,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 41,
     "major": "항전정학부",
     "classType": "FL",
     "subjectNumber": "0041",
@@ -533,6 +574,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 42,
     "major": "항전정학부",
     "classType": "FL",
     "subjectNumber": "0042",
@@ -546,6 +588,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 43,
     "major": "항전정학부",
     "classType": "FL",
     "subjectNumber": "0043",
@@ -559,6 +602,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 44,
     "major": "항전정학부",
     "classType": "PmBL",
     "subjectNumber": "0044",
@@ -572,6 +616,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 45,
     "major": "항전정학부",
     "classType": "일반",
     "subjectNumber": "0045",
@@ -585,6 +630,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 46,
     "major": "항전정학부",
     "classType": "FL",
     "subjectNumber": "0046",
@@ -598,6 +644,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 47,
     "major": "항전정학부",
     "classType": "FL",
     "subjectNumber": "0047",
@@ -611,6 +658,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 48,
     "major": "항전정학부",
     "classType": "FL",
     "subjectNumber": "0048",
@@ -624,6 +672,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 49,
     "major": "항전정학부",
     "classType": "FL",
     "subjectNumber": "0049",
@@ -637,6 +686,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 50,
     "major": "항전정학부",
     "classType": "FL",
     "subjectNumber": "0050",
@@ -650,6 +700,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 51,
     "major": "항전정학부",
     "classType": "FL",
     "subjectNumber": "0051",
@@ -663,6 +714,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 52,
     "major": "항전정학부",
     "classType": "FL",
     "subjectNumber": "0052",
@@ -676,6 +728,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 53,
     "major": "항전정학부",
     "classType": "FL",
     "subjectNumber": "0053",
@@ -689,6 +742,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 54,
     "major": "항전정학부",
     "classType": "FL",
     "subjectNumber": "0054",
@@ -702,6 +756,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 55,
     "major": "항전정학부",
     "classType": "일반",
     "subjectNumber": "0055",
@@ -715,6 +770,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 56,
     "major": "항전정학부",
     "classType": "일반",
     "subjectNumber": "0056",
@@ -728,6 +784,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 57,
     "major": "항전정학부",
     "classType": "FL",
     "subjectNumber": "0057",
@@ -741,6 +798,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 59,
     "major": "항전정학부",
     "classType": "FL",
     "subjectNumber": "0059",
@@ -754,6 +812,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 60,
     "major": "항전정학부",
     "classType": "FL",
     "subjectNumber": "0060",
@@ -767,6 +826,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 61,
     "major": "항전정학부",
     "classType": "FL",
     "subjectNumber": "0061",
@@ -780,6 +840,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 62,
     "major": "항전정학부",
     "classType": "FL",
     "subjectNumber": "0062",
@@ -793,6 +854,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 63,
     "major": "항전정학부",
     "classType": "FL",
     "subjectNumber": "0063",
@@ -806,6 +868,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 64,
     "major": "항전정학부",
     "classType": "FL",
     "subjectNumber": "0064",
@@ -819,6 +882,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 65,
     "major": "항전정학부",
     "classType": "FL",
     "subjectNumber": "0065",
@@ -832,6 +896,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 124,
     "major": "항전정학부",
     "classType": "PtBL",
     "subjectNumber": "0124",
@@ -845,6 +910,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 125,
     "major": "항전정학부",
     "classType": "PtBL",
     "subjectNumber": "0125",
@@ -858,6 +924,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 126,
     "major": "항전정학부",
     "classType": "PtBL",
     "subjectNumber": "0126",
@@ -871,6 +938,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 127,
     "major": "항전정학부",
     "classType": "PtBL",
     "subjectNumber": "0127",
@@ -884,6 +952,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 128,
     "major": "항전정학부",
     "classType": "PtBL",
     "subjectNumber": "0128",
@@ -897,6 +966,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 129,
     "major": "항전정학부",
     "classType": "PtBL",
     "subjectNumber": "0129",
@@ -910,6 +980,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 130,
     "major": "항전정학부",
     "classType": "PtBL",
     "subjectNumber": "0130",
@@ -923,6 +994,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 131,
     "major": "항전정학부",
     "classType": "PtBL",
     "subjectNumber": "0131",
@@ -936,6 +1008,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 132,
     "major": "항전정학부",
     "classType": "PtBL",
     "subjectNumber": "0132",
@@ -949,6 +1022,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 133,
     "major": "항전정학부",
     "classType": "PtBL",
     "subjectNumber": "0133",
@@ -962,6 +1036,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 134,
     "major": "항전정학부",
     "classType": "PtBL",
     "subjectNumber": "0134",
@@ -975,6 +1050,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 135,
     "major": "항전정학부",
     "classType": "PtBL",
     "subjectNumber": "0135",
@@ -988,6 +1064,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 136,
     "major": "항전정학부",
     "classType": "PtBL",
     "subjectNumber": "0136",
@@ -1001,6 +1078,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 137,
     "major": "항전정학부",
     "classType": "PtBL",
     "subjectNumber": "0137",
@@ -1014,6 +1092,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 138,
     "major": "항전정학부",
     "classType": "PtBL",
     "subjectNumber": "0138",
@@ -1027,6 +1106,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 139,
     "major": "항전정학부",
     "classType": "PtBL",
     "subjectNumber": "0139",
@@ -1040,6 +1120,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 140,
     "major": "항전정학부",
     "classType": "PtBL",
     "subjectNumber": "0140",
@@ -1053,6 +1134,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 141,
     "major": "항전정학부",
     "classType": "PtBL",
     "subjectNumber": "0141",
@@ -1066,6 +1148,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 142,
     "major": "항전정학부",
     "classType": "PtBL",
     "subjectNumber": "0142",
@@ -1079,6 +1162,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 143,
     "major": "항전정학부",
     "classType": "PtBL",
     "subjectNumber": "0143",
@@ -1092,6 +1176,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 144,
     "major": "항전정학부",
     "classType": "PtBL",
     "subjectNumber": "0144",
@@ -1105,6 +1190,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 145,
     "major": "항전정학부",
     "classType": "PtBL",
     "subjectNumber": "0145",
@@ -1118,6 +1204,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 146,
     "major": "항전정학부",
     "classType": "PtBL",
     "subjectNumber": "0146",
@@ -1131,6 +1218,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 147,
     "major": "항전정학부",
     "classType": "PtBL",
     "subjectNumber": "0147",
@@ -1144,6 +1232,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 148,
     "major": "항전정학부",
     "classType": "PtBL",
     "subjectNumber": "0148",
@@ -1157,6 +1246,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 149,
     "major": "항전정학부",
     "classType": "PtBL",
     "subjectNumber": "0149",
@@ -1170,6 +1260,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 150,
     "major": "항전정학부",
     "classType": "PtBL",
     "subjectNumber": "0150",
@@ -1183,6 +1274,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 151,
     "major": "항전정학부",
     "classType": "PtBL",
     "subjectNumber": "0151",
@@ -1196,6 +1288,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 152,
     "major": "항전정학부",
     "classType": "PtBL",
     "subjectNumber": "0152",
@@ -1209,6 +1302,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 168,
     "major": "항공재료",
     "classType": "FL",
     "subjectNumber": "0168",
@@ -1222,6 +1316,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 169,
     "major": "항공재료",
     "classType": "일반",
     "subjectNumber": "0169",
@@ -1235,6 +1330,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 170,
     "major": "항공재료",
     "classType": "FL",
     "subjectNumber": "0170",
@@ -1248,6 +1344,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 171,
     "major": "항공재료",
     "classType": "FL",
     "subjectNumber": "0171",
@@ -1261,6 +1358,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 172,
     "major": "항공재료",
     "classType": "일반",
     "subjectNumber": "0172",
@@ -1274,6 +1372,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 173,
     "major": "항공재료",
     "classType": "일반",
     "subjectNumber": "0173",
@@ -1287,6 +1386,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 174,
     "major": "항공재료",
     "classType": "일반",
     "subjectNumber": "0174",
@@ -1300,6 +1400,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 175,
     "major": "항공재료",
     "classType": "일반",
     "subjectNumber": "0175",
@@ -1313,6 +1414,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 184,
     "major": "항공재료",
     "classType": "FL",
     "subjectNumber": "0184",
@@ -1326,6 +1428,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 185,
     "major": "항공재료",
     "classType": "FL",
     "subjectNumber": "0185",
@@ -1339,6 +1442,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 186,
     "major": "항공재료",
     "classType": "FL",
     "subjectNumber": "0186",
@@ -1352,6 +1456,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 187,
     "major": "항공재료",
     "classType": "일반",
     "subjectNumber": "0187",
@@ -1365,6 +1470,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 188,
     "major": "항공재료",
     "classType": "일반",
     "subjectNumber": "0188",
@@ -1378,6 +1484,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 190,
     "major": "항공재료",
     "classType": "일반",
     "subjectNumber": "0190",
@@ -1391,6 +1498,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 192,
     "major": "항공재료",
     "classType": "일반",
     "subjectNumber": "0192",
@@ -1404,6 +1512,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 193,
     "major": "항공재료",
     "classType": "일반",
     "subjectNumber": "0193",
@@ -1417,6 +1526,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 195,
     "major": "항공재료",
     "classType": "일반",
     "subjectNumber": "0195",
@@ -1430,6 +1540,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 196,
     "major": "항공재료",
     "classType": "일반",
     "subjectNumber": "0196",
@@ -1443,6 +1554,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 197,
     "major": "항공재료",
     "classType": "FL",
     "subjectNumber": "0197",
@@ -1456,6 +1568,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 198,
     "major": "항공재료",
     "classType": "FL",
     "subjectNumber": "0198",
@@ -1469,6 +1582,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 199,
     "major": "항공운항",
     "classType": "일반",
     "subjectNumber": "0199",
@@ -1482,6 +1596,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 200,
     "major": "항공운항",
     "classType": "일반",
     "subjectNumber": "0200",
@@ -1495,6 +1610,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 201,
     "major": "항공운항",
     "classType": "일반",
     "subjectNumber": "0201",
@@ -1508,6 +1624,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 202,
     "major": "항공운항",
     "classType": "일반",
     "subjectNumber": "0202",
@@ -1521,6 +1638,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 203,
     "major": "항공운항",
     "classType": "FL",
     "subjectNumber": "0203",
@@ -1534,6 +1652,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 204,
     "major": "항공운항",
     "classType": "FL",
     "subjectNumber": "0204",
@@ -1547,6 +1666,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 205,
     "major": "항공운항",
     "classType": "FL",
     "subjectNumber": "0205",
@@ -1560,6 +1680,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 207,
     "major": "항공운항",
     "classType": "PmBL",
     "subjectNumber": "0207",
@@ -1573,6 +1694,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 208,
     "major": "항공운항",
     "classType": "일반",
     "subjectNumber": "0208",
@@ -1586,6 +1708,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 209,
     "major": "항공운항",
     "classType": "일반",
     "subjectNumber": "0209",
@@ -1599,6 +1722,7 @@
     "subjectScore": "1"
   },
   {
+    "id": 211,
     "major": "항공운항",
     "classType": "일반",
     "subjectNumber": "0211",
@@ -1612,6 +1736,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 212,
     "major": "항공운항",
     "classType": "FL",
     "subjectNumber": "0212",
@@ -1625,6 +1750,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 213,
     "major": "항공운항",
     "classType": "FL",
     "subjectNumber": "0213",
@@ -1638,6 +1764,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 214,
     "major": "항공운항",
     "classType": "FL",
     "subjectNumber": "0214",
@@ -1651,6 +1778,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 219,
     "major": "항공운항",
     "classType": "일반",
     "subjectNumber": "0219",
@@ -1664,6 +1792,7 @@
     "subjectScore": "1"
   },
   {
+    "id": 220,
     "major": "항공운항",
     "classType": "일반",
     "subjectNumber": "0220",
@@ -1677,6 +1806,7 @@
     "subjectScore": "1"
   },
   {
+    "id": 222,
     "major": "경영학부",
     "classType": "일반",
     "subjectNumber": "0222",
@@ -1690,6 +1820,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 223,
     "major": "경영학부",
     "classType": "일반",
     "subjectNumber": "0223",
@@ -1703,6 +1834,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 224,
     "major": "경영학부",
     "classType": "일반",
     "subjectNumber": "0224",
@@ -1716,6 +1848,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 225,
     "major": "경영학부",
     "classType": "FL",
     "subjectNumber": "0225",
@@ -1729,6 +1862,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 226,
     "major": "경영학부",
     "classType": "FL",
     "subjectNumber": "0226",
@@ -1742,6 +1876,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 227,
     "major": "경영학부",
     "classType": "FL",
     "subjectNumber": "0227",
@@ -1755,6 +1890,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 228,
     "major": "경영학부",
     "classType": "FL",
     "subjectNumber": "0228",
@@ -1768,6 +1904,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 229,
     "major": "경영학부",
     "classType": "FL",
     "subjectNumber": "0229",
@@ -1781,6 +1918,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 230,
     "major": "경영학부",
     "classType": "FL",
     "subjectNumber": "0230",
@@ -1794,6 +1932,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 231,
     "major": "경영학부",
     "classType": "일반",
     "subjectNumber": "0231",
@@ -1807,6 +1946,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 232,
     "major": "경영학부",
     "classType": "일반",
     "subjectNumber": "0232",
@@ -1820,6 +1960,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 233,
     "major": "경영학부",
     "classType": "FL",
     "subjectNumber": "0233",
@@ -1833,6 +1974,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 234,
     "major": "경영학부",
     "classType": "FL",
     "subjectNumber": "0234",
@@ -1846,6 +1988,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 235,
     "major": "경영학부",
     "classType": "FL",
     "subjectNumber": "0235",
@@ -1859,6 +2002,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 236,
     "major": "경영학부",
     "classType": "FL",
     "subjectNumber": "0236",
@@ -1872,6 +2016,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 237,
     "major": "경영학부",
     "classType": "FL",
     "subjectNumber": "0237",
@@ -1885,6 +2030,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 238,
     "major": "경영학부",
     "classType": "FL",
     "subjectNumber": "0238",
@@ -1898,6 +2044,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 239,
     "major": "경영학부",
     "classType": "FL",
     "subjectNumber": "0239",
@@ -1911,6 +2058,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 240,
     "major": "경영학부",
     "classType": "일반",
     "subjectNumber": "0240",
@@ -1924,6 +2072,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 241,
     "major": "경영학부",
     "classType": "일반",
     "subjectNumber": "0241",
@@ -1937,6 +2086,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 242,
     "major": "경영학부",
     "classType": "일반",
     "subjectNumber": "0242",
@@ -1950,6 +2100,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 243,
     "major": "경영학부",
     "classType": "FL",
     "subjectNumber": "0243",
@@ -1963,6 +2114,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 244,
     "major": "경영학부",
     "classType": "FL",
     "subjectNumber": "0244",
@@ -1976,6 +2128,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 245,
     "major": "경영학부",
     "classType": "일반",
     "subjectNumber": "0245",
@@ -1989,6 +2142,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 246,
     "major": "경영학부",
     "classType": "FL",
     "subjectNumber": "0246",
@@ -2002,6 +2156,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 247,
     "major": "경영학부",
     "classType": "FL",
     "subjectNumber": "0247",
@@ -2015,6 +2170,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 248,
     "major": "경영학부",
     "classType": "FL",
     "subjectNumber": "0248",
@@ -2028,6 +2184,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 249,
     "major": "경영학부",
     "classType": "FL",
     "subjectNumber": "0249",
@@ -2041,6 +2198,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 250,
     "major": "경영학부",
     "classType": "일반",
     "subjectNumber": "0250",
@@ -2054,6 +2212,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 251,
     "major": "경영학부",
     "classType": "FL",
     "subjectNumber": "0251",
@@ -2067,6 +2226,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 252,
     "major": "경영학부",
     "classType": "일반",
     "subjectNumber": "0252",
@@ -2080,6 +2240,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 253,
     "major": "경영학부",
     "classType": "일반",
     "subjectNumber": "0253",
@@ -2093,6 +2254,7 @@
     "subjectScore": "1"
   },
   {
+    "id": 254,
     "major": "경영학부",
     "classType": "일반",
     "subjectNumber": "0254",
@@ -2106,6 +2268,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 255,
     "major": "경영학부",
     "classType": "FL",
     "subjectNumber": "0255",
@@ -2119,6 +2282,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 256,
     "major": "경영학부",
     "classType": "PtBL",
     "subjectNumber": "0256",
@@ -2132,6 +2296,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 260,
     "major": "경영학부",
     "classType": "FL",
     "subjectNumber": "0260",
@@ -2145,6 +2310,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 261,
     "major": "경영학부",
     "classType": "FL",
     "subjectNumber": "0261",
@@ -2158,6 +2324,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 262,
     "major": "경영학부",
     "classType": "FL",
     "subjectNumber": "0262",
@@ -2171,6 +2338,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 264,
     "major": "인문자연학부",
     "classType": "PmBL",
     "subjectNumber": "0264",
@@ -2184,6 +2352,7 @@
     "subjectScore": "1"
   },
   {
+    "id": 265,
     "major": "인문자연학부",
     "classType": "PmBL",
     "subjectNumber": "0265",
@@ -2197,6 +2366,7 @@
     "subjectScore": "1"
   },
   {
+    "id": 266,
     "major": "인문자연학부",
     "classType": "PmBL",
     "subjectNumber": "0266",
@@ -2210,6 +2380,7 @@
     "subjectScore": "1"
   },
   {
+    "id": 267,
     "major": "인문자연학부",
     "classType": "PmBL",
     "subjectNumber": "0267",
@@ -2223,6 +2394,7 @@
     "subjectScore": "1"
   },
   {
+    "id": 268,
     "major": "인문자연학부",
     "classType": "PmBL",
     "subjectNumber": "0268",
@@ -2236,6 +2408,7 @@
     "subjectScore": "1"
   },
   {
+    "id": 269,
     "major": "인문자연학부",
     "classType": "PmBL",
     "subjectNumber": "0269",
@@ -2249,6 +2422,7 @@
     "subjectScore": "1"
   },
   {
+    "id": 270,
     "major": "인문자연학부",
     "classType": "PmBL",
     "subjectNumber": "0270",
@@ -2262,6 +2436,7 @@
     "subjectScore": "1"
   },
   {
+    "id": 271,
     "major": "인문자연학부",
     "classType": "PmBL",
     "subjectNumber": "0271",
@@ -2275,6 +2450,7 @@
     "subjectScore": "1"
   },
   {
+    "id": 272,
     "major": "인문자연학부",
     "classType": "PmBL",
     "subjectNumber": "0272",
@@ -2288,6 +2464,7 @@
     "subjectScore": "1"
   },
   {
+    "id": 273,
     "major": "인문자연학부",
     "classType": "PmBL",
     "subjectNumber": "0273",
@@ -2301,6 +2478,7 @@
     "subjectScore": "1"
   },
   {
+    "id": 274,
     "major": "인문자연학부",
     "classType": "PmBL",
     "subjectNumber": "0274",
@@ -2314,6 +2492,7 @@
     "subjectScore": "1"
   },
   {
+    "id": 275,
     "major": "인문자연학부",
     "classType": "PmBL",
     "subjectNumber": "0275",
@@ -2327,6 +2506,7 @@
     "subjectScore": "1"
   },
   {
+    "id": 276,
     "major": "인문자연학부",
     "classType": "PmBL",
     "subjectNumber": "0276",
@@ -2340,6 +2520,7 @@
     "subjectScore": "1"
   },
   {
+    "id": 277,
     "major": "인문자연학부",
     "classType": "PmBL",
     "subjectNumber": "0277",
@@ -2353,6 +2534,7 @@
     "subjectScore": "1"
   },
   {
+    "id": 278,
     "major": "인문자연학부",
     "classType": "PmBL",
     "subjectNumber": "0278",
@@ -2366,6 +2548,7 @@
     "subjectScore": "1"
   },
   {
+    "id": 279,
     "major": "인문자연학부",
     "classType": "PmBL",
     "subjectNumber": "0279",
@@ -2379,6 +2562,7 @@
     "subjectScore": "1"
   },
   {
+    "id": 280,
     "major": "인문자연학부",
     "classType": "PmBL",
     "subjectNumber": "0280",
@@ -2392,6 +2576,7 @@
     "subjectScore": "1"
   },
   {
+    "id": 281,
     "major": "인문자연학부",
     "classType": "PmBL",
     "subjectNumber": "0281",
@@ -2405,6 +2590,7 @@
     "subjectScore": "1"
   },
   {
+    "id": 282,
     "major": "인문자연학부",
     "classType": "FL",
     "subjectNumber": "0282",
@@ -2418,6 +2604,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 283,
     "major": "인문자연학부",
     "classType": "FL",
     "subjectNumber": "0283",
@@ -2431,6 +2618,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 284,
     "major": "인문자연학부",
     "classType": "FL",
     "subjectNumber": "0284",
@@ -2444,6 +2632,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 285,
     "major": "인문자연학부",
     "classType": "일반",
     "subjectNumber": "0285",
@@ -2457,6 +2646,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 286,
     "major": "인문자연학부",
     "classType": "일반",
     "subjectNumber": "0286",
@@ -2470,6 +2660,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 287,
     "major": "인문자연학부",
     "classType": "일반",
     "subjectNumber": "0287",
@@ -2483,6 +2674,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 288,
     "major": "인문자연학부",
     "classType": "일반",
     "subjectNumber": "0288",
@@ -2496,6 +2688,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 289,
     "major": "인문자연학부",
     "classType": "일반",
     "subjectNumber": "0289",
@@ -2509,6 +2702,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 292,
     "major": "인문자연학부",
     "classType": "일반",
     "subjectNumber": "0292",
@@ -2522,6 +2716,7 @@
     "subjectScore": "2"
   },
   {
+    "id": 293,
     "major": "인문자연학부",
     "classType": "일반",
     "subjectNumber": "0293",
@@ -2535,6 +2730,7 @@
     "subjectScore": "2"
   },
   {
+    "id": 294,
     "major": "인문자연학부",
     "classType": "일반",
     "subjectNumber": "0294",
@@ -2548,6 +2744,7 @@
     "subjectScore": "2"
   },
   {
+    "id": 295,
     "major": "인문자연학부",
     "classType": "일반",
     "subjectNumber": "0295",
@@ -2561,6 +2758,7 @@
     "subjectScore": "2"
   },
   {
+    "id": 296,
     "major": "인문자연학부",
     "classType": "일반",
     "subjectNumber": "0296",
@@ -2574,6 +2772,7 @@
     "subjectScore": "2"
   },
   {
+    "id": 297,
     "major": "인문자연학부",
     "classType": "일반",
     "subjectNumber": "0297",
@@ -2587,6 +2786,7 @@
     "subjectScore": "2"
   },
   {
+    "id": 298,
     "major": "인문자연학부",
     "classType": "일반",
     "subjectNumber": "0298",
@@ -2600,6 +2800,7 @@
     "subjectScore": "2"
   },
   {
+    "id": 299,
     "major": "인문자연학부",
     "classType": "일반",
     "subjectNumber": "0299",
@@ -2613,6 +2814,7 @@
     "subjectScore": "2"
   },
   {
+    "id": 300,
     "major": "인문자연학부",
     "classType": "일반",
     "subjectNumber": "0300",
@@ -2626,6 +2828,7 @@
     "subjectScore": "2"
   },
   {
+    "id": 301,
     "major": "인문자연학부",
     "classType": "일반",
     "subjectNumber": "0301",
@@ -2639,6 +2842,7 @@
     "subjectScore": "2"
   },
   {
+    "id": 302,
     "major": "인문자연학부",
     "classType": "일반",
     "subjectNumber": "0302",
@@ -2652,6 +2856,7 @@
     "subjectScore": "2"
   },
   {
+    "id": 303,
     "major": "인문자연학부",
     "classType": "일반",
     "subjectNumber": "0303",
@@ -2665,6 +2870,7 @@
     "subjectScore": "2"
   },
   {
+    "id": 304,
     "major": "인문자연학부",
     "classType": "일반",
     "subjectNumber": "0304",
@@ -2678,6 +2884,7 @@
     "subjectScore": "2"
   },
   {
+    "id": 305,
     "major": "인문자연학부",
     "classType": "일반",
     "subjectNumber": "0305",
@@ -2691,6 +2898,7 @@
     "subjectScore": "2"
   },
   {
+    "id": 306,
     "major": "인문자연학부",
     "classType": "일반",
     "subjectNumber": "0306",
@@ -2704,6 +2912,7 @@
     "subjectScore": "2"
   },
   {
+    "id": 307,
     "major": "인문자연학부",
     "classType": "일반",
     "subjectNumber": "0307",
@@ -2717,6 +2926,7 @@
     "subjectScore": "2"
   },
   {
+    "id": 308,
     "major": "인문자연학부",
     "classType": "일반",
     "subjectNumber": "0308",
@@ -2730,6 +2940,7 @@
     "subjectScore": "2"
   },
   {
+    "id": 309,
     "major": "인문자연학부",
     "classType": "일반",
     "subjectNumber": "0309",
@@ -2743,6 +2954,7 @@
     "subjectScore": "2"
   },
   {
+    "id": 310,
     "major": "인문자연학부",
     "classType": "일반",
     "subjectNumber": "0310",
@@ -2756,6 +2968,7 @@
     "subjectScore": "2"
   },
   {
+    "id": 311,
     "major": "서명석인문자연학부",
     "classType": "일반",
     "subjectNumber": "0311",
@@ -2769,6 +2982,7 @@
     "subjectScore": "2"
   },
   {
+    "id": 314,
     "major": "인문자연학부",
     "classType": "일반",
     "subjectNumber": "0314",
@@ -2782,6 +2996,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 315,
     "major": "인문자연학부",
     "classType": "일반",
     "subjectNumber": "0315",
@@ -2795,6 +3010,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 316,
     "major": "인문자연학부",
     "classType": "일반",
     "subjectNumber": "0316",
@@ -2808,6 +3024,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 317,
     "major": "인문자연학부",
     "classType": "일반",
     "subjectNumber": "0317",
@@ -2821,6 +3038,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 318,
     "major": "인문자연학부",
     "classType": "일반",
     "subjectNumber": "0318",
@@ -2834,6 +3052,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 319,
     "major": "인문자연학부",
     "classType": "일반",
     "subjectNumber": "0319",
@@ -2847,6 +3066,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 320,
     "major": "인문자연학부",
     "classType": "일반",
     "subjectNumber": "0320",
@@ -2860,6 +3080,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 321,
     "major": "인문자연학부",
     "classType": "일반",
     "subjectNumber": "0321",
@@ -2873,6 +3094,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 322,
     "major": "인문자연학부",
     "classType": "FL",
     "subjectNumber": "0322",
@@ -2886,6 +3108,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 323,
     "major": "인문자연학부",
     "classType": "FL",
     "subjectNumber": "0323",
@@ -2899,6 +3122,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 324,
     "major": "인문자연학부",
     "classType": "일반",
     "subjectNumber": "0324",
@@ -2912,6 +3136,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 325,
     "major": "인문자연학부",
     "classType": "FL",
     "subjectNumber": "0325",
@@ -2925,6 +3150,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 326,
     "major": "인문자연학부",
     "classType": "일반",
     "subjectNumber": "0326",
@@ -2938,6 +3164,7 @@
     "subjectScore": "2"
   },
   {
+    "id": 327,
     "major": "인문자연학부",
     "classType": "일반",
     "subjectNumber": "0327",
@@ -2951,6 +3178,7 @@
     "subjectScore": "2"
   },
   {
+    "id": 328,
     "major": "인문자연학부",
     "classType": "FL",
     "subjectNumber": "0328",
@@ -2964,6 +3192,7 @@
     "subjectScore": "2"
   },
   {
+    "id": 329,
     "major": "인문자연학부",
     "classType": "FL",
     "subjectNumber": "0329",
@@ -2977,6 +3206,7 @@
     "subjectScore": "2"
   },
   {
+    "id": 331,
     "major": "인문자연학부",
     "classType": "일반",
     "subjectNumber": "0331",
@@ -2990,6 +3220,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 332,
     "major": "인문자연학부",
     "classType": "일반",
     "subjectNumber": "0332",
@@ -3003,6 +3234,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 333,
     "major": "인문자연학부",
     "classType": "일반",
     "subjectNumber": "0333",
@@ -3016,6 +3248,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 334,
     "major": "인문자연학부",
     "classType": "일반",
     "subjectNumber": "0334",
@@ -3029,6 +3262,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 335,
     "major": "인문자연학부",
     "classType": "일반",
     "subjectNumber": "0335",
@@ -3042,6 +3276,7 @@
     "subjectScore": "2"
   },
   {
+    "id": 336,
     "major": "인문자연학부",
     "classType": "일반",
     "subjectNumber": "0336",
@@ -3055,6 +3290,7 @@
     "subjectScore": "2"
   },
   {
+    "id": 337,
     "major": "인문자연학부",
     "classType": "일반",
     "subjectNumber": "0337",
@@ -3068,6 +3304,7 @@
     "subjectScore": "2"
   },
   {
+    "id": 338,
     "major": "인문자연학부",
     "classType": "일반",
     "subjectNumber": "0338",
@@ -3081,6 +3318,7 @@
     "subjectScore": "2"
   },
   {
+    "id": 339,
     "major": "인문자연학부",
     "classType": "일반",
     "subjectNumber": "0339",
@@ -3094,6 +3332,7 @@
     "subjectScore": "2"
   },
   {
+    "id": 340,
     "major": "인문자연학부",
     "classType": "일반",
     "subjectNumber": "0340",
@@ -3107,6 +3346,7 @@
     "subjectScore": "2"
   },
   {
+    "id": 341,
     "major": "인문자연학부",
     "classType": "일반",
     "subjectNumber": "0341",
@@ -3120,6 +3360,7 @@
     "subjectScore": "2"
   },
   {
+    "id": 342,
     "major": "인문자연학부",
     "classType": "일반",
     "subjectNumber": "0342",
@@ -3133,6 +3374,7 @@
     "subjectScore": "2"
   },
   {
+    "id": 343,
     "major": "인문자연학부",
     "classType": "일반",
     "subjectNumber": "0343",
@@ -3146,6 +3388,7 @@
     "subjectScore": "2"
   },
   {
+    "id": 345,
     "major": "인문자연학부",
     "classType": "일반",
     "subjectNumber": "0345",
@@ -3159,6 +3402,7 @@
     "subjectScore": "2"
   },
   {
+    "id": 346,
     "major": "인문자연학부",
     "classType": "일반",
     "subjectNumber": "0346",
@@ -3172,6 +3416,7 @@
     "subjectScore": "2"
   },
   {
+    "id": 347,
     "major": "인문자연학부",
     "classType": "일반",
     "subjectNumber": "0347",
@@ -3185,6 +3430,7 @@
     "subjectScore": "2"
   },
   {
+    "id": 348,
     "major": "인문자연학부",
     "classType": "일반",
     "subjectNumber": "0348",
@@ -3198,6 +3444,7 @@
     "subjectScore": "2"
   },
   {
+    "id": 349,
     "major": "인문자연학부",
     "classType": "일반",
     "subjectNumber": "0349",
@@ -3211,6 +3458,7 @@
     "subjectScore": "2"
   },
   {
+    "id": 350,
     "major": "인문자연학부",
     "classType": "일반",
     "subjectNumber": "0350",
@@ -3224,6 +3472,7 @@
     "subjectScore": "2"
   },
   {
+    "id": 351,
     "major": "인문자연학부",
     "classType": "일반",
     "subjectNumber": "0351",
@@ -3237,6 +3486,7 @@
     "subjectScore": "2"
   },
   {
+    "id": 352,
     "major": "인문자연학부",
     "classType": "일반",
     "subjectNumber": "0352",
@@ -3250,6 +3500,7 @@
     "subjectScore": "2"
   },
   {
+    "id": 353,
     "major": "인문자연학부",
     "classType": "일반",
     "subjectNumber": "0353",
@@ -3263,6 +3514,7 @@
     "subjectScore": "2"
   },
   {
+    "id": 354,
     "major": "인문자연학부",
     "classType": "일반",
     "subjectNumber": "0354",
@@ -3276,6 +3528,7 @@
     "subjectScore": "2"
   },
   {
+    "id": 355,
     "major": "인문자연학부",
     "classType": "일반",
     "subjectNumber": "0355",
@@ -3289,6 +3542,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 356,
     "major": "인문자연학부",
     "classType": "일반",
     "subjectNumber": "0356",
@@ -3302,6 +3556,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 357,
     "major": "인문자연학부",
     "classType": "일반",
     "subjectNumber": "0357",
@@ -3315,6 +3570,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 358,
     "major": "인문자연학부",
     "classType": "일반",
     "subjectNumber": "0358",
@@ -3328,6 +3584,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 359,
     "major": "인문자연학부",
     "classType": "일반",
     "subjectNumber": "0359",
@@ -3341,6 +3598,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 360,
     "major": "인문자연학부",
     "classType": "일반",
     "subjectNumber": "0360",
@@ -3354,6 +3612,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 361,
     "major": "인문자연학부",
     "classType": "일반",
     "subjectNumber": "0361",
@@ -3367,6 +3626,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 362,
     "major": "인문자연학부",
     "classType": "일반",
     "subjectNumber": "0362",
@@ -3380,6 +3640,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 363,
     "major": "인문자연학부",
     "classType": "일반",
     "subjectNumber": "0363",
@@ -3393,6 +3654,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 364,
     "major": "인문자연학부",
     "classType": "일반",
     "subjectNumber": "0364",
@@ -3406,6 +3668,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 365,
     "major": "인문자연학부",
     "classType": "일반",
     "subjectNumber": "0365",
@@ -3419,6 +3682,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 366,
     "major": "인문자연학부",
     "classType": "일반",
     "subjectNumber": "0366",
@@ -3432,6 +3696,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 367,
     "major": "인문자연학부",
     "classType": "일반",
     "subjectNumber": "0367",
@@ -3445,6 +3710,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 368,
     "major": "인문자연학부",
     "classType": "일반",
     "subjectNumber": "0368",
@@ -3458,6 +3724,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 369,
     "major": "인문자연학부",
     "classType": "일반",
     "subjectNumber": "0369",
@@ -3471,6 +3738,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 370,
     "major": "인문자연학부",
     "classType": "일반",
     "subjectNumber": "0370",
@@ -3484,6 +3752,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 373,
     "major": "인문자연학부",
     "classType": "일반",
     "subjectNumber": "0373",
@@ -3497,6 +3766,7 @@
     "subjectScore": "2"
   },
   {
+    "id": 374,
     "major": "인문자연학부",
     "classType": "일반",
     "subjectNumber": "0374",
@@ -3510,6 +3780,7 @@
     "subjectScore": "2"
   },
   {
+    "id": 375,
     "major": "인문자연학부",
     "classType": "일반",
     "subjectNumber": "0375",
@@ -3523,6 +3794,7 @@
     "subjectScore": "2"
   },
   {
+    "id": 376,
     "major": "인문자연학부",
     "classType": "일반",
     "subjectNumber": "0376",
@@ -3536,6 +3808,7 @@
     "subjectScore": "2"
   },
   {
+    "id": 377,
     "major": "인문자연학부",
     "classType": "일반",
     "subjectNumber": "0377",
@@ -3549,6 +3822,7 @@
     "subjectScore": "2"
   },
   {
+    "id": 378,
     "major": "인문자연학부",
     "classType": "일반",
     "subjectNumber": "0378",
@@ -3562,6 +3836,7 @@
     "subjectScore": "2"
   },
   {
+    "id": 379,
     "major": "인문자연학부",
     "classType": "일반",
     "subjectNumber": "0379",
@@ -3575,6 +3850,7 @@
     "subjectScore": "2"
   },
   {
+    "id": 380,
     "major": "인문자연학부",
     "classType": "일반",
     "subjectNumber": "0380",
@@ -3588,6 +3864,7 @@
     "subjectScore": "2"
   },
   {
+    "id": 381,
     "major": "인문자연학부",
     "classType": "일반",
     "subjectNumber": "0381",
@@ -3601,6 +3878,7 @@
     "subjectScore": "2"
   },
   {
+    "id": 382,
     "major": "인문자연학부",
     "classType": "일반",
     "subjectNumber": "0382",
@@ -3614,6 +3892,7 @@
     "subjectScore": "2"
   },
   {
+    "id": 383,
     "major": "인문자연학부",
     "classType": "일반",
     "subjectNumber": "0383",
@@ -3627,6 +3906,7 @@
     "subjectScore": "1"
   },
   {
+    "id": 385,
     "major": "인문자연학부",
     "classType": "일반",
     "subjectNumber": "0385",
@@ -3640,6 +3920,7 @@
     "subjectScore": "1"
   },
   {
+    "id": 386,
     "major": "인문자연학부",
     "classType": "일반",
     "subjectNumber": "0386",
@@ -3653,6 +3934,7 @@
     "subjectScore": "1"
   },
   {
+    "id": 387,
     "major": "인문자연학부",
     "classType": "일반",
     "subjectNumber": "0387",
@@ -3666,6 +3948,7 @@
     "subjectScore": "1"
   },
   {
+    "id": 388,
     "major": "인문자연학부",
     "classType": "일반",
     "subjectNumber": "0388",
@@ -3679,6 +3962,7 @@
     "subjectScore": "1"
   },
   {
+    "id": 389,
     "major": "인문자연학부",
     "classType": "일반",
     "subjectNumber": "0389",
@@ -3692,6 +3976,7 @@
     "subjectScore": "1"
   },
   {
+    "id": 390,
     "major": "인문자연학부",
     "classType": "일반",
     "subjectNumber": "0390",
@@ -3705,6 +3990,7 @@
     "subjectScore": "1"
   },
   {
+    "id": 391,
     "major": "인문자연학부",
     "classType": "일반",
     "subjectNumber": "0391",
@@ -3718,6 +4004,7 @@
     "subjectScore": "1"
   },
   {
+    "id": 392,
     "major": "인문자연학부",
     "classType": "일반",
     "subjectNumber": "0392",
@@ -3731,6 +4018,7 @@
     "subjectScore": "1"
   },
   {
+    "id": 393,
     "major": "인문자연학부",
     "classType": "일반",
     "subjectNumber": "0393",
@@ -3744,6 +4032,7 @@
     "subjectScore": "1"
   },
   {
+    "id": 394,
     "major": "인문자연학부",
     "classType": "일반",
     "subjectNumber": "0394",
@@ -3757,6 +4046,7 @@
     "subjectScore": "1"
   },
   {
+    "id": 445,
     "major": "인문자연학부소양",
     "classType": "일반",
     "subjectNumber": "0445",
@@ -3770,6 +4060,7 @@
     "subjectScore": "1"
   },
   {
+    "id": 446,
     "major": "인문자연학부소양",
     "classType": "일반",
     "subjectNumber": "0446",
@@ -3783,6 +4074,7 @@
     "subjectScore": "1"
   },
   {
+    "id": 455,
     "major": "인문자연학부소양",
     "classType": "일반",
     "subjectNumber": "0455",
@@ -3796,6 +4088,7 @@
     "subjectScore": "2"
   },
   {
+    "id": 457,
     "major": "인문자연학부소양",
     "classType": "일반",
     "subjectNumber": "0457",
@@ -3809,6 +4102,7 @@
     "subjectScore": "2"
   },
   {
+    "id": 458,
     "major": "인문자연학부소양",
     "classType": "일반",
     "subjectNumber": "0458",
@@ -3822,6 +4116,7 @@
     "subjectScore": "2"
   },
   {
+    "id": 459,
     "major": "인문자연학부소양",
     "classType": "일반",
     "subjectNumber": "0459",
@@ -3835,6 +4130,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 460,
     "major": "인문자연학부소양",
     "classType": "일반",
     "subjectNumber": "0460",
@@ -3848,6 +4144,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 461,
     "major": "인문자연학부소양",
     "classType": "일반",
     "subjectNumber": "0461",
@@ -3861,6 +4158,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 472,
     "major": "인문자연학부자기계발",
     "classType": "일반",
     "subjectNumber": "0472",
@@ -3874,6 +4172,7 @@
     "subjectScore": "2"
   },
   {
+    "id": 476,
     "major": "인문자연학부",
     "classType": "일반",
     "subjectNumber": "0476",
@@ -3887,6 +4186,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 477,
     "major": "인문자연학부",
     "classType": "일반",
     "subjectNumber": "0477",
@@ -3900,6 +4200,7 @@
     "subjectScore": "2"
   },
   {
+    "id": 478,
     "major": "인문자연학부",
     "classType": "일반",
     "subjectNumber": "0478",
@@ -3913,6 +4214,7 @@
     "subjectScore": "2"
   },
   {
+    "id": 479,
     "major": "인문자연학부",
     "classType": "일반",
     "subjectNumber": "0479",
@@ -3926,6 +4228,7 @@
     "subjectScore": "2"
   },
   {
+    "id": 483,
     "major": "항우기학부",
     "classType": "FL",
     "subjectNumber": "0483",
@@ -3939,6 +4242,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 484,
     "major": "항우기학부",
     "classType": "FL",
     "subjectNumber": "0484",
@@ -3952,6 +4256,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 485,
     "major": "항우기학부",
     "classType": "FL",
     "subjectNumber": "0485",
@@ -3965,6 +4270,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 486,
     "major": "항우기학부",
     "classType": "FL",
     "subjectNumber": "0486",
@@ -3978,6 +4284,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 487,
     "major": "항우기학부",
     "classType": "FL",
     "subjectNumber": "0487",
@@ -3991,6 +4298,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 488,
     "major": "항우기학부",
     "classType": "FL",
     "subjectNumber": "0488",
@@ -4004,6 +4312,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 489,
     "major": "항우기학부",
     "classType": "FL",
     "subjectNumber": "0489",
@@ -4017,6 +4326,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 490,
     "major": "항우기학부",
     "classType": "FL",
     "subjectNumber": "0490",
@@ -4030,6 +4340,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 491,
     "major": "항우기학부",
     "classType": "FL",
     "subjectNumber": "0491",
@@ -4043,6 +4354,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 492,
     "major": "항우기학부",
     "classType": "FL",
     "subjectNumber": "0492",
@@ -4056,6 +4368,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 493,
     "major": "항우기학부",
     "classType": "FL",
     "subjectNumber": "0493",
@@ -4069,6 +4382,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 494,
     "major": "항우기학부",
     "classType": "FL",
     "subjectNumber": "0494",
@@ -4082,6 +4396,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 495,
     "major": "항우기학부",
     "classType": "FL",
     "subjectNumber": "0495",
@@ -4095,6 +4410,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 496,
     "major": "항우기학부",
     "classType": "FL",
     "subjectNumber": "0496",
@@ -4108,6 +4424,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 497,
     "major": "항우기학부",
     "classType": "FL",
     "subjectNumber": "0497",
@@ -4121,6 +4438,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 498,
     "major": "항우기학부",
     "classType": "FL",
     "subjectNumber": "0498",
@@ -4134,6 +4452,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 499,
     "major": "항우기학부",
     "classType": "FL",
     "subjectNumber": "0499",
@@ -4147,6 +4466,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 500,
     "major": "항우기학부",
     "classType": "FL",
     "subjectNumber": "0500",
@@ -4160,6 +4480,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 501,
     "major": "항우기학부",
     "classType": "FL",
     "subjectNumber": "0501",
@@ -4173,6 +4494,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 502,
     "major": "항우기학부",
     "classType": "FL",
     "subjectNumber": "0502",
@@ -4186,6 +4508,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 503,
     "major": "항우기학부",
     "classType": "FL",
     "subjectNumber": "0503",
@@ -4199,6 +4522,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 504,
     "major": "항우기학부",
     "classType": "FL",
     "subjectNumber": "0504",
@@ -4212,6 +4536,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 505,
     "major": "항우기학부",
     "classType": "일반",
     "subjectNumber": "0505",
@@ -4225,6 +4550,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 506,
     "major": "항우기학부",
     "classType": "FL",
     "subjectNumber": "0506",
@@ -4238,6 +4564,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 507,
     "major": "항우기학부",
     "classType": "FL",
     "subjectNumber": "0507",
@@ -4251,6 +4578,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 508,
     "major": "항우기학부",
     "classType": "FL",
     "subjectNumber": "0508",
@@ -4264,6 +4592,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 509,
     "major": "항우기학부",
     "classType": "FL",
     "subjectNumber": "0509",
@@ -4277,6 +4606,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 510,
     "major": "항우기학부",
     "classType": "FL",
     "subjectNumber": "0510",
@@ -4290,6 +4620,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 511,
     "major": "항우기학부",
     "classType": "FL",
     "subjectNumber": "0511",
@@ -4303,6 +4634,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 512,
     "major": "항우기학부",
     "classType": "FL",
     "subjectNumber": "0512",
@@ -4316,6 +4648,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 513,
     "major": "항우기학부",
     "classType": "FL",
     "subjectNumber": "0513",
@@ -4329,6 +4662,7 @@
     "subjectScore": "2"
   },
   {
+    "id": 514,
     "major": "항우기학부",
     "classType": "FL",
     "subjectNumber": "0514",
@@ -4342,6 +4676,7 @@
     "subjectScore": "2"
   },
   {
+    "id": 515,
     "major": "항우기학부",
     "classType": "FL",
     "subjectNumber": "0515",
@@ -4355,6 +4690,7 @@
     "subjectScore": "2"
   },
   {
+    "id": 516,
     "major": "항우기학부",
     "classType": "FL",
     "subjectNumber": "0516",
@@ -4368,6 +4704,7 @@
     "subjectScore": "2"
   },
   {
+    "id": 517,
     "major": "항우기학부",
     "classType": "FL",
     "subjectNumber": "0517",
@@ -4381,6 +4718,7 @@
     "subjectScore": "2"
   },
   {
+    "id": 518,
     "major": "항우기학부",
     "classType": "FL",
     "subjectNumber": "0518",
@@ -4394,6 +4732,7 @@
     "subjectScore": "2"
   },
   {
+    "id": 519,
     "major": "항우기학부",
     "classType": "FL",
     "subjectNumber": "0519",
@@ -4407,6 +4746,7 @@
     "subjectScore": "2"
   },
   {
+    "id": 520,
     "major": "항우기학부",
     "classType": "FL",
     "subjectNumber": "0520",
@@ -4420,6 +4760,7 @@
     "subjectScore": "2"
   },
   {
+    "id": 521,
     "major": "항우기학부",
     "classType": "FL",
     "subjectNumber": "0521",
@@ -4433,6 +4774,7 @@
     "subjectScore": "2"
   },
   {
+    "id": 522,
     "major": "항우기학부",
     "classType": "FL",
     "subjectNumber": "0522",
@@ -4446,6 +4788,7 @@
     "subjectScore": "2"
   },
   {
+    "id": 523,
     "major": "항우기학부",
     "classType": "FL",
     "subjectNumber": "0523",
@@ -4459,6 +4802,7 @@
     "subjectScore": "2"
   },
   {
+    "id": 524,
     "major": "항우기학부",
     "classType": "일반",
     "subjectNumber": "0524",
@@ -4472,6 +4816,7 @@
     "subjectScore": "1"
   },
   {
+    "id": 525,
     "major": "항우기학부",
     "classType": "PtBL",
     "subjectNumber": "0525",
@@ -4485,6 +4830,7 @@
     "subjectScore": "2"
   },
   {
+    "id": 526,
     "major": "항우기학부",
     "classType": "PtBL",
     "subjectNumber": "0526",
@@ -4498,6 +4844,7 @@
     "subjectScore": "2"
   },
   {
+    "id": 527,
     "major": "항우기학부",
     "classType": "PtBL",
     "subjectNumber": "0527",
@@ -4511,6 +4858,7 @@
     "subjectScore": "2"
   },
   {
+    "id": 528,
     "major": "항우기학부",
     "classType": "PtBL",
     "subjectNumber": "0528",
@@ -4524,6 +4872,7 @@
     "subjectScore": "2"
   },
   {
+    "id": 529,
     "major": "항우기학부",
     "classType": "PtBL",
     "subjectNumber": "0529",
@@ -4537,6 +4886,7 @@
     "subjectScore": "2"
   },
   {
+    "id": 530,
     "major": "항우기학부",
     "classType": "PtBL",
     "subjectNumber": "0530",
@@ -4550,6 +4900,7 @@
     "subjectScore": "2"
   },
   {
+    "id": 531,
     "major": "항우기학부",
     "classType": "PtBL",
     "subjectNumber": "0531",
@@ -4563,6 +4914,7 @@
     "subjectScore": "2"
   },
   {
+    "id": 532,
     "major": "항우기학부",
     "classType": "PtBL",
     "subjectNumber": "0532",
@@ -4576,6 +4928,7 @@
     "subjectScore": "2"
   },
   {
+    "id": 533,
     "major": "항우기학부",
     "classType": "PtBL",
     "subjectNumber": "0533",
@@ -4589,6 +4942,7 @@
     "subjectScore": "2"
   },
   {
+    "id": 534,
     "major": "항우기학부",
     "classType": "PtBL",
     "subjectNumber": "0534",
@@ -4602,6 +4956,7 @@
     "subjectScore": "2"
   },
   {
+    "id": 535,
     "major": "항우기학부",
     "classType": "PtBL",
     "subjectNumber": "0535",
@@ -4615,6 +4970,7 @@
     "subjectScore": "2"
   },
   {
+    "id": 536,
     "major": "항우기학부",
     "classType": "PtBL",
     "subjectNumber": "0536",
@@ -4628,6 +4984,7 @@
     "subjectScore": "2"
   },
   {
+    "id": 537,
     "major": "항우기학부",
     "classType": "PtBL",
     "subjectNumber": "0537",
@@ -4641,6 +4998,7 @@
     "subjectScore": "2"
   },
   {
+    "id": 538,
     "major": "항우기학부",
     "classType": "PtBL",
     "subjectNumber": "0538",
@@ -4654,6 +5012,7 @@
     "subjectScore": "2"
   },
   {
+    "id": 539,
     "major": "항우기학부",
     "classType": "PtBL",
     "subjectNumber": "0539",
@@ -4667,6 +5026,7 @@
     "subjectScore": "2"
   },
   {
+    "id": 540,
     "major": "항우기학부",
     "classType": "PtBL",
     "subjectNumber": "0540",
@@ -4680,6 +5040,7 @@
     "subjectScore": "2"
   },
   {
+    "id": 541,
     "major": "항우기학부",
     "classType": "PtBL",
     "subjectNumber": "0541",
@@ -4693,6 +5054,7 @@
     "subjectScore": "2"
   },
   {
+    "id": 542,
     "major": "항우기학부",
     "classType": "FL",
     "subjectNumber": "0542",
@@ -4706,6 +5068,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 543,
     "major": "항우기학부",
     "classType": "FL",
     "subjectNumber": "0543",
@@ -4719,6 +5082,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 544,
     "major": "항우기학부",
     "classType": "FL",
     "subjectNumber": "0544",
@@ -4732,6 +5096,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 545,
     "major": "항우기학부",
     "classType": "FL",
     "subjectNumber": "0545",
@@ -4745,6 +5110,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 546,
     "major": "항우기학부",
     "classType": "FL",
     "subjectNumber": "0546",
@@ -4758,6 +5124,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 547,
     "major": "항우기학부",
     "classType": "FL",
     "subjectNumber": "0547",
@@ -4771,6 +5138,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 548,
     "major": "항우기학부",
     "classType": "FL",
     "subjectNumber": "0548",
@@ -4784,6 +5152,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 549,
     "major": "항우기학부",
     "classType": "FL",
     "subjectNumber": "0549",
@@ -4797,6 +5166,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 550,
     "major": "항우기학부",
     "classType": "FL",
     "subjectNumber": "0550",
@@ -4810,6 +5180,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 551,
     "major": "항우기학부",
     "classType": "FL",
     "subjectNumber": "0551",
@@ -4823,6 +5194,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 552,
     "major": "항우기학부",
     "classType": "FL",
     "subjectNumber": "0552",
@@ -4836,6 +5208,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 553,
     "major": "항우기학부",
     "classType": "FL",
     "subjectNumber": "0553",
@@ -4849,6 +5222,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 554,
     "major": "항우기학부",
     "classType": "FL",
     "subjectNumber": "0554",
@@ -4862,6 +5236,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 555,
     "major": "항우기학부",
     "classType": "FL",
     "subjectNumber": "0555",
@@ -4875,6 +5250,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 556,
     "major": "항우기학부",
     "classType": "FL",
     "subjectNumber": "0556",
@@ -4888,6 +5264,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 558,
     "major": "항우기학부",
     "classType": "FL",
     "subjectNumber": "0558",
@@ -4901,6 +5278,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 559,
     "major": "항우기학부",
     "classType": "FL",
     "subjectNumber": "0559",
@@ -4914,6 +5292,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 560,
     "major": "항우기학부",
     "classType": "FL",
     "subjectNumber": "0560",
@@ -4927,6 +5306,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 561,
     "major": "항우기학부",
     "classType": "FL",
     "subjectNumber": "0561",
@@ -4940,6 +5320,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 562,
     "major": "항우기학부",
     "classType": "FL",
     "subjectNumber": "0562",
@@ -4953,6 +5334,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 563,
     "major": "항우기학부",
     "classType": "FL",
     "subjectNumber": "0563",
@@ -4966,6 +5348,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 564,
     "major": "항우기학부",
     "classType": "PtBL",
     "subjectNumber": "0564",
@@ -4979,6 +5362,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 565,
     "major": "항우기학부",
     "classType": "PtBL",
     "subjectNumber": "0565",
@@ -4992,6 +5376,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 566,
     "major": "항우기학부",
     "classType": "PtBL",
     "subjectNumber": "0566",
@@ -5005,6 +5390,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 567,
     "major": "항우기학부",
     "classType": "PtBL",
     "subjectNumber": "0567",
@@ -5018,6 +5404,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 568,
     "major": "항우기학부",
     "classType": "PtBL",
     "subjectNumber": "0568",
@@ -5031,6 +5418,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 569,
     "major": "항우기학부",
     "classType": "PtBL",
     "subjectNumber": "0569",
@@ -5044,6 +5432,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 570,
     "major": "항우기학부",
     "classType": "PtBL",
     "subjectNumber": "0570",
@@ -5057,6 +5446,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 571,
     "major": "항우기학부",
     "classType": "PtBL",
     "subjectNumber": "0571",
@@ -5070,6 +5460,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 572,
     "major": "항우기학부",
     "classType": "PtBL",
     "subjectNumber": "0572",
@@ -5083,6 +5474,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 573,
     "major": "항우기학부",
     "classType": "PtBL",
     "subjectNumber": "0573",
@@ -5096,6 +5488,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 574,
     "major": "항우기학부",
     "classType": "PtBL",
     "subjectNumber": "0574",
@@ -5109,6 +5502,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 575,
     "major": "항우기학부",
     "classType": "PtBL",
     "subjectNumber": "0575",
@@ -5122,6 +5516,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 576,
     "major": "항우기학부",
     "classType": "PtBL",
     "subjectNumber": "0576",
@@ -5135,6 +5530,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 577,
     "major": "항우기학부",
     "classType": "PtBL",
     "subjectNumber": "0577",
@@ -5148,6 +5544,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 578,
     "major": "항우기학부",
     "classType": "PtBL",
     "subjectNumber": "0578",
@@ -5161,6 +5558,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 579,
     "major": "항우기학부",
     "classType": "PtBL",
     "subjectNumber": "0579",
@@ -5174,6 +5572,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 580,
     "major": "항우기학부",
     "classType": "PtBL",
     "subjectNumber": "0580",
@@ -5187,6 +5586,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 581,
     "major": "항우기학부",
     "classType": "PtBL",
     "subjectNumber": "0581",
@@ -5200,6 +5600,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 582,
     "major": "항우기학부",
     "classType": "PtBL",
     "subjectNumber": "0582",
@@ -5213,6 +5614,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 583,
     "major": "항우기학부",
     "classType": "PtBL",
     "subjectNumber": "0583",
@@ -5226,6 +5628,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 584,
     "major": "항우기학부",
     "classType": "PtBL",
     "subjectNumber": "0584",
@@ -5239,6 +5642,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 585,
     "major": "항우기학부",
     "classType": "PtBL",
     "subjectNumber": "0585",
@@ -5252,6 +5656,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 586,
     "major": "항우기학부",
     "classType": "PtBL",
     "subjectNumber": "0586",
@@ -5265,6 +5670,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 587,
     "major": "항우기학부",
     "classType": "PtBL",
     "subjectNumber": "0587",
@@ -5278,6 +5684,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 588,
     "major": "항우기학부",
     "classType": "PtBL",
     "subjectNumber": "0588",
@@ -5291,6 +5698,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 589,
     "major": "항우기학부",
     "classType": "PtBL",
     "subjectNumber": "0589",
@@ -5304,6 +5712,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 590,
     "major": "항우기학부",
     "classType": "PtBL",
     "subjectNumber": "0590",
@@ -5317,6 +5726,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 591,
     "major": "항우기학부",
     "classType": "PtBL",
     "subjectNumber": "0591",
@@ -5330,6 +5740,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 592,
     "major": "항우기학부",
     "classType": "FL",
     "subjectNumber": "0592",
@@ -5343,6 +5754,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 593,
     "major": "항우기학부",
     "classType": "FL",
     "subjectNumber": "0593",
@@ -5356,6 +5768,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 594,
     "major": "항우기학부",
     "classType": "FL",
     "subjectNumber": "0594",
@@ -5369,6 +5782,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 595,
     "major": "항우기학부",
     "classType": "일반",
     "subjectNumber": "0595",
@@ -5382,6 +5796,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 596,
     "major": "항우기학부",
     "classType": "FL",
     "subjectNumber": "0596",
@@ -5395,6 +5810,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 597,
     "major": "항우기학부",
     "classType": "FL",
     "subjectNumber": "0597",
@@ -5408,6 +5824,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 598,
     "major": "항우기학부",
     "classType": "FL",
     "subjectNumber": "0598",
@@ -5421,6 +5838,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 599,
     "major": "항우기학부",
     "classType": "일반",
     "subjectNumber": "0599",
@@ -5434,6 +5852,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 600,
     "major": "항우기학부",
     "classType": "FL",
     "subjectNumber": "0600",
@@ -5447,6 +5866,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 602,
     "major": "항우기학부",
     "classType": "FL",
     "subjectNumber": "0602",
@@ -5460,6 +5880,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 603,
     "major": "항우기학부",
     "classType": "FL",
     "subjectNumber": "0603",
@@ -5473,6 +5894,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 604,
     "major": "항우기학부",
     "classType": "PtBL",
     "subjectNumber": "0604",
@@ -5486,6 +5908,7 @@
     "subjectScore": "2"
   },
   {
+    "id": 605,
     "major": "항우기학부",
     "classType": "PtBL",
     "subjectNumber": "0605",
@@ -5499,6 +5922,7 @@
     "subjectScore": "1"
   },
   {
+    "id": 608,
     "major": "항교물",
     "classType": "일반",
     "subjectNumber": "0608",
@@ -5512,6 +5936,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 609,
     "major": "항교물",
     "classType": "일반",
     "subjectNumber": "0609",
@@ -5525,6 +5950,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 611,
     "major": "인문자연학부",
     "classType": "일반",
     "subjectNumber": "0611",
@@ -5538,6 +5964,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 614,
     "major": "인문자연학부",
     "classType": "일반",
     "subjectNumber": "0614",
@@ -5551,6 +5978,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 615,
     "major": "항교물",
     "classType": "일반",
     "subjectNumber": "0615",
@@ -5564,6 +5992,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 616,
     "major": "항교물",
     "classType": "FL",
     "subjectNumber": "0616",
@@ -5577,6 +6006,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 617,
     "major": "항교물",
     "classType": "FL",
     "subjectNumber": "0617",
@@ -5590,6 +6020,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 618,
     "major": "항교물",
     "classType": "FL",
     "subjectNumber": "0618",
@@ -5603,6 +6034,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 619,
     "major": "항교물",
     "classType": "FL",
     "subjectNumber": "0619",
@@ -5616,6 +6048,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 620,
     "major": "항교물",
     "classType": "FL",
     "subjectNumber": "0620",
@@ -5629,6 +6062,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 621,
     "major": "항교물",
     "classType": "일반",
     "subjectNumber": "0621",
@@ -5642,6 +6076,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 622,
     "major": "항교물",
     "classType": "FL",
     "subjectNumber": "0622",
@@ -5655,6 +6090,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 623,
     "major": "항교물",
     "classType": "일반",
     "subjectNumber": "0623",
@@ -5668,6 +6104,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 624,
     "major": "항교물",
     "classType": "일반",
     "subjectNumber": "0624",
@@ -5681,6 +6118,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 626,
     "major": "항교물",
     "classType": "FL",
     "subjectNumber": "0626",
@@ -5694,6 +6132,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 627,
     "major": "항교물",
     "classType": "FL",
     "subjectNumber": "0627",
@@ -5707,6 +6146,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 628,
     "major": "항교물",
     "classType": "FL",
     "subjectNumber": "0628",
@@ -5720,6 +6160,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 629,
     "major": "항교물",
     "classType": "FL",
     "subjectNumber": "0629",
@@ -5733,6 +6174,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 630,
     "major": "항교물",
     "classType": "FL",
     "subjectNumber": "0630",
@@ -5746,6 +6188,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 632,
     "major": "항교물",
     "classType": "일반",
     "subjectNumber": "0632",
@@ -5759,6 +6202,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 633,
     "major": "물류",
     "classType": "FL",
     "subjectNumber": "0633",
@@ -5772,6 +6216,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 634,
     "major": "항공교통",
     "classType": "일반",
     "subjectNumber": "0634",
@@ -5785,6 +6230,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 635,
     "major": "물류",
     "classType": "일반",
     "subjectNumber": "0635",
@@ -5798,6 +6244,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 636,
     "major": "물류",
     "classType": "FL",
     "subjectNumber": "0636",
@@ -5811,6 +6258,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 637,
     "major": "항공교통",
     "classType": "일반",
     "subjectNumber": "0637",
@@ -5824,6 +6272,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 638,
     "major": "항공교통",
     "classType": "FL",
     "subjectNumber": "0638",
@@ -5837,6 +6286,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 639,
     "major": "항공교통",
     "classType": "FL",
     "subjectNumber": "0639",
@@ -5850,6 +6300,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 640,
     "major": "물류",
     "classType": "FL",
     "subjectNumber": "0640",
@@ -5863,6 +6314,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 641,
     "major": "물류",
     "classType": "FL",
     "subjectNumber": "0641",
@@ -5876,6 +6328,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 642,
     "major": "항공교통",
     "classType": "FL",
     "subjectNumber": "0642",
@@ -5889,6 +6342,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 643,
     "major": "항공교통",
     "classType": "PtBL",
     "subjectNumber": "0643",
@@ -5902,6 +6356,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 644,
     "major": "물류",
     "classType": "PtBL",
     "subjectNumber": "0644",
@@ -5915,6 +6370,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 645,
     "major": "물류",
     "classType": "PtBL",
     "subjectNumber": "0645",
@@ -5928,6 +6384,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 647,
     "major": "항공교통",
     "classType": "FL",
     "subjectNumber": "0647",
@@ -5941,6 +6398,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 648,
     "major": "물류",
     "classType": "PtBL",
     "subjectNumber": "0648",
@@ -5954,6 +6412,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 649,
     "major": "물류",
     "classType": "일반",
     "subjectNumber": "0649",
@@ -5967,6 +6426,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 651,
     "major": "항공교통",
     "classType": "FL",
     "subjectNumber": "0651",
@@ -5980,6 +6440,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 652,
     "major": "항공교통",
     "classType": "FL",
     "subjectNumber": "0652",
@@ -5993,6 +6454,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 653,
     "major": "항공운항",
     "classType": "FL",
     "subjectNumber": "0653",
@@ -6006,6 +6468,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 654,
     "major": "인문자연학부",
     "classType": "일반",
     "subjectNumber": "0654",
@@ -6019,6 +6482,7 @@
     "subjectScore": "2"
   },
   {
+    "id": 655,
     "major": "인문자연학부",
     "classType": "일반",
     "subjectNumber": "0655",
@@ -6032,6 +6496,7 @@
     "subjectScore": "2"
   },
   {
+    "id": 656,
     "major": "인문자연학부",
     "classType": "일반",
     "subjectNumber": "0656",
@@ -6045,6 +6510,7 @@
     "subjectScore": "2"
   },
   {
+    "id": 657,
     "major": "인문자연학부",
     "classType": "일반",
     "subjectNumber": "0657",
@@ -6058,6 +6524,7 @@
     "subjectScore": "2"
   },
   {
+    "id": 658,
     "major": "항교물",
     "classType": "PtBL",
     "subjectNumber": "0658",
@@ -6071,6 +6538,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 659,
     "major": "항교물",
     "classType": "FL",
     "subjectNumber": "0659",
@@ -6084,6 +6552,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 661,
     "major": "항공운항",
     "classType": "일반",
     "subjectNumber": "0661",
@@ -6097,6 +6566,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 662,
     "major": "항공운항",
     "classType": "일반",
     "subjectNumber": "0662",
@@ -6110,6 +6580,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 663,
     "major": "항공운항",
     "classType": "일반",
     "subjectNumber": "0663",
@@ -6123,6 +6594,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 664,
     "major": "항공운항",
     "classType": "일반",
     "subjectNumber": "0664",
@@ -6136,6 +6608,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 666,
     "major": "소프트",
     "classType": "일반",
     "subjectNumber": "0666",
@@ -6149,6 +6622,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 669,
     "major": "소프트",
     "classType": "일반",
     "subjectNumber": "0669",
@@ -6162,6 +6636,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 670,
     "major": "소프트",
     "classType": "일반",
     "subjectNumber": "0670",
@@ -6175,6 +6650,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 671,
     "major": "소프트",
     "classType": "일반",
     "subjectNumber": "0671",
@@ -6188,6 +6664,7 @@
     "subjectScore": "1"
   },
   {
+    "id": 672,
     "major": "소프트",
     "classType": "FL",
     "subjectNumber": "0672",
@@ -6201,6 +6678,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 673,
     "major": "소프트",
     "classType": "FL",
     "subjectNumber": "0673",
@@ -6214,6 +6692,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 674,
     "major": "소프트",
     "classType": "FL",
     "subjectNumber": "0674",
@@ -6227,6 +6706,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 675,
     "major": "소프트",
     "classType": "FL",
     "subjectNumber": "0675",
@@ -6240,6 +6720,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 676,
     "major": "소프트",
     "classType": "FL",
     "subjectNumber": "0676",
@@ -6253,6 +6734,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 677,
     "major": "소프트",
     "classType": "FL",
     "subjectNumber": "0677",
@@ -6266,6 +6748,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 678,
     "major": "소프트",
     "classType": "FL",
     "subjectNumber": "0678",
@@ -6279,6 +6762,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 679,
     "major": "소프트",
     "classType": "FL",
     "subjectNumber": "0679",
@@ -6292,6 +6776,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 680,
     "major": "소프트",
     "classType": "FL",
     "subjectNumber": "0680",
@@ -6305,6 +6790,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 681,
     "major": "소프트",
     "classType": "일반",
     "subjectNumber": "0681",
@@ -6318,6 +6804,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 682,
     "major": "소프트",
     "classType": "PtBL",
     "subjectNumber": "0682",
@@ -6331,6 +6818,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 683,
     "major": "소프트",
     "classType": "일반",
     "subjectNumber": "0683",
@@ -6344,6 +6832,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 685,
     "major": "소프트",
     "classType": "일반",
     "subjectNumber": "0685",
@@ -6357,6 +6846,7 @@
     "subjectScore": "9"
   },
   {
+    "id": 686,
     "major": "소프트",
     "classType": "PmBL",
     "subjectNumber": "0686",
@@ -6370,6 +6860,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 687,
     "major": "소프트",
     "classType": "FL",
     "subjectNumber": "0687",
@@ -6383,6 +6874,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 688,
     "major": "소프트",
     "classType": "FL",
     "subjectNumber": "0688",
@@ -6396,6 +6888,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 689,
     "major": "소프트",
     "classType": "PtBL",
     "subjectNumber": "0689",
@@ -6409,6 +6902,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 690,
     "major": "소프트",
     "classType": "PtBL",
     "subjectNumber": "0690",
@@ -6422,6 +6916,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 691,
     "major": "소프트",
     "classType": "PtBL",
     "subjectNumber": "0691",
@@ -6435,6 +6930,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 692,
     "major": "소프트",
     "classType": "PtBL",
     "subjectNumber": "0692",
@@ -6448,6 +6944,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 693,
     "major": "소프트",
     "classType": "PtBL",
     "subjectNumber": "0693",
@@ -6461,6 +6958,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 694,
     "major": "소프트",
     "classType": "PtBL",
     "subjectNumber": "0694",
@@ -6474,6 +6972,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 697,
     "major": "소프트",
     "classType": "FL",
     "subjectNumber": "0697",
@@ -6487,6 +6986,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 698,
     "major": "소프트",
     "classType": "FL",
     "subjectNumber": "0698",
@@ -6500,6 +7000,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 700,
     "major": "소프트",
     "classType": "일반",
     "subjectNumber": "0700",
@@ -6513,6 +7014,7 @@
     "subjectScore": "2"
   },
   {
+    "id": 701,
     "major": "소프트",
     "classType": "일반",
     "subjectNumber": "0701",
@@ -6526,6 +7028,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 702,
     "major": "소프트",
     "classType": "FL",
     "subjectNumber": "0702",
@@ -6539,6 +7042,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 703,
     "major": "소프트",
     "classType": "FL",
     "subjectNumber": "0703",
@@ -6552,6 +7056,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 704,
     "major": "소프트",
     "classType": "PtBL",
     "subjectNumber": "0704",
@@ -6565,6 +7070,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 707,
     "major": "소프트",
     "classType": "FL",
     "subjectNumber": "0707",
@@ -6578,6 +7084,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 708,
     "major": "인문자연학부",
     "classType": "일반",
     "subjectNumber": "0708",
@@ -6591,6 +7098,7 @@
     "subjectScore": "2"
   },
   {
+    "id": 709,
     "major": "인문자연학부",
     "classType": "일반",
     "subjectNumber": "0709",
@@ -6604,6 +7112,7 @@
     "subjectScore": "2"
   },
   {
+    "id": 710,
     "major": "인문자연학부",
     "classType": "일반",
     "subjectNumber": "0710",
@@ -6617,6 +7126,7 @@
     "subjectScore": "2"
   },
   {
+    "id": 711,
     "major": "인문자연학부",
     "classType": "일반",
     "subjectNumber": "0711",
@@ -6630,6 +7140,7 @@
     "subjectScore": "2"
   },
   {
+    "id": 712,
     "major": "인문자연학부",
     "classType": "일반",
     "subjectNumber": "0712",
@@ -6643,6 +7154,7 @@
     "subjectScore": "2"
   },
   {
+    "id": 713,
     "major": "인문자연학부",
     "classType": "일반",
     "subjectNumber": "0713",
@@ -6656,6 +7168,7 @@
     "subjectScore": "2"
   },
   {
+    "id": 714,
     "major": "인문자연학부",
     "classType": "일반",
     "subjectNumber": "0714",
@@ -6669,6 +7182,7 @@
     "subjectScore": "2"
   },
   {
+    "id": 715,
     "major": "인문자연학부",
     "classType": "일반",
     "subjectNumber": "0715",
@@ -6682,6 +7196,7 @@
     "subjectScore": "2"
   },
   {
+    "id": 716,
     "major": "인문자연학부",
     "classType": "일반",
     "subjectNumber": "0716",
@@ -6695,6 +7210,7 @@
     "subjectScore": "2"
   },
   {
+    "id": 717,
     "major": "인문자연학부",
     "classType": "일반",
     "subjectNumber": "0717",
@@ -6708,6 +7224,7 @@
     "subjectScore": "2"
   },
   {
+    "id": 718,
     "major": "인문자연학부",
     "classType": "일반",
     "subjectNumber": "0718",
@@ -6721,6 +7238,7 @@
     "subjectScore": "2"
   },
   {
+    "id": 719,
     "major": "인문자연학부",
     "classType": "일반",
     "subjectNumber": "0719",
@@ -6734,6 +7252,7 @@
     "subjectScore": "2"
   },
   {
+    "id": 720,
     "major": "인문자연학부",
     "classType": "일반",
     "subjectNumber": "0720",
@@ -6747,6 +7266,7 @@
     "subjectScore": "2"
   },
   {
+    "id": 721,
     "major": "인문자연학부",
     "classType": "일반",
     "subjectNumber": "0721",
@@ -6760,6 +7280,7 @@
     "subjectScore": "2"
   },
   {
+    "id": 722,
     "major": "인문자연학부",
     "classType": "일반",
     "subjectNumber": "0722",
@@ -6773,6 +7294,7 @@
     "subjectScore": "2"
   },
   {
+    "id": 723,
     "major": "인문자연학부",
     "classType": "일반",
     "subjectNumber": "0723",
@@ -6786,6 +7308,7 @@
     "subjectScore": "2"
   },
   {
+    "id": 724,
     "major": "인문자연학부",
     "classType": "일반",
     "subjectNumber": "0724",
@@ -6799,6 +7322,7 @@
     "subjectScore": "2"
   },
   {
+    "id": 725,
     "major": "인문자연학부",
     "classType": "일반",
     "subjectNumber": "0725",
@@ -6812,6 +7336,7 @@
     "subjectScore": "2"
   },
   {
+    "id": 726,
     "major": "인문자연학부",
     "classType": "일반",
     "subjectNumber": "0726",
@@ -6825,6 +7350,7 @@
     "subjectScore": "2"
   },
   {
+    "id": 727,
     "major": "인문자연학부",
     "classType": "일반",
     "subjectNumber": "0727",
@@ -6838,6 +7364,7 @@
     "subjectScore": "2"
   },
   {
+    "id": 728,
     "major": "인문자연학부",
     "classType": "일반",
     "subjectNumber": "0728",
@@ -6851,6 +7378,7 @@
     "subjectScore": "2"
   },
   {
+    "id": 729,
     "major": "인문자연학부",
     "classType": "일반",
     "subjectNumber": "0729",
@@ -6864,6 +7392,7 @@
     "subjectScore": "2"
   },
   {
+    "id": 730,
     "major": "인문자연학부",
     "classType": "일반",
     "subjectNumber": "0730",
@@ -6877,6 +7406,7 @@
     "subjectScore": "2"
   },
   {
+    "id": 731,
     "major": "인문자연학부",
     "classType": "일반",
     "subjectNumber": "0731",
@@ -6890,6 +7420,7 @@
     "subjectScore": "2"
   },
   {
+    "id": 732,
     "major": "인문자연학부",
     "classType": "일반",
     "subjectNumber": "0732",
@@ -6903,6 +7434,7 @@
     "subjectScore": "2"
   },
   {
+    "id": 733,
     "major": "인문자연학부",
     "classType": "일반",
     "subjectNumber": "0733",
@@ -6916,6 +7448,7 @@
     "subjectScore": "2"
   },
   {
+    "id": 734,
     "major": "인문자연학부",
     "classType": "일반",
     "subjectNumber": "0734",
@@ -6929,6 +7462,7 @@
     "subjectScore": "2"
   },
   {
+    "id": 735,
     "major": "인문자연학부",
     "classType": "일반",
     "subjectNumber": "0735",
@@ -6942,6 +7476,7 @@
     "subjectScore": "2"
   },
   {
+    "id": 736,
     "major": "인문자연학부",
     "classType": "일반",
     "subjectNumber": "0736",
@@ -6955,6 +7490,7 @@
     "subjectScore": "2"
   },
   {
+    "id": 737,
     "major": "인문자연학부",
     "classType": "일반",
     "subjectNumber": "0737",
@@ -6968,6 +7504,7 @@
     "subjectScore": "2"
   },
   {
+    "id": 738,
     "major": "인문자연학부",
     "classType": "일반",
     "subjectNumber": "0738",
@@ -6981,6 +7518,7 @@
     "subjectScore": "2"
   },
   {
+    "id": 739,
     "major": "인문자연학부",
     "classType": "일반",
     "subjectNumber": "0739",
@@ -6994,6 +7532,7 @@
     "subjectScore": "2"
   },
   {
+    "id": 740,
     "major": "인문자연학부",
     "classType": "일반",
     "subjectNumber": "0740",
@@ -7007,6 +7546,7 @@
     "subjectScore": "2"
   },
   {
+    "id": 741,
     "major": "인문자연학부",
     "classType": "일반",
     "subjectNumber": "0741",
@@ -7020,6 +7560,7 @@
     "subjectScore": "2"
   },
   {
+    "id": 742,
     "major": "인문자연학부",
     "classType": "일반",
     "subjectNumber": "0742",
@@ -7033,6 +7574,7 @@
     "subjectScore": "2"
   },
   {
+    "id": 743,
     "major": "인문자연학부",
     "classType": "일반",
     "subjectNumber": "0743",
@@ -7046,6 +7588,7 @@
     "subjectScore": "2"
   },
   {
+    "id": 744,
     "major": "인문자연학부",
     "classType": "일반",
     "subjectNumber": "0744",
@@ -7059,6 +7602,7 @@
     "subjectScore": "2"
   },
   {
+    "id": 745,
     "major": "인문자연학부",
     "classType": "일반",
     "subjectNumber": "0745",
@@ -7072,6 +7616,7 @@
     "subjectScore": "2"
   },
   {
+    "id": 746,
     "major": "인문자연학부",
     "classType": "일반",
     "subjectNumber": "0746",
@@ -7085,6 +7630,7 @@
     "subjectScore": "2"
   },
   {
+    "id": 747,
     "major": "인문자연학부",
     "classType": "일반",
     "subjectNumber": "0747",
@@ -7098,6 +7644,7 @@
     "subjectScore": "2"
   },
   {
+    "id": 748,
     "major": "인문자연학부",
     "classType": "일반",
     "subjectNumber": "0748",
@@ -7111,6 +7658,7 @@
     "subjectScore": "2"
   },
   {
+    "id": 749,
     "major": "인문자연학부",
     "classType": "일반",
     "subjectNumber": "0749",
@@ -7124,6 +7672,7 @@
     "subjectScore": "2"
   },
   {
+    "id": 750,
     "major": "인문자연학부",
     "classType": "일반",
     "subjectNumber": "0750",
@@ -7137,6 +7686,7 @@
     "subjectScore": "2"
   },
   {
+    "id": 752,
     "major": "항교물",
     "classType": "일반",
     "subjectNumber": "0752",
@@ -7150,6 +7700,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 753,
     "major": "항교물",
     "classType": "일반",
     "subjectNumber": "0753",
@@ -7163,6 +7714,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 754,
     "major": "항교물",
     "classType": "일반",
     "subjectNumber": "0754",
@@ -7176,6 +7728,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 756,
     "major": "항교물",
     "classType": "FL",
     "subjectNumber": "0756",
@@ -7189,6 +7742,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 757,
     "major": "서명석인문자연학부",
     "classType": "일반",
     "subjectNumber": "0757",
@@ -7202,6 +7756,7 @@
     "subjectScore": "2"
   },
   {
+    "id": 758,
     "major": "인문자연학부",
     "classType": "일반",
     "subjectNumber": "0758",
@@ -7215,6 +7770,7 @@
     "subjectScore": "2"
   },
   {
+    "id": 759,
     "major": "인문자연학부",
     "classType": "일반",
     "subjectNumber": "0759",
@@ -7228,6 +7784,7 @@
     "subjectScore": "2"
   },
   {
+    "id": 761,
     "major": "인문자연학부",
     "classType": "일반",
     "subjectNumber": "0761",
@@ -7241,6 +7798,7 @@
     "subjectScore": "1"
   },
   {
+    "id": 769,
     "major": "항전정학부",
     "classType": "일반",
     "subjectNumber": "0769",
@@ -7254,6 +7812,7 @@
     "subjectScore": "1"
   },
   {
+    "id": 772,
     "major": "항전정학부",
     "classType": "FL",
     "subjectNumber": "0772",
@@ -7267,6 +7826,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 773,
     "major": "물류",
     "classType": "일반",
     "subjectNumber": "0773",
@@ -7280,6 +7840,7 @@
     "subjectScore": "1"
   },
   {
+    "id": 774,
     "major": "소프트",
     "classType": "PtBL",
     "subjectNumber": "0774",
@@ -7293,6 +7854,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 775,
     "major": "항공우주법",
     "classType": "일반",
     "subjectNumber": "0775",
@@ -7306,6 +7868,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 776,
     "major": "소프트",
     "classType": "일반",
     "subjectNumber": "0776",
@@ -7319,6 +7882,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 777,
     "major": "소프트",
     "classType": "일반",
     "subjectNumber": "0777",
@@ -7332,6 +7896,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 788,
     "major": "인문자연학부",
     "classType": "일반",
     "subjectNumber": "0788",
@@ -7345,6 +7910,7 @@
     "subjectScore": "2"
   },
   {
+    "id": 790,
     "major": "인문자연학부",
     "classType": "일반",
     "subjectNumber": "0790",
@@ -7358,6 +7924,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 791,
     "major": "인문자연학부",
     "classType": "일반",
     "subjectNumber": "0791",
@@ -7371,6 +7938,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 801,
     "major": "소프트",
     "classType": "FL",
     "subjectNumber": "0801",
@@ -7384,6 +7952,7 @@
     "subjectScore": "2"
   },
   {
+    "id": 802,
     "major": "소프트",
     "classType": "PtBL",
     "subjectNumber": "0802",
@@ -7397,6 +7966,7 @@
     "subjectScore": "1"
   },
   {
+    "id": 805,
     "major": "항공경영융합",
     "classType": "일반",
     "subjectNumber": "0805",
@@ -7410,6 +7980,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 806,
     "major": "항공경영융합",
     "classType": "FL",
     "subjectNumber": "0806",
@@ -7423,6 +7994,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 807,
     "major": "항공경영융합",
     "classType": "일반",
     "subjectNumber": "0807",
@@ -7436,6 +8008,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 808,
     "major": "항공경영융합",
     "classType": "일반",
     "subjectNumber": "0808",
@@ -7449,6 +8022,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 814,
     "major": "항공정비융합",
     "classType": "일반",
     "subjectNumber": "0814",
@@ -7462,6 +8036,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 815,
     "major": "항공정비융합",
     "classType": "일반",
     "subjectNumber": "0815",
@@ -7475,6 +8050,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 816,
     "major": "자율주행융합전공",
     "classType": "일반",
     "subjectNumber": "0816",
@@ -7488,6 +8064,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 817,
     "major": "자율주행융합전공",
     "classType": "FL",
     "subjectNumber": "0817",
@@ -7501,6 +8078,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 818,
     "major": "항공운항",
     "classType": "일반",
     "subjectNumber": "0818",
@@ -7514,6 +8092,7 @@
     "subjectScore": "1"
   },
   {
+    "id": 819,
     "major": "항공운항",
     "classType": "일반",
     "subjectNumber": "0819",
@@ -7527,6 +8106,7 @@
     "subjectScore": "1"
   },
   {
+    "id": 820,
     "major": "항공운항",
     "classType": "일반",
     "subjectNumber": "0820",
@@ -7540,6 +8120,7 @@
     "subjectScore": "1"
   },
   {
+    "id": 821,
     "major": "항공운항",
     "classType": "일반",
     "subjectNumber": "0821",
@@ -7553,6 +8134,7 @@
     "subjectScore": "1"
   },
   {
+    "id": 825,
     "major": "인문자연학부",
     "classType": "일반",
     "subjectNumber": "0825",
@@ -7566,6 +8148,7 @@
     "subjectScore": "1"
   },
   {
+    "id": 826,
     "major": "인문자연학부",
     "classType": "일반",
     "subjectNumber": "0826",
@@ -7579,6 +8162,7 @@
     "subjectScore": "1"
   },
   {
+    "id": 827,
     "major": "인문자연학부",
     "classType": "일반",
     "subjectNumber": "0827",
@@ -7592,6 +8176,7 @@
     "subjectScore": "1"
   },
   {
+    "id": 828,
     "major": "인문자연학부",
     "classType": "일반",
     "subjectNumber": "0828",
@@ -7605,6 +8190,7 @@
     "subjectScore": "1"
   },
   {
+    "id": 829,
     "major": "인문자연학부",
     "classType": "일반",
     "subjectNumber": "0829",
@@ -7618,6 +8204,7 @@
     "subjectScore": "1"
   },
   {
+    "id": 830,
     "major": "인문자연학부",
     "classType": "일반",
     "subjectNumber": "0830",
@@ -7631,6 +8218,7 @@
     "subjectScore": "1"
   },
   {
+    "id": 831,
     "major": "자유전공학부",
     "classType": "일반",
     "subjectNumber": "0831",
@@ -7644,6 +8232,7 @@
     "subjectScore": "1"
   },
   {
+    "id": 833,
     "major": "조종융합",
     "classType": "일반",
     "subjectNumber": "0833",
@@ -7657,6 +8246,7 @@
     "subjectScore": "2"
   },
   {
+    "id": 834,
     "major": "조종융합",
     "classType": "일반",
     "subjectNumber": "0834",
@@ -7670,6 +8260,7 @@
     "subjectScore": "2"
   },
   {
+    "id": 835,
     "major": "조종융합",
     "classType": "일반",
     "subjectNumber": "0835",
@@ -7683,6 +8274,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 836,
     "major": "항공교통",
     "classType": "FL",
     "subjectNumber": "0836",
@@ -7696,6 +8288,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 837,
     "major": "항공교통",
     "classType": "FL",
     "subjectNumber": "0837",
@@ -7709,6 +8302,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 838,
     "major": "경영학부",
     "classType": "일반",
     "subjectNumber": "0838",
@@ -7722,6 +8316,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 839,
     "major": "조종융합",
     "classType": "일반",
     "subjectNumber": "0839",
@@ -7735,6 +8330,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 859,
     "major": "항전정학부",
     "classType": "FL",
     "subjectNumber": "0859",
@@ -7748,6 +8344,7 @@
     "subjectScore": "2"
   },
   {
+    "id": 860,
     "major": "항전정학부",
     "classType": "FL",
     "subjectNumber": "0860",
@@ -7761,6 +8358,7 @@
     "subjectScore": "1"
   },
   {
+    "id": 865,
     "major": "인문자연학부",
     "classType": "일반",
     "subjectNumber": "0865",
@@ -7774,6 +8372,7 @@
     "subjectScore": "2"
   },
   {
+    "id": 866,
     "major": "인문자연학부",
     "classType": "일반",
     "subjectNumber": "0866",
@@ -7787,6 +8386,7 @@
     "subjectScore": "2"
   },
   {
+    "id": 867,
     "major": "인문자연학부",
     "classType": "일반",
     "subjectNumber": "0867",
@@ -7800,6 +8400,7 @@
     "subjectScore": "2"
   },
   {
+    "id": 868,
     "major": "인문자연학부",
     "classType": "일반",
     "subjectNumber": "0868",
@@ -7813,6 +8414,7 @@
     "subjectScore": "2"
   },
   {
+    "id": 869,
     "major": "인문자연학부",
     "classType": "일반",
     "subjectNumber": "0869",
@@ -7826,6 +8428,7 @@
     "subjectScore": "2"
   },
   {
+    "id": 870,
     "major": "인문자연학부",
     "classType": "일반",
     "subjectNumber": "0870",
@@ -7839,6 +8442,7 @@
     "subjectScore": "2"
   },
   {
+    "id": 871,
     "major": "항공재료",
     "classType": "FL",
     "subjectNumber": "0871",
@@ -7852,6 +8456,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 873,
     "major": "항공재료",
     "classType": "일반",
     "subjectNumber": "0873",
@@ -7865,6 +8470,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 876,
     "major": "항공재료",
     "classType": "FL",
     "subjectNumber": "0876",
@@ -7878,6 +8484,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 877,
     "major": "항공재료",
     "classType": "FL",
     "subjectNumber": "0877",
@@ -7891,6 +8498,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 878,
     "major": "항교물",
     "classType": "일반",
     "subjectNumber": "0878",
@@ -7904,6 +8512,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 882,
     "major": "인문자연학부",
     "classType": "일반",
     "subjectNumber": "0882",
@@ -7917,6 +8526,7 @@
     "subjectScore": "2"
   },
   {
+    "id": 883,
     "major": "항전정학부",
     "classType": "FL",
     "subjectNumber": "0883",
@@ -7930,6 +8540,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 886,
     "major": "항우기학부",
     "classType": "PtBL",
     "subjectNumber": "0886",
@@ -7943,6 +8554,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 887,
     "major": "인문자연학부",
     "classType": "일반",
     "subjectNumber": "0887",
@@ -7956,6 +8568,7 @@
     "subjectScore": "2"
   },
   {
+    "id": 888,
     "major": "항교물",
     "classType": "일반",
     "subjectNumber": "0888",
@@ -7969,6 +8582,7 @@
     "subjectScore": "3"
   },
   {
+    "id": 889,
     "major": "항공교통",
     "classType": "PtBL",
     "subjectNumber": "0889",
