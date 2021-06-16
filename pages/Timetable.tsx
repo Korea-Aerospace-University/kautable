@@ -17,8 +17,8 @@ const Timetable = (props: Props) => {
       <SemesterContext.Provider value={{ semester, setSemester }}>
         <div className="flex lg:h-auto p-4 md:p-10  bg-blue-50">
           <div className="bg-white w-full p-5 md:p-10 rounded-2xl h-full">
-            <h1 className="text-2xl md:text-4xl p-3 md:p-5 border-b-2 border-blue-900 mb-5">
-              🗓 시간표
+            <h1 className="text-2xl md:text-3xl p-3 md:p-5 border-b-2 border-blue-900 mb-5">
+              🗓 항공대 시간표 생성기
             </h1>
             <TableContainer />
           </div>

@@ -27,21 +27,19 @@ const SubjectTable = () => {
   }, [semester, major]);
 
   const getSubjectList = async () => {
-    const data = await getSubjectsAPI(semester.value, major);
+    const data = await getSubjectsAPI(semester.value);
     setSubjectDataList(data);
-    console.log(subjectDataList);
   };
 
   const selectSubject = (id: string) => {
     if (subjectDataList !== null) {
-      setSelectedSubject(subjectDataList.data.data.filter((subject) => subject.id === id)[0]);
+      setSelectedSubject(subjectDataList.data.filter((subject) => subject.id === id)[0]);
     }
-    console.log(selectedSubject);
   };
 
   return (
     <ModalContext.Provider value={{ isModalOpen, setIsModalOpen }}>
-      <div className="flex w-full text-sm justify-around my-5 shadow-md">
+      <div className="flex w-full text-sm justify-around my-5 shadow-md max-h-[350px] lg:max-h-[450px] scrollbar-hide overflow-scroll">
         <table className="border-2 border-gray-100 w-full h-full rounded-2xl table-fixed">
           <thead className="flex flex-col lg:flex-row justify-center">
             <tr className="flex flex-1 p-2 justify-between border-b-2 border-blue-700">
@@ -57,13 +55,13 @@ const SubjectTable = () => {
               <th className="lg:w-[10%] p-2 text-center text-md lg:text-lg text-gray-600">학점</th>
             </tr>
           </thead>
-          <tbody className="max-h-[450px] scrollbar-hide overflow-scroll">
+          <tbody className="h-[280px] lg:h-[350px]">
             {subjectDataList ? (
-              subjectDataList.data.data.map((subject: any) => (
+              subjectDataList.data.map((subject: any) => (
                 <SubjectItem key={subject.id} data={subject} selectSubject={selectSubject} />
               ))
             ) : (
-              <tr className="flex justify-center items-center noData h-[300px]">
+              <tr className="flex justify-center items-center noData">
                 <td className="flex flex-col text-gray-400 text-md lg:text-2xl ">
                   <ExclamationIcon className="h-16 my-2" />
                   이런, 아직 데이터가 없네요!

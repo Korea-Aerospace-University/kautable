@@ -1,8 +1,8 @@
 import { readFileSync } from "fs";
 import path from "path";
 
-export const getList = (semester: string, major: string) => {
-  const dataBuffer = readFileSync(path.join(process.cwd(), `data/${semester}/${major}/data.json`));
+export const getList = (semester: string) => {
+  const dataBuffer = readFileSync(path.join(process.cwd(), `data/${semester}/data.json`));
   const dataString = dataBuffer.toString();
   if (!dataString) {
     return [];

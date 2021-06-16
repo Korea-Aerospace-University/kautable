@@ -1,9 +1,9 @@
 import { NextApiRequest, NextApiResponse } from "next";
-import { getList } from "../../../lib/data/index";
+import { getList } from "../../lib/data/index";
 
 export default async (req: NextApiRequest, res: NextApiResponse) => {
   if (req.method === "POST") {
-    const { semester, major } = req.body;
+    const { semester } = req.body;
     try {
       // const result = await fetch(`/data/${semester}/${major}/data.json`, {
       //   headers: {
@@ -12,7 +12,7 @@ export default async (req: NextApiRequest, res: NextApiResponse) => {
       //   },
       // });
       // const data = await result.json();
-      const data = getList(semester, major);
+      const data = getList(semester);
       // var obj = JSON.parse(
       //   fs.readFileSync(`http://localhost:3000/data/${semester}/${major}/data.json`, "utf8")
       // );

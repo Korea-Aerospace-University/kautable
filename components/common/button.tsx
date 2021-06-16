@@ -3,7 +3,7 @@ import React from "react";
 interface IProps {
   Icon?: any;
   text: string;
-  onClick: any;
+  onClick?: any;
 }
 
 const Button: React.FC<IProps> = ({ Icon, text, onClick }) => {
