@@ -1,6 +1,4 @@
 import { NextApiRequest, NextApiResponse } from "next";
-import axios from "axios";
-import fs from "fs";
 import { getList } from "../../../lib/data/index";
 
 export default async (req: NextApiRequest, res: NextApiResponse) => {
