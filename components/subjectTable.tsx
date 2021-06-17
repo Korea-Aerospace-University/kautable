@@ -32,8 +32,14 @@ const SubjectTable = () => {
       switch (major) {
         case "all":
           return true;
+        case "sdu":
+          return subject.major === "SDU";
+        case "hyu":
+          return subject.major === "HYU";
+        case "ocu":
+          return subject.major === "OCU";
         case "material":
-          return subject.major === "항공재료";
+          return subject.major === "항공재료" || subject.major === "신소재";
         case "electronics":
           return subject.major === "항전정학부";
         case "mechanical":
@@ -88,7 +94,7 @@ const SubjectTable = () => {
               <th className="hidden lg:block lg:w-[20%] p-2 text-center text-md lg:text-lg text-gray-600">
                 전공
               </th>
-              <th className="lg:w-[15%] p-2 text-center text-md lg:text-lg text-gray-600">
+              <th className="lg:w-[30%] p-2 text-center text-md lg:text-lg text-gray-600">
                 담당교수
               </th>
               <th className="lg:w-[35%] p-2 text-center text-md lg:text-lg text-gray-600">

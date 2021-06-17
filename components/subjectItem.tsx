@@ -27,18 +27,18 @@ const SubjectItem = ({ data, selectSubject }) => {
       }}
     >
       <td
-        className="hidden lg:flex justify-center items-center lg:w-[20%] text-xs lg:text-sm"
+        className={`hidden lg:flex justify-start items-center lg:w-[20%] text-xs lg:text-sm ${major}`}
         valign="middle"
       >
         {major}
       </td>
       <td
-        className="lg:w-[15%] lg:flex justify-center items-center px-2 text-xs lg:text-sm"
+        className="lg:w-[30%] lg:flex justify-center items-center px-2 text-xs lg:text-sm"
         valign="middle"
       >
         {profName}
       </td>
-      <td className="lg:w-[35%] lg:flex justify-center items-center text-xs lg:text-sm">
+      <td className="lg:w-[40%] lg:flex justify-center items-center text-xs lg:text-sm">
         {subjectName}
       </td>
       <td className="lg:w-[10%] lg:flex justify-center items-center px-2 text-xs lg:text-sm">

@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useContext } from "react";
+import { SemesterContext } from "../pages/Timetable";
 import Button from "./common/button";
 
 interface Props {
@@ -6,6 +7,8 @@ interface Props {
 }
 
 const SubjectDetail: React.FC<Props> = ({ data }) => {
+  const { semester } = useContext(SemesterContext);
+  console.log(semester.split("-"));
   const {
     id,
     major,
@@ -19,7 +22,6 @@ const SubjectDetail: React.FC<Props> = ({ data }) => {
     maxStudent,
     subjectScore,
   } = data;
-  console.log(data);
 
   return (
     <div className="flex flex-col h-full p-3">
@@ -56,6 +58,18 @@ const SubjectDetail: React.FC<Props> = ({ data }) => {
           <div>학점</div>
           <div>{subjectScore}</div>
         </div>
+      </div>
+      <div>
+        <form action="https://nportal.kau.ac.kr/PrintCr6.jsp" method="post" target="_blank">
+          <input type="hidden" name="file" value="CS/haksa/sugang/LECTSCHPRT0101_2017.mrd" />
+          <input type="hidden" name="option" value="buss" />
+          <input type="hidden" name="paramCnt" value="4" />
+          <input type="hidden" name="pram0" value={semester.split("-")[0]} />
+          <input type="hidden" name="pram1" value={Number(semester.split("-")[1]) * 10} />
+          <input type="hidden" name="pram2" value="A0000" />
+          <input type="hidden" name="pram3" value={subjectNumber} />
+          <button type="submit">강의계획서</button>
+        </form>
       </div>
       <div className="flex justify-end">
         <Button text="취소" />
