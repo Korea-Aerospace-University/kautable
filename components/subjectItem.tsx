@@ -17,6 +17,9 @@ const SubjectItem = ({ data, selectSubject }) => {
     if (subjectName.indexOf("를") > 0) {
       subjectName = subjectName.replace("를", "를 ");
     }
+    if (subjectName.indexOf("을") > 0) {
+      subjectName = subjectName.replace("을", "을 ");
+    }
     if (subjectName.indexOf("위한") > 0) {
       subjectName = subjectName.replace("위한", "위한 ");
     }
