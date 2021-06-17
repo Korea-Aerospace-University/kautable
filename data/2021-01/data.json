@@ -8,7 +8,7 @@
     "subjectType": "전필",
     "subjectGrade": "2",
     "classHour": ["화)10:30∼12:00", "목)10:30∼12:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "박형래",
     "maxStudent": "48",
     "subjectScore": "3"
@@ -22,7 +22,7 @@
     "subjectType": "전필",
     "subjectGrade": "2",
     "classHour": ["화)15:00∼16:30", "목)15:00∼16:30"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "박형래",
     "maxStudent": "48",
     "subjectScore": "3"
@@ -36,7 +36,7 @@
     "subjectType": "전필",
     "subjectGrade": "2",
     "classHour": ["화)15:00∼16:30", "목)15:00∼16:30"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "남궁정일",
     "maxStudent": "48",
     "subjectScore": "3"
@@ -50,7 +50,7 @@
     "subjectType": "전필",
     "subjectGrade": "2",
     "classHour": ["화)16:30∼18:00", "목)16:30∼18:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "남궁정일",
     "maxStudent": "48",
     "subjectScore": "3"
@@ -64,7 +64,7 @@
     "subjectType": "전필",
     "subjectGrade": "2",
     "classHour": ["금)10:00∼13:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "김재흥",
     "maxStudent": "48",
     "subjectScore": "3"
@@ -78,7 +78,7 @@
     "subjectType": "전필",
     "subjectGrade": "2",
     "classHour": ["금)14:00∼17:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "김재흥",
     "maxStudent": "48",
     "subjectScore": "3"
@@ -92,7 +92,7 @@
     "subjectType": "전필",
     "subjectGrade": "2",
     "classHour": ["월)15:00∼16:30", "수)15:00∼16:30"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "이성욱",
     "maxStudent": "50",
     "subjectScore": "3"
@@ -120,7 +120,7 @@
     "subjectType": "전필",
     "subjectGrade": "2",
     "classHour": ["화)09:00∼10:30", "목)09:00∼10:30"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "이택경",
     "maxStudent": "50",
     "subjectScore": "3"
@@ -134,7 +134,7 @@
     "subjectType": "전필",
     "subjectGrade": "2",
     "classHour": ["화)13:30∼15:00", "목)13:30∼15:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "조춘식",
     "maxStudent": "50",
     "subjectScore": "3"
@@ -162,7 +162,7 @@
     "subjectType": "전필",
     "subjectGrade": "2",
     "classHour": ["화)09:00∼10:30", "목)09:00∼10:30"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "이동준",
     "maxStudent": "55",
     "subjectScore": "3"
@@ -176,7 +176,7 @@
     "subjectType": "전필",
     "subjectGrade": "2",
     "classHour": ["화)09:00∼10:30", "목)09:00∼10:30"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "이명진",
     "maxStudent": "50",
     "subjectScore": "3"
@@ -190,7 +190,7 @@
     "subjectType": "전필",
     "subjectGrade": "2",
     "classHour": ["화)09:00∼10:30", "목)09:00∼10:30"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "이병섭",
     "maxStudent": "50",
     "subjectScore": "3"
@@ -204,7 +204,7 @@
     "subjectType": "전필",
     "subjectGrade": "2",
     "classHour": ["화)13:30∼15:00", "목)13:30∼15:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "이병섭",
     "maxStudent": "50",
     "subjectScore": "3"
@@ -218,7 +218,7 @@
     "subjectType": "전필",
     "subjectGrade": "2",
     "classHour": ["화)13:30∼15:00", "목)13:30∼15:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "이형근",
     "maxStudent": "50",
     "subjectScore": "3"
@@ -232,7 +232,7 @@
     "subjectType": "전필",
     "subjectGrade": "2",
     "classHour": ["화)10:30∼12:00", "목)10:30∼12:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "이성창",
     "maxStudent": "50",
     "subjectScore": "3"
@@ -274,7 +274,7 @@
     "subjectType": "전필",
     "subjectGrade": "2",
     "classHour": ["월)12:00∼15:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "정윤호",
     "maxStudent": "50",
     "subjectScore": "3"
@@ -288,7 +288,7 @@
     "subjectType": "전필",
     "subjectGrade": "2",
     "classHour": ["수)12:00∼15:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "김광은",
     "maxStudent": "50",
     "subjectScore": "3"
@@ -330,7 +330,7 @@
     "subjectType": "전선",
     "subjectGrade": "2",
     "classHour": ["화)15:00∼16:30", "목)15:00∼16:30"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "이형근",
     "maxStudent": "50",
     "subjectScore": "3"
@@ -358,7 +358,7 @@
     "subjectType": "전필",
     "subjectGrade": "3",
     "classHour": ["화)12:00∼13:30", "목)12:00∼13:30"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "조춘식",
     "maxStudent": "55",
     "subjectScore": "3"
@@ -372,7 +372,7 @@
     "subjectType": "전필",
     "subjectGrade": "3",
     "classHour": ["화)12:00∼13:30", "목)12:00∼13:30"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "전재홍",
     "maxStudent": "50",
     "subjectScore": "3"
@@ -386,7 +386,7 @@
     "subjectType": "전필",
     "subjectGrade": "3",
     "classHour": ["월)09:00∼12:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "김영진",
     "maxStudent": "50",
     "subjectScore": "3"
@@ -400,7 +400,7 @@
     "subjectType": "전필",
     "subjectGrade": "3",
     "classHour": ["월)09:00∼12:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "신명훈",
     "maxStudent": "50",
     "subjectScore": "3"
@@ -498,7 +498,7 @@
     "subjectType": "전선",
     "subjectGrade": "3",
     "classHour": ["수)13:30∼15:00", "금)13:30∼15:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "이성욱",
     "maxStudent": "50",
     "subjectScore": "3"
@@ -512,7 +512,7 @@
     "subjectType": "전선",
     "subjectGrade": "3",
     "classHour": ["화)09:00∼10:30", "목)09:00∼10:30"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "정대권",
     "maxStudent": "50",
     "subjectScore": "3"
@@ -554,7 +554,7 @@
     "subjectType": "전선",
     "subjectGrade": "3",
     "classHour": ["월)12:00∼15:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "백중환",
     "maxStudent": "50",
     "subjectScore": "3"
@@ -596,7 +596,7 @@
     "subjectType": "전선",
     "subjectGrade": "3",
     "classHour": ["화)13:30∼15:00", "목)13:30∼15:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "이동준",
     "maxStudent": "50",
     "subjectScore": "3"
@@ -610,7 +610,7 @@
     "subjectType": "전선",
     "subjectGrade": "3",
     "classHour": ["월)12:00∼15:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "최희환",
     "maxStudent": "30",
     "subjectScore": "3"
@@ -624,7 +624,7 @@
     "subjectType": "전선",
     "subjectGrade": "3",
     "classHour": ["월)15:00∼16:30", "수)15:00∼16:30"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "최희환",
     "maxStudent": "60",
     "subjectScore": "3"
@@ -638,7 +638,7 @@
     "subjectType": "전선",
     "subjectGrade": "3",
     "classHour": ["화)15:00∼18:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "황진영",
     "maxStudent": "50",
     "subjectScore": "3"
@@ -652,7 +652,7 @@
     "subjectType": "전선",
     "subjectGrade": "3",
     "classHour": ["목)15:00∼18:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "황진영",
     "maxStudent": "50",
     "subjectScore": "3"
@@ -680,7 +680,7 @@
     "subjectType": "전선",
     "subjectGrade": "3",
     "classHour": ["화)13:30∼15:00", "목)13:30∼15:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "이성창",
     "maxStudent": "50",
     "subjectScore": "3"
@@ -722,7 +722,7 @@
     "subjectType": "전선",
     "subjectGrade": "3",
     "classHour": ["화)10:30∼12:00", "목)10:30∼12:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "이명진",
     "maxStudent": "60",
     "subjectScore": "3"
@@ -736,7 +736,7 @@
     "subjectType": "전선",
     "subjectGrade": "3",
     "classHour": ["월)09:00∼12:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "김태환",
     "maxStudent": "50",
     "subjectScore": "3"
@@ -750,7 +750,7 @@
     "subjectType": "전선",
     "subjectGrade": "3",
     "classHour": ["목)15:00∼18:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "김태환",
     "maxStudent": "50",
     "subjectScore": "3"
@@ -764,7 +764,7 @@
     "subjectType": "전선",
     "subjectGrade": "4",
     "classHour": ["월)13:30∼15:00", "수)13:30∼15:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "박형래",
     "maxStudent": "50",
     "subjectScore": "3"
@@ -778,7 +778,7 @@
     "subjectType": "전선",
     "subjectGrade": "4",
     "classHour": ["화)10:30∼12:00", "목)10:30∼12:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "정대권",
     "maxStudent": "50",
     "subjectScore": "3"
@@ -792,7 +792,7 @@
     "subjectType": "전선",
     "subjectGrade": "4",
     "classHour": ["화)13:30∼15:00", "목)13:30∼15:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "이택경",
     "maxStudent": "50",
     "subjectScore": "3"
@@ -806,7 +806,7 @@
     "subjectType": "전선",
     "subjectGrade": "4",
     "classHour": ["월)13:30∼15:00", "수)13:30∼15:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "신명훈",
     "maxStudent": "55",
     "subjectScore": "3"
@@ -820,7 +820,7 @@
     "subjectType": "전선",
     "subjectGrade": "4",
     "classHour": ["수)09:00∼13:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "김태환",
     "maxStudent": "42",
     "subjectScore": "3"
@@ -848,7 +848,7 @@
     "subjectType": "전선",
     "subjectGrade": "4",
     "classHour": ["수)15:00∼18:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "정윤호",
     "maxStudent": "60",
     "subjectScore": "3"
@@ -890,7 +890,7 @@
     "subjectType": "전선",
     "subjectGrade": "4",
     "classHour": ["화)09:00∼10:30", "목)09:00∼10:30"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "안준선",
     "maxStudent": "50",
     "subjectScore": "3"
@@ -918,7 +918,7 @@
     "subjectType": "전필",
     "subjectGrade": "4",
     "classHour": ["금)09:00∼12:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "김영진",
     "maxStudent": "0",
     "subjectScore": "3"
@@ -946,7 +946,7 @@
     "subjectType": "전필",
     "subjectGrade": "4",
     "classHour": ["금)09:00∼12:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "백중환",
     "maxStudent": "0",
     "subjectScore": "3"
@@ -960,7 +960,7 @@
     "subjectType": "전필",
     "subjectGrade": "4",
     "classHour": ["금)09:00∼12:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "신명훈",
     "maxStudent": "0",
     "subjectScore": "3"
@@ -988,7 +988,7 @@
     "subjectType": "전필",
     "subjectGrade": "4",
     "classHour": ["금)09:00∼12:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "이동준",
     "maxStudent": "0",
     "subjectScore": "3"
@@ -1044,7 +1044,7 @@
     "subjectType": "전필",
     "subjectGrade": "4",
     "classHour": ["금)09:00∼12:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "이성창",
     "maxStudent": "0",
     "subjectScore": "3"
@@ -1114,7 +1114,7 @@
     "subjectType": "전필",
     "subjectGrade": "4",
     "classHour": ["금)09:00∼12:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "전재홍",
     "maxStudent": "0",
     "subjectScore": "3"
@@ -1128,7 +1128,7 @@
     "subjectType": "전필",
     "subjectGrade": "4",
     "classHour": ["금)09:00∼12:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "정대권",
     "maxStudent": "0",
     "subjectScore": "3"
@@ -1156,7 +1156,7 @@
     "subjectType": "전필",
     "subjectGrade": "4",
     "classHour": ["금)09:00∼12:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "정윤호",
     "maxStudent": "0",
     "subjectScore": "3"
@@ -1198,7 +1198,7 @@
     "subjectType": "전필",
     "subjectGrade": "4",
     "classHour": ["금)09:00∼12:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "최희환",
     "maxStudent": "0",
     "subjectScore": "3"
@@ -1212,7 +1212,7 @@
     "subjectType": "전필",
     "subjectGrade": "4",
     "classHour": ["금)09:00∼12:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "황진영",
     "maxStudent": "0",
     "subjectScore": "3"
@@ -1226,7 +1226,7 @@
     "subjectType": "전필",
     "subjectGrade": "4",
     "classHour": ["금)09:00∼12:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "노영섭",
     "maxStudent": "0",
     "subjectScore": "3"
@@ -1254,7 +1254,7 @@
     "subjectType": "전필",
     "subjectGrade": "4",
     "classHour": ["금)09:00∼12:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "김태환",
     "maxStudent": "0",
     "subjectScore": "3"
@@ -1324,7 +1324,7 @@
     "subjectType": "전필",
     "subjectGrade": "2",
     "classHour": ["월)09:00∼10:30", "수)09:00∼10:30"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "윤요한",
     "maxStudent": "59",
     "subjectScore": "3"
@@ -1366,7 +1366,7 @@
     "subjectType": "전필",
     "subjectGrade": "2",
     "classHour": ["화)13:30∼15:00", "목)13:30∼15:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "서종현",
     "maxStudent": "30",
     "subjectScore": "3"
@@ -1380,7 +1380,7 @@
     "subjectType": "전필",
     "subjectGrade": "2",
     "classHour": ["금)13:30∼16:30"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "서종현",
     "maxStudent": "30",
     "subjectScore": "3"
@@ -1394,7 +1394,7 @@
     "subjectType": "전선",
     "subjectGrade": "2",
     "classHour": ["월)10:30∼12:00", "수)10:30∼12:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "최용규",
     "maxStudent": "50",
     "subjectScore": "3"
@@ -1408,7 +1408,7 @@
     "subjectType": "전선",
     "subjectGrade": "2",
     "classHour": ["월)12:00∼13:30", "수)15:00∼16:30"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "윤요한",
     "maxStudent": "60",
     "subjectScore": "3"
@@ -1422,7 +1422,7 @@
     "subjectType": "전필",
     "subjectGrade": "3",
     "classHour": ["화)09:00∼10:30", "목)12:00∼13:30"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "장시영",
     "maxStudent": "34",
     "subjectScore": "3"
@@ -1436,7 +1436,7 @@
     "subjectType": "전필",
     "subjectGrade": "3",
     "classHour": ["화)12:00∼13:30", "목)09:00∼10:30"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "장시영",
     "maxStudent": "34",
     "subjectScore": "3"
@@ -1450,7 +1450,7 @@
     "subjectType": "전선",
     "subjectGrade": "3",
     "classHour": ["화)10:30∼12:00", "목)10:30∼12:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "송요승",
     "maxStudent": "25",
     "subjectScore": "3"
@@ -1478,7 +1478,7 @@
     "subjectType": "전선",
     "subjectGrade": "3",
     "classHour": ["월)13:30∼15:00", "수)13:30∼15:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "최용규",
     "maxStudent": "50",
     "subjectScore": "3"
@@ -1492,7 +1492,7 @@
     "subjectType": "전필",
     "subjectGrade": "4",
     "classHour": ["금)09:00∼12:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "송요승",
     "maxStudent": "10",
     "subjectScore": "3"
@@ -1520,7 +1520,7 @@
     "subjectType": "전필",
     "subjectGrade": "4",
     "classHour": ["목)15:00∼18:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "서종현",
     "maxStudent": "10",
     "subjectScore": "3"
@@ -1562,7 +1562,7 @@
     "subjectType": "전선",
     "subjectGrade": "4",
     "classHour": ["화)16:30∼18:00", "수)10:30∼12:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "황완식",
     "maxStudent": "25",
     "subjectScore": "3"
@@ -1618,7 +1618,7 @@
     "subjectType": "전필",
     "subjectGrade": "2",
     "classHour": ["월)15:00∼16:30", "수)15:00∼16:30"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "김좌겸",
     "maxStudent": "70",
     "subjectScore": "3"
@@ -1632,7 +1632,7 @@
     "subjectType": "전필",
     "subjectGrade": "2",
     "classHour": ["월)16:30∼18:00", "수)10:30∼12:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "김좌겸",
     "maxStudent": "70",
     "subjectScore": "3"
@@ -1646,7 +1646,7 @@
     "subjectType": "전필",
     "subjectGrade": "2",
     "classHour": ["수)13:00∼15:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "김경태",
     "maxStudent": "70",
     "subjectScore": "3"
@@ -1688,7 +1688,7 @@
     "subjectType": "전선",
     "subjectGrade": "2",
     "classHour": ["화)15:00∼16:30", "목)16:30∼18:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "장조원",
     "maxStudent": "50",
     "subjectScore": "3"
@@ -1702,7 +1702,7 @@
     "subjectType": "전선",
     "subjectGrade": "2",
     "classHour": ["화)09:00∼10:30", "목)09:00∼10:30"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "로보트앤소니",
     "maxStudent": "30",
     "subjectScore": "3"
@@ -1968,7 +1968,7 @@
     "subjectType": "전필",
     "subjectGrade": "2",
     "classHour": ["목)15:00∼17:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "이동명",
     "maxStudent": "40",
     "subjectScore": "3"
@@ -1982,7 +1982,7 @@
     "subjectType": "전필",
     "subjectGrade": "2",
     "classHour": ["금)10:00∼12:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "이동명",
     "maxStudent": "40",
     "subjectScore": "3"
@@ -1996,7 +1996,7 @@
     "subjectType": "전필",
     "subjectGrade": "2",
     "classHour": ["금)14:00∼16:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "이동명",
     "maxStudent": "37",
     "subjectScore": "3"
@@ -2010,7 +2010,7 @@
     "subjectType": "전필",
     "subjectGrade": "2",
     "classHour": ["월)10:00∼12:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "이승창",
     "maxStudent": "40",
     "subjectScore": "3"
@@ -2024,7 +2024,7 @@
     "subjectType": "전필",
     "subjectGrade": "2",
     "classHour": ["화)10:00∼12:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "이승창",
     "maxStudent": "40",
     "subjectScore": "3"
@@ -2052,7 +2052,7 @@
     "subjectType": "전선",
     "subjectGrade": "2",
     "classHour": ["월)13:30∼15:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "양현석",
     "maxStudent": "50",
     "subjectScore": "3"
@@ -2066,7 +2066,7 @@
     "subjectType": "전선",
     "subjectGrade": "2",
     "classHour": ["화)10:30∼12:00", "수)13:30∼15:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "이남령",
     "maxStudent": "45",
     "subjectScore": "3"
@@ -2080,7 +2080,7 @@
     "subjectType": "전선",
     "subjectGrade": "2",
     "classHour": ["월)15:00∼16:30", "수)15:00∼16:30"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "김기웅",
     "maxStudent": "50",
     "subjectScore": "3"
@@ -2094,7 +2094,7 @@
     "subjectType": "전선",
     "subjectGrade": "2",
     "classHour": ["월)16:30∼18:00", "수)16:30∼18:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "김기웅",
     "maxStudent": "40",
     "subjectScore": "3"
@@ -2108,7 +2108,7 @@
     "subjectType": "전선",
     "subjectGrade": "2",
     "classHour": ["목)10:30∼12:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "이현철",
     "maxStudent": "50",
     "subjectScore": "3"
@@ -2122,7 +2122,7 @@
     "subjectType": "전선",
     "subjectGrade": "2",
     "classHour": ["화)15:00∼17:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "강석진",
     "maxStudent": "30",
     "subjectScore": "3"
@@ -2150,7 +2150,7 @@
     "subjectType": "전필",
     "subjectGrade": "3",
     "classHour": ["월)10:30∼12:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "김진기",
     "maxStudent": "40",
     "subjectScore": "3"
@@ -2164,7 +2164,7 @@
     "subjectType": "전필",
     "subjectGrade": "3",
     "classHour": ["월)12:00∼13:30"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "김진기",
     "maxStudent": "40",
     "subjectScore": "3"
@@ -2178,7 +2178,7 @@
     "subjectType": "전필",
     "subjectGrade": "3",
     "classHour": ["수)10:30∼12:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "김강식",
     "maxStudent": "40",
     "subjectScore": "3"
@@ -2192,7 +2192,7 @@
     "subjectType": "전필",
     "subjectGrade": "3",
     "classHour": ["수)12:00∼13:30"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "김강식",
     "maxStudent": "40",
     "subjectScore": "3"
@@ -2206,7 +2206,7 @@
     "subjectType": "전선",
     "subjectGrade": "3",
     "classHour": ["화)13:30∼15:00", "목)10:30∼12:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "이남령",
     "maxStudent": "40",
     "subjectScore": "3"
@@ -2262,7 +2262,7 @@
     "subjectType": "전선",
     "subjectGrade": "3",
     "classHour": ["수)15:00∼18:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "임소현",
     "maxStudent": "50",
     "subjectScore": "3"
@@ -2276,7 +2276,7 @@
     "subjectType": "전선",
     "subjectGrade": "3",
     "classHour": ["금)14:00∼16:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "강석진",
     "maxStudent": "32",
     "subjectScore": "3"
@@ -2332,7 +2332,7 @@
     "subjectType": "전필",
     "subjectGrade": "3",
     "classHour": ["화)10:30∼12:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "이현철",
     "maxStudent": "49",
     "subjectScore": "3"
@@ -2346,7 +2346,7 @@
     "subjectType": "교필",
     "subjectGrade": "1",
     "classHour": ["금)10:00∼12:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "이정아",
     "maxStudent": "50",
     "subjectScore": "1"
@@ -2360,7 +2360,7 @@
     "subjectType": "교필",
     "subjectGrade": "1",
     "classHour": ["금)15:00∼17:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "이정아",
     "maxStudent": "50",
     "subjectScore": "1"
@@ -2374,7 +2374,7 @@
     "subjectType": "교필",
     "subjectGrade": "1",
     "classHour": ["금)15:00∼17:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "선혜영",
     "maxStudent": "50",
     "subjectScore": "1"
@@ -2388,7 +2388,7 @@
     "subjectType": "교필",
     "subjectGrade": "1",
     "classHour": ["금)15:00∼17:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "이정아",
     "maxStudent": "50",
     "subjectScore": "1"
@@ -2402,7 +2402,7 @@
     "subjectType": "교필",
     "subjectGrade": "1",
     "classHour": ["금)10:00∼12:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "선혜영",
     "maxStudent": "50",
     "subjectScore": "1"
@@ -2416,7 +2416,7 @@
     "subjectType": "교필",
     "subjectGrade": "1",
     "classHour": ["금)10:00∼12:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "이정아",
     "maxStudent": "50",
     "subjectScore": "1"
@@ -2430,7 +2430,7 @@
     "subjectType": "교필",
     "subjectGrade": "1",
     "classHour": ["금)15:00∼17:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "고숙희",
     "maxStudent": "50",
     "subjectScore": "1"
@@ -2444,7 +2444,7 @@
     "subjectType": "교필",
     "subjectGrade": "1",
     "classHour": ["금)10:00∼12:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "고숙희",
     "maxStudent": "50",
     "subjectScore": "1"
@@ -2458,7 +2458,7 @@
     "subjectType": "교필",
     "subjectGrade": "1",
     "classHour": ["금)10:00∼12:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "고숙희",
     "maxStudent": "50",
     "subjectScore": "1"
@@ -2472,7 +2472,7 @@
     "subjectType": "교필",
     "subjectGrade": "1",
     "classHour": ["금)10:00∼12:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "선혜영",
     "maxStudent": "50",
     "subjectScore": "1"
@@ -2486,7 +2486,7 @@
     "subjectType": "교필",
     "subjectGrade": "1",
     "classHour": ["금)13:00∼15:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "고숙희",
     "maxStudent": "50",
     "subjectScore": "1"
@@ -2500,7 +2500,7 @@
     "subjectType": "교필",
     "subjectGrade": "1",
     "classHour": ["금)13:00∼15:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "선혜영",
     "maxStudent": "50",
     "subjectScore": "1"
@@ -2514,7 +2514,7 @@
     "subjectType": "교필",
     "subjectGrade": "1",
     "classHour": ["금)13:00∼15:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "이정아",
     "maxStudent": "50",
     "subjectScore": "1"
@@ -2528,7 +2528,7 @@
     "subjectType": "교필",
     "subjectGrade": "1",
     "classHour": ["금)15:00∼17:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "고숙희",
     "maxStudent": "50",
     "subjectScore": "1"
@@ -2542,7 +2542,7 @@
     "subjectType": "교필",
     "subjectGrade": "1",
     "classHour": ["금)13:00∼15:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "선혜영",
     "maxStudent": "50",
     "subjectScore": "1"
@@ -2556,7 +2556,7 @@
     "subjectType": "교필",
     "subjectGrade": "1",
     "classHour": ["금)13:00∼15:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "이정아",
     "maxStudent": "50",
     "subjectScore": "1"
@@ -2570,7 +2570,7 @@
     "subjectType": "교필",
     "subjectGrade": "1",
     "classHour": ["금)13:00∼15:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "고숙희",
     "maxStudent": "50",
     "subjectScore": "1"
@@ -2584,7 +2584,7 @@
     "subjectType": "교필",
     "subjectGrade": "1",
     "classHour": ["금)15:00∼17:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "선혜영",
     "maxStudent": "50",
     "subjectScore": "1"
@@ -2682,7 +2682,7 @@
     "subjectType": "교필",
     "subjectGrade": "1",
     "classHour": ["월)12:00∼13:30", "목)12:00∼13:30"],
-    "classroom": "비대면/과학관217",
+    "classroom": "-/과학관217",
     "profName": "김카이",
     "maxStudent": "60",
     "subjectScore": "3"
@@ -2696,7 +2696,7 @@
     "subjectType": "교필",
     "subjectGrade": "1",
     "classHour": ["월)15:00∼16:30", "목)15:00∼16:30"],
-    "classroom": "비대면/과학관217",
+    "classroom": "-/과학관217",
     "profName": "김카이",
     "maxStudent": "60",
     "subjectScore": "3"
@@ -2976,7 +2976,7 @@
     "subjectType": "교필",
     "subjectGrade": "1",
     "classHour": ["목)13:00∼15:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "원상필/서명석",
     "maxStudent": "60",
     "subjectScore": "2"
@@ -2990,7 +2990,7 @@
     "subjectType": "교필",
     "subjectGrade": "1",
     "classHour": ["화)12:00∼13:30", "목)09:00∼10:30"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "송요승",
     "maxStudent": "65",
     "subjectScore": "3"
@@ -3088,7 +3088,7 @@
     "subjectType": "교필",
     "subjectGrade": "1",
     "classHour": ["화)09:00∼13:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "윤인식",
     "maxStudent": "50",
     "subjectScore": "3"
@@ -3102,7 +3102,7 @@
     "subjectType": "교필",
     "subjectGrade": "1",
     "classHour": ["화)13:00∼17:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "안준선",
     "maxStudent": "50",
     "subjectScore": "3"
@@ -3130,7 +3130,7 @@
     "subjectType": "교필",
     "subjectGrade": "1",
     "classHour": ["화)14:00∼18:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "이장원",
     "maxStudent": "50",
     "subjectScore": "3"
@@ -3144,7 +3144,7 @@
     "subjectType": "교필",
     "subjectGrade": "1",
     "classHour": ["수)09:00∼13:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "노영섭",
     "maxStudent": "50",
     "subjectScore": "3"
@@ -3158,7 +3158,7 @@
     "subjectType": "교필",
     "subjectGrade": "1",
     "classHour": ["금)10:00∼13:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "노은정",
     "maxStudent": "50",
     "subjectScore": "2"
@@ -3172,7 +3172,7 @@
     "subjectType": "교필",
     "subjectGrade": "1",
     "classHour": ["금)14:00∼17:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "노은정",
     "maxStudent": "50",
     "subjectScore": "2"
@@ -3186,7 +3186,7 @@
     "subjectType": "교필",
     "subjectGrade": "1",
     "classHour": ["수)13:00∼15:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "송보미",
     "maxStudent": "50",
     "subjectScore": "2"
@@ -3200,7 +3200,7 @@
     "subjectType": "교필",
     "subjectGrade": "1",
     "classHour": ["수)15:00∼17:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "송보미",
     "maxStudent": "50",
     "subjectScore": "2"
@@ -3214,7 +3214,7 @@
     "subjectType": "교필",
     "subjectGrade": "1",
     "classHour": ["월)09:00∼13:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "문의현",
     "maxStudent": "25",
     "subjectScore": "3"
@@ -3228,7 +3228,7 @@
     "subjectType": "교필",
     "subjectGrade": "1",
     "classHour": ["수)09:00∼13:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "문의현",
     "maxStudent": "25",
     "subjectScore": "3"
@@ -3242,7 +3242,7 @@
     "subjectType": "교필",
     "subjectGrade": "1",
     "classHour": ["월)13:00∼17:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "길현영",
     "maxStudent": "45",
     "subjectScore": "3"
@@ -3256,7 +3256,7 @@
     "subjectType": "교필",
     "subjectGrade": "1",
     "classHour": ["수)14:00∼18:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "길현영",
     "maxStudent": "45",
     "subjectScore": "3"
@@ -3564,7 +3564,7 @@
     "subjectType": "교필",
     "subjectGrade": "1",
     "classHour": ["화)09:00∼12:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "김영식",
     "maxStudent": "50",
     "subjectScore": "3"
@@ -3648,7 +3648,7 @@
     "subjectType": "교필",
     "subjectGrade": "1",
     "classHour": ["화)09:00∼12:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "최경표",
     "maxStudent": "50",
     "subjectScore": "3"
@@ -3662,7 +3662,7 @@
     "subjectType": "교필",
     "subjectGrade": "1",
     "classHour": ["월)14:00∼17:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "이호규",
     "maxStudent": "50",
     "subjectScore": "3"
@@ -3676,7 +3676,7 @@
     "subjectType": "교필",
     "subjectGrade": "1",
     "classHour": ["월)15:00∼18:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "김기태",
     "maxStudent": "50",
     "subjectScore": "3"
@@ -3732,7 +3732,7 @@
     "subjectType": "교필",
     "subjectGrade": "1",
     "classHour": ["화)13:30∼15:00", "목)13:30∼15:00"],
-    "classroom": "비대면/과학관108",
+    "classroom": "-/과학관108",
     "profName": "박영자",
     "maxStudent": "50",
     "subjectScore": "3"
@@ -3746,7 +3746,7 @@
     "subjectType": "교필",
     "subjectGrade": "1",
     "classHour": ["금)09:00∼12:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "김응기",
     "maxStudent": "50",
     "subjectScore": "3"
@@ -4050,7 +4050,7 @@
     "major": "인문자연학부소양",
     "classType": "일반",
     "subjectNumber": "0445",
-    "subjectName": "집단상담1비대면2",
+    "subjectName": "집단상담1-2",
     "subjectType": "교선",
     "subjectGrade": "1",
     "classHour": ["화)16:00∼18:00"],
@@ -4064,7 +4064,7 @@
     "major": "인문자연학부소양",
     "classType": "일반",
     "subjectNumber": "0446",
-    "subjectName": "집단상담3비대면4",
+    "subjectName": "집단상담3-4",
     "subjectType": "교선",
     "subjectGrade": "3",
     "classHour": ["목)16:00∼18:00"],
@@ -4124,7 +4124,7 @@
     "subjectType": "교선",
     "subjectGrade": "3",
     "classHour": ["화)15:00∼17:00", "금)13:00∼17:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "학군단",
     "maxStudent": "100",
     "subjectScore": "3"
@@ -4138,7 +4138,7 @@
     "subjectType": "교선",
     "subjectGrade": "4",
     "classHour": ["화)15:00∼17:00", "금)13:00∼17:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "학군단",
     "maxStudent": "100",
     "subjectScore": "3"
@@ -4152,7 +4152,7 @@
     "subjectType": "교선",
     "subjectGrade": "4",
     "classHour": ["목)10:00∼17:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "학군단",
     "maxStudent": "100",
     "subjectScore": "3"
@@ -4166,7 +4166,7 @@
     "subjectType": "교선",
     "subjectGrade": "3",
     "classHour": ["화)13:00∼15:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "김이준",
     "maxStudent": "50",
     "subjectScore": "2"
@@ -4236,7 +4236,7 @@
     "subjectType": "전필",
     "subjectGrade": "2",
     "classHour": ["월)10:30∼12:00", "수)10:30∼12:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "이수용",
     "maxStudent": "58",
     "subjectScore": "3"
@@ -4250,7 +4250,7 @@
     "subjectType": "전필",
     "subjectGrade": "2",
     "classHour": ["월)10:30∼12:00", "수)10:30∼12:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "박정선",
     "maxStudent": "58",
     "subjectScore": "3"
@@ -4264,7 +4264,7 @@
     "subjectType": "전필",
     "subjectGrade": "2",
     "classHour": ["화)15:00∼16:30", "목)15:00∼16:30"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "염대준",
     "maxStudent": "58",
     "subjectScore": "3"
@@ -4278,7 +4278,7 @@
     "subjectType": "전필",
     "subjectGrade": "2",
     "classHour": ["월)09:00∼10:30", "수)09:00∼10:30"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "배재성",
     "maxStudent": "58",
     "subjectScore": "3"
@@ -4320,7 +4320,7 @@
     "subjectType": "전필",
     "subjectGrade": "2",
     "classHour": ["화)13:30∼15:00", "목)13:30∼15:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "성홍계",
     "maxStudent": "63",
     "subjectScore": "3"
@@ -4334,7 +4334,7 @@
     "subjectType": "전필",
     "subjectGrade": "2",
     "classHour": ["화)13:30∼15:00", "목)13:30∼15:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "박성우",
     "maxStudent": "63",
     "subjectScore": "3"
@@ -4348,7 +4348,7 @@
     "subjectType": "전필",
     "subjectGrade": "2",
     "classHour": ["월)13:30∼15:00", "수)13:30∼15:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "장석필",
     "maxStudent": "63",
     "subjectScore": "3"
@@ -4362,7 +4362,7 @@
     "subjectType": "전필",
     "subjectGrade": "2",
     "classHour": ["월)13:30∼15:00", "수)13:30∼15:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "곽재수",
     "maxStudent": "63",
     "subjectScore": "3"
@@ -4376,7 +4376,7 @@
     "subjectType": "전필",
     "subjectGrade": "2",
     "classHour": ["화)12:30∼16:30"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "김석일",
     "maxStudent": "54",
     "subjectScore": "3"
@@ -4474,7 +4474,7 @@
     "subjectType": "전선",
     "subjectGrade": "2",
     "classHour": ["월)15:00∼16:30", "수)15:00∼16:30"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "오화석",
     "maxStudent": "60",
     "subjectScore": "3"
@@ -4488,7 +4488,7 @@
     "subjectType": "전선",
     "subjectGrade": "2",
     "classHour": ["월)15:00∼16:30", "수)15:00∼16:30"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "장대성",
     "maxStudent": "60",
     "subjectScore": "3"
@@ -4502,7 +4502,7 @@
     "subjectType": "전선",
     "subjectGrade": "2",
     "classHour": ["월)16:30∼18:00", "수)16:30∼18:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "오화석",
     "maxStudent": "50",
     "subjectScore": "3"
@@ -4530,7 +4530,7 @@
     "subjectType": "전선",
     "subjectGrade": "2",
     "classHour": ["화)09:00∼10:30", "목)09:00∼10:30"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "최영훈",
     "maxStudent": "50",
     "subjectScore": "3"
@@ -4558,7 +4558,7 @@
     "subjectType": "전선",
     "subjectGrade": "2",
     "classHour": ["화)10:30∼12:00", "목)10:30∼12:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "김석일",
     "maxStudent": "65",
     "subjectScore": "3"
@@ -4572,7 +4572,7 @@
     "subjectType": "전선",
     "subjectGrade": "2",
     "classHour": ["목)13:30∼16:30"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "윤해성",
     "maxStudent": "65",
     "subjectScore": "3"
@@ -4600,7 +4600,7 @@
     "subjectType": "전필",
     "subjectGrade": "2",
     "classHour": ["화)15:00∼16:30", "목)15:00∼16:30"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "최경후",
     "maxStudent": "58",
     "subjectScore": "3"
@@ -4614,7 +4614,7 @@
     "subjectType": "전필",
     "subjectGrade": "2",
     "classHour": ["월)10:30∼12:00", "수)10:30∼12:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "조문성",
     "maxStudent": "58",
     "subjectScore": "3"
@@ -4628,7 +4628,7 @@
     "subjectType": "전필",
     "subjectGrade": "2",
     "classHour": ["화)10:30∼12:00", "목)10:30∼12:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "김종선",
     "maxStudent": "58",
     "subjectScore": "3"
@@ -4642,7 +4642,7 @@
     "subjectType": "전필",
     "subjectGrade": "2",
     "classHour": ["화)10:30∼12:00", "목)10:30∼12:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "강성봉",
     "maxStudent": "58",
     "subjectScore": "3"
@@ -4810,7 +4810,7 @@
     "subjectType": "전필",
     "subjectGrade": "3",
     "classHour": ["화)17:00∼18:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "노진호",
     "maxStudent": "265",
     "subjectScore": "1"
@@ -4824,7 +4824,7 @@
     "subjectType": "전필",
     "subjectGrade": "3",
     "classHour": ["금)09:00∼12:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "송용규",
     "maxStudent": "12",
     "subjectScore": "2"
@@ -4852,7 +4852,7 @@
     "subjectType": "전필",
     "subjectGrade": "3",
     "classHour": ["목)09:00∼12:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "김문상",
     "maxStudent": "12",
     "subjectScore": "2"
@@ -4894,7 +4894,7 @@
     "subjectType": "전필",
     "subjectGrade": "3",
     "classHour": ["목)09:00∼12:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "장석필",
     "maxStudent": "12",
     "subjectScore": "2"
@@ -4922,7 +4922,7 @@
     "subjectType": "전필",
     "subjectGrade": "3",
     "classHour": ["목)09:00∼12:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "곽재수",
     "maxStudent": "8",
     "subjectScore": "2"
@@ -4936,7 +4936,7 @@
     "subjectType": "전필",
     "subjectGrade": "3",
     "classHour": ["목)09:00∼12:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "강태곤",
     "maxStudent": "12",
     "subjectScore": "2"
@@ -4964,7 +4964,7 @@
     "subjectType": "전필",
     "subjectGrade": "3",
     "classHour": ["목)09:00∼12:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "김경목",
     "maxStudent": "12",
     "subjectScore": "2"
@@ -4978,7 +4978,7 @@
     "subjectType": "전필",
     "subjectGrade": "3",
     "classHour": ["목)09:00∼12:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "이학구",
     "maxStudent": "12",
     "subjectScore": "2"
@@ -4992,7 +4992,7 @@
     "subjectType": "전필",
     "subjectGrade": "3",
     "classHour": ["목)09:00∼12:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "박성우",
     "maxStudent": "12",
     "subjectScore": "2"
@@ -5020,7 +5020,7 @@
     "subjectType": "전필",
     "subjectGrade": "3",
     "classHour": ["목)09:00∼12:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "최경후",
     "maxStudent": "12",
     "subjectScore": "2"
@@ -5034,7 +5034,7 @@
     "subjectType": "전필",
     "subjectGrade": "3",
     "classHour": ["목)09:00∼12:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "조문성",
     "maxStudent": "12",
     "subjectScore": "2"
@@ -5048,7 +5048,7 @@
     "subjectType": "전필",
     "subjectGrade": "3",
     "classHour": ["목)09:00∼12:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "이동헌",
     "maxStudent": "12",
     "subjectScore": "2"
@@ -5062,7 +5062,7 @@
     "subjectType": "전선",
     "subjectGrade": "3",
     "classHour": ["화)15:00∼16:30", "목)15:00∼16:30"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "김정래",
     "maxStudent": "50",
     "subjectScore": "3"
@@ -5076,7 +5076,7 @@
     "subjectType": "전선",
     "subjectGrade": "3",
     "classHour": ["월)09:00∼10:30", "수)09:00∼10:30"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "조문성",
     "maxStudent": "50",
     "subjectScore": "3"
@@ -5118,7 +5118,7 @@
     "subjectType": "전선",
     "subjectGrade": "3",
     "classHour": ["금)09:00∼12:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "김경목",
     "maxStudent": "50",
     "subjectScore": "3"
@@ -5132,7 +5132,7 @@
     "subjectType": "전선",
     "subjectGrade": "3",
     "classHour": ["월)10:30∼12:00", "수)10:30∼12:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "구자예",
     "maxStudent": "37",
     "subjectScore": "3"
@@ -5146,7 +5146,7 @@
     "subjectType": "전선",
     "subjectGrade": "3",
     "classHour": ["월)15:00∼16:30", "수)15:00∼16:30"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "장석필",
     "maxStudent": "37",
     "subjectScore": "3"
@@ -5160,7 +5160,7 @@
     "subjectType": "전선",
     "subjectGrade": "3",
     "classHour": ["월)10:30∼12:00", "수)10:30∼12:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "오태식",
     "maxStudent": "37",
     "subjectScore": "3"
@@ -5174,7 +5174,7 @@
     "subjectType": "전선",
     "subjectGrade": "3",
     "classHour": ["월)13:30∼15:00", "수)13:30∼15:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "오태식",
     "maxStudent": "37",
     "subjectScore": "3"
@@ -5188,7 +5188,7 @@
     "subjectType": "전선",
     "subjectGrade": "3",
     "classHour": ["월)15:00∼16:30", "수)15:00∼16:30"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "황재혁",
     "maxStudent": "63",
     "subjectScore": "3"
@@ -5202,7 +5202,7 @@
     "subjectType": "전선",
     "subjectGrade": "3",
     "classHour": ["화)13:30∼15:00", "목)13:30∼15:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "김종선",
     "maxStudent": "63",
     "subjectScore": "3"
@@ -5216,7 +5216,7 @@
     "subjectType": "전선",
     "subjectGrade": "3",
     "classHour": ["월)15:00∼16:30", "수)15:00∼16:30"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "송용규",
     "maxStudent": "63",
     "subjectScore": "3"
@@ -5230,7 +5230,7 @@
     "subjectType": "전선",
     "subjectGrade": "3",
     "classHour": ["화)13:30∼15:00", "목)13:30∼15:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "김정래",
     "maxStudent": "63",
     "subjectScore": "3"
@@ -5244,7 +5244,7 @@
     "subjectType": "전선",
     "subjectGrade": "3",
     "classHour": ["월)13:30∼15:00", "수)13:30∼15:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "김문상",
     "maxStudent": "35",
     "subjectScore": "3"
@@ -5272,7 +5272,7 @@
     "subjectType": "전선",
     "subjectGrade": "3",
     "classHour": ["월)15:00∼16:30", "수)15:00∼16:30"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "최주호",
     "maxStudent": "70",
     "subjectScore": "3"
@@ -5286,7 +5286,7 @@
     "subjectType": "전선",
     "subjectGrade": "3",
     "classHour": ["화)13:30∼15:00", "목)13:30∼15:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "이학구",
     "maxStudent": "70",
     "subjectScore": "3"
@@ -5300,7 +5300,7 @@
     "subjectType": "전선",
     "subjectGrade": "3",
     "classHour": ["월)16:30∼18:00", "수)16:30∼18:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "이동헌",
     "maxStudent": "60",
     "subjectScore": "3"
@@ -5328,7 +5328,7 @@
     "subjectType": "전선",
     "subjectGrade": "3",
     "classHour": ["월)13:30∼15:00", "수)13:30∼15:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "문희장",
     "maxStudent": "60",
     "subjectScore": "3"
@@ -5342,7 +5342,7 @@
     "subjectType": "전선",
     "subjectGrade": "3",
     "classHour": ["화)15:00∼16:30", "목)15:00∼16:30"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "강태곤",
     "maxStudent": "50",
     "subjectScore": "3"
@@ -5370,7 +5370,7 @@
     "subjectType": "전필",
     "subjectGrade": "4",
     "classHour": ["월)18:00∼21:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "김석일",
     "maxStudent": "10",
     "subjectScore": "3"
@@ -5384,7 +5384,7 @@
     "subjectType": "전필",
     "subjectGrade": "4",
     "classHour": ["월)18:00∼21:00"],
-    "classroom": "기계관204비대면B",
+    "classroom": "기계관204-B",
     "profName": "이수용",
     "maxStudent": "10",
     "subjectScore": "3"
@@ -5468,7 +5468,7 @@
     "subjectType": "전필",
     "subjectGrade": "4",
     "classHour": ["월)18:00∼21:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "김문상",
     "maxStudent": "10",
     "subjectScore": "3"
@@ -5482,7 +5482,7 @@
     "subjectType": "전필",
     "subjectGrade": "4",
     "classHour": ["월)18:00∼21:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "최주호",
     "maxStudent": "10",
     "subjectScore": "3"
@@ -5762,7 +5762,7 @@
     "subjectType": "전선",
     "subjectGrade": "4",
     "classHour": ["월)10:30∼12:00", "수)10:30∼12:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "김문상",
     "maxStudent": "50",
     "subjectScore": "3"
@@ -5776,7 +5776,7 @@
     "subjectType": "전선",
     "subjectGrade": "4",
     "classHour": ["월)13:30∼15:00", "수)13:30∼15:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "최경후",
     "maxStudent": "50",
     "subjectScore": "3"
@@ -5818,7 +5818,7 @@
     "subjectType": "전선",
     "subjectGrade": "4",
     "classHour": ["월)13:30∼15:00", "수)13:30∼15:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "구자예",
     "maxStudent": "50",
     "subjectScore": "3"
@@ -5846,7 +5846,7 @@
     "subjectType": "전선",
     "subjectGrade": "4",
     "classHour": ["월)15:00∼16:30", "수)15:00∼16:30"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "이상철",
     "maxStudent": "50",
     "subjectScore": "3"
@@ -5860,7 +5860,7 @@
     "subjectType": "전선",
     "subjectGrade": "4",
     "classHour": ["화)13:30∼15:00", "목)13:30∼15:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "염대준",
     "maxStudent": "80",
     "subjectScore": "3"
@@ -5930,7 +5930,7 @@
     "subjectType": "전선",
     "subjectGrade": "1",
     "classHour": ["월)15:00∼16:30", "목)15:00∼16:30"],
-    "classroom": "비대면/과학관217",
+    "classroom": "-/과학관217",
     "profName": "김카이",
     "maxStudent": "0",
     "subjectScore": "3"
@@ -5972,7 +5972,7 @@
     "subjectType": "교필",
     "subjectGrade": "1",
     "classHour": ["수)14:00∼18:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "김경열",
     "maxStudent": "60",
     "subjectScore": "3"
@@ -5986,7 +5986,7 @@
     "subjectType": "전필",
     "subjectGrade": "2",
     "classHour": ["화)10:30∼12:00", "목)10:30∼12:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "김병종",
     "maxStudent": "60",
     "subjectScore": "3"
@@ -6000,7 +6000,7 @@
     "subjectType": "전필",
     "subjectGrade": "2",
     "classHour": ["목)12:00∼15:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "신현우",
     "maxStudent": "0",
     "subjectScore": "3"
@@ -6014,7 +6014,7 @@
     "subjectType": "전필",
     "subjectGrade": "2",
     "classHour": ["화)09:00∼10:30", "목)09:00∼10:30"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "백호종",
     "maxStudent": "55",
     "subjectScore": "3"
@@ -6028,7 +6028,7 @@
     "subjectType": "전필",
     "subjectGrade": "2",
     "classHour": ["수)15:00∼18:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "조석진",
     "maxStudent": "55",
     "subjectScore": "3"
@@ -6042,7 +6042,7 @@
     "subjectType": "전필",
     "subjectGrade": "2",
     "classHour": ["월)10:30∼12:00", "수)10:30∼12:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "김상현",
     "maxStudent": "50",
     "subjectScore": "3"
@@ -6056,7 +6056,7 @@
     "subjectType": "전필",
     "subjectGrade": "2",
     "classHour": ["월)13:30∼15:00", "수)13:30∼15:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "김상현",
     "maxStudent": "50",
     "subjectScore": "3"
@@ -6070,7 +6070,7 @@
     "subjectType": "전필",
     "subjectGrade": "2",
     "classHour": ["수)10:30∼12:00", "금)10:30∼12:00"],
-    "classroom": "과학관217/비대면",
+    "classroom": "과학관217/-",
     "profName": "김카이",
     "maxStudent": "50",
     "subjectScore": "3"
@@ -6084,7 +6084,7 @@
     "subjectType": "전선",
     "subjectGrade": "2",
     "classHour": ["월)14:00∼16:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "김원규",
     "maxStudent": "30",
     "subjectScore": "3"
@@ -6098,7 +6098,7 @@
     "subjectType": "전선",
     "subjectGrade": "2",
     "classHour": ["수)12:00∼13:30", "금)13:30∼15:00"],
-    "classroom": "과학관217/비대면",
+    "classroom": "과학관217/-",
     "profName": "김카이",
     "maxStudent": "50",
     "subjectScore": "3"
@@ -6112,7 +6112,7 @@
     "subjectType": "전선",
     "subjectGrade": "2",
     "classHour": ["월)12:00∼13:30", "수)09:00∼10:30"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "김휘양",
     "maxStudent": "135",
     "subjectScore": "3"
@@ -6126,7 +6126,7 @@
     "subjectType": "전선",
     "subjectGrade": "2",
     "classHour": ["금)15:00∼18:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "남석우",
     "maxStudent": "30",
     "subjectScore": "3"
@@ -6140,7 +6140,7 @@
     "subjectType": "전선",
     "subjectGrade": "2",
     "classHour": ["월)10:30∼12:00", "화)10:30∼12:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "이헌수",
     "maxStudent": "35",
     "subjectScore": "3"
@@ -6154,7 +6154,7 @@
     "subjectType": "전선",
     "subjectGrade": "2",
     "classHour": ["월)16:30∼18:00", "화)16:30∼18:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "이헌수",
     "maxStudent": "35",
     "subjectScore": "3"
@@ -6168,7 +6168,7 @@
     "subjectType": "전선",
     "subjectGrade": "2",
     "classHour": ["월)12:00∼13:30", "수)15:00∼16:30"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "이헌수",
     "maxStudent": "35",
     "subjectScore": "3"
@@ -6182,7 +6182,7 @@
     "subjectType": "전선",
     "subjectGrade": "2",
     "classHour": ["화)12:00∼13:30", "수)13:30∼15:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "이헌수",
     "maxStudent": "35",
     "subjectScore": "3"
@@ -6210,7 +6210,7 @@
     "subjectType": "전선",
     "subjectGrade": "3",
     "classHour": ["수)15:00∼18:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "이기주",
     "maxStudent": "60",
     "subjectScore": "3"
@@ -6224,7 +6224,7 @@
     "subjectType": "전선",
     "subjectGrade": "3",
     "classHour": ["금)09:00∼12:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "김휘양",
     "maxStudent": "80",
     "subjectScore": "3"
@@ -6238,7 +6238,7 @@
     "subjectType": "전선",
     "subjectGrade": "3",
     "classHour": ["화)13:30∼15:00", "목)13:30∼15:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "김현미",
     "maxStudent": "50",
     "subjectScore": "3"
@@ -6252,7 +6252,7 @@
     "subjectType": "전선",
     "subjectGrade": "3",
     "classHour": ["수)10:00∼12:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "김원규",
     "maxStudent": "40",
     "subjectScore": "3"
@@ -6294,7 +6294,7 @@
     "subjectType": "전선",
     "subjectGrade": "3",
     "classHour": ["월)12:00∼13:30", "목)12:00∼13:30"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "백호종",
     "maxStudent": "50",
     "subjectScore": "3"
@@ -6308,7 +6308,7 @@
     "subjectType": "전선",
     "subjectGrade": "3",
     "classHour": ["목)15:00∼18:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "송보미",
     "maxStudent": "15",
     "subjectScore": "3"
@@ -6336,7 +6336,7 @@
     "subjectType": "전선",
     "subjectGrade": "3",
     "classHour": ["수)10:30∼12:00", "목)10:30∼12:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "하수동",
     "maxStudent": "40",
     "subjectScore": "3"
@@ -6392,7 +6392,7 @@
     "subjectType": "전선",
     "subjectGrade": "4",
     "classHour": ["월)10:30∼12:00", "수)10:30∼12:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "김휘양",
     "maxStudent": "40",
     "subjectScore": "3"
@@ -6406,7 +6406,7 @@
     "subjectType": "전선",
     "subjectGrade": "4",
     "classHour": ["월)13:30∼15:00", "수)13:30∼15:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "이기영",
     "maxStudent": "40",
     "subjectScore": "3"
@@ -6462,7 +6462,7 @@
     "subjectType": "전필",
     "subjectGrade": "2",
     "classHour": ["월)14:00∼16:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "김경태",
     "maxStudent": "70",
     "subjectScore": "3"
@@ -6476,7 +6476,7 @@
     "subjectType": "교필",
     "subjectGrade": "1",
     "classHour": ["화)15:00∼16:00", "수)15:00∼16:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "로보트앤소니",
     "maxStudent": "0",
     "subjectScore": "2"
@@ -6490,7 +6490,7 @@
     "subjectType": "교필",
     "subjectGrade": "1",
     "classHour": ["화)16:00∼17:00", "수)16:00∼17:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "로보트앤소니",
     "maxStudent": "5",
     "subjectScore": "2"
@@ -6504,7 +6504,7 @@
     "subjectType": "교필",
     "subjectGrade": "1",
     "classHour": ["수)13:00∼14:00", "목)15:00∼16:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "로보트앤소니",
     "maxStudent": "5",
     "subjectScore": "2"
@@ -6518,7 +6518,7 @@
     "subjectType": "교필",
     "subjectGrade": "1",
     "classHour": ["수)14:00∼15:00", "목)16:00∼17:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "로보트앤소니",
     "maxStudent": "5",
     "subjectScore": "2"
@@ -6532,7 +6532,7 @@
     "subjectType": "전선",
     "subjectGrade": "2",
     "classHour": ["수)16:30∼18:00", "목)16:30∼18:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "이기영",
     "maxStudent": "40",
     "subjectScore": "3"
@@ -6546,7 +6546,7 @@
     "subjectType": "전선",
     "subjectGrade": "2",
     "classHour": ["수)13:30∼15:00", "금)12:00∼13:30"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "이금진",
     "maxStudent": "90",
     "subjectScore": "3"
@@ -6602,7 +6602,7 @@
     "subjectType": "전선",
     "subjectGrade": "3",
     "classHour": ["월)16:30∼18:00", "화)13:30∼15:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "김경태",
     "maxStudent": "50",
     "subjectScore": "3"
@@ -6616,7 +6616,7 @@
     "subjectType": "전필",
     "subjectGrade": "2",
     "classHour": ["수)13:30∼15:00", "목)13:30∼15:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "이인복",
     "maxStudent": "55",
     "subjectScore": "3"
@@ -6630,7 +6630,7 @@
     "subjectType": "전필",
     "subjectGrade": "2",
     "classHour": ["월)09:00∼10:30", "수)10:30∼12:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "황수찬",
     "maxStudent": "45",
     "subjectScore": "3"
@@ -6644,7 +6644,7 @@
     "subjectType": "전필",
     "subjectGrade": "2",
     "classHour": ["월)10:30∼12:00", "수)09:00∼10:30"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "황수찬",
     "maxStudent": "67",
     "subjectScore": "3"
@@ -6658,7 +6658,7 @@
     "subjectType": "전필",
     "subjectGrade": "2",
     "classHour": ["목)17:00∼18:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "최차봉",
     "maxStudent": "105",
     "subjectScore": "1"
@@ -6714,7 +6714,7 @@
     "subjectType": "전선",
     "subjectGrade": "2",
     "classHour": ["목)09:00∼12:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "문의현",
     "maxStudent": "30",
     "subjectScore": "3"
@@ -6728,7 +6728,7 @@
     "subjectType": "전선",
     "subjectGrade": "2",
     "classHour": ["화)09:00∼12:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "정재훈",
     "maxStudent": "30",
     "subjectScore": "3"
@@ -6742,7 +6742,7 @@
     "subjectType": "전선",
     "subjectGrade": "3",
     "classHour": ["월)09:00∼13:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "송동호",
     "maxStudent": "35",
     "subjectScore": "3"
@@ -6756,7 +6756,7 @@
     "subjectType": "전선",
     "subjectGrade": "3",
     "classHour": ["수)14:00∼18:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "송동호",
     "maxStudent": "35",
     "subjectScore": "3"
@@ -6770,7 +6770,7 @@
     "subjectType": "전선",
     "subjectGrade": "3",
     "classHour": ["월)14:00∼16:00"],
-    "classroom": "월)16:00∼18:00비대면",
+    "classroom": "월)16:00∼18:00-",
     "profName": "이긍해",
     "maxStudent": "25",
     "subjectScore": "3"
@@ -6784,7 +6784,7 @@
     "subjectType": "전선",
     "subjectGrade": "3",
     "classHour": ["수)09:00∼11:00"],
-    "classroom": "수)11:00∼13:00비대면",
+    "classroom": "수)11:00∼13:00-",
     "profName": "이긍해",
     "maxStudent": "25",
     "subjectScore": "3"
@@ -6798,7 +6798,7 @@
     "subjectType": "전선",
     "subjectGrade": "3",
     "classHour": ["금)10:00∼13:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "최차봉",
     "maxStudent": "57",
     "subjectScore": "3"
@@ -6812,7 +6812,7 @@
     "subjectType": "전선",
     "subjectGrade": "3",
     "classHour": ["화)14:00∼17:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "최차봉",
     "maxStudent": "50",
     "subjectScore": "3"
@@ -6854,7 +6854,7 @@
     "subjectType": "전선",
     "subjectGrade": "3",
     "classHour": ["화)10:30∼12:00", "목)10:30∼12:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "이인복",
     "maxStudent": "80",
     "subjectScore": "3"
@@ -7036,7 +7036,7 @@
     "subjectType": "전선",
     "subjectGrade": "4",
     "classHour": ["수)10:00∼13:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "박준범",
     "maxStudent": "50",
     "subjectScore": "3"
@@ -7050,7 +7050,7 @@
     "subjectType": "전선",
     "subjectGrade": "4",
     "classHour": ["수)14:00∼17:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "정재훈",
     "maxStudent": "50",
     "subjectScore": "3"
@@ -7078,7 +7078,7 @@
     "subjectType": "전선",
     "subjectGrade": "4",
     "classHour": ["목)14:00∼17:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "김선옥",
     "maxStudent": "41",
     "subjectScore": "3"
@@ -7092,7 +7092,7 @@
     "subjectType": "교필",
     "subjectGrade": "1",
     "classHour": ["화)09:00∼10:00", "목)15:00∼16:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "알도혹스",
     "maxStudent": "0",
     "subjectScore": "2"
@@ -7106,7 +7106,7 @@
     "subjectType": "교필",
     "subjectGrade": "1",
     "classHour": ["화)09:00∼10:00", "목)15:00∼16:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "마이클버커트",
     "maxStudent": "0",
     "subjectScore": "2"
@@ -7120,7 +7120,7 @@
     "subjectType": "교필",
     "subjectGrade": "1",
     "classHour": ["화)13:00∼14:00", "목)13:00∼14:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "마이클버커트",
     "maxStudent": "0",
     "subjectScore": "2"
@@ -7134,7 +7134,7 @@
     "subjectType": "교필",
     "subjectGrade": "1",
     "classHour": ["화)13:00∼14:00", "목)13:00∼14:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "다니엘베이커",
     "maxStudent": "0",
     "subjectScore": "2"
@@ -7148,7 +7148,7 @@
     "subjectType": "교필",
     "subjectGrade": "1",
     "classHour": ["화)13:00∼14:00", "목)14:00∼15:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "로보트번즈",
     "maxStudent": "0",
     "subjectScore": "2"
@@ -7162,7 +7162,7 @@
     "subjectType": "교필",
     "subjectGrade": "1",
     "classHour": ["화)13:00∼14:00", "목)14:00∼15:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "알도혹스",
     "maxStudent": "0",
     "subjectScore": "2"
@@ -7176,7 +7176,7 @@
     "subjectType": "교필",
     "subjectGrade": "1",
     "classHour": ["화)11:00∼12:00", "목)15:00∼16:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "브라이언매글리아로",
     "maxStudent": "0",
     "subjectScore": "2"
@@ -7190,7 +7190,7 @@
     "subjectType": "교필",
     "subjectGrade": "1",
     "classHour": ["화)11:00∼12:00", "목)15:00∼16:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "다니엘베이커",
     "maxStudent": "0",
     "subjectScore": "2"
@@ -7204,7 +7204,7 @@
     "subjectType": "교필",
     "subjectGrade": "1",
     "classHour": ["화)14:00∼15:00", "목)14:00∼15:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "마이클버커트",
     "maxStudent": "0",
     "subjectScore": "2"
@@ -7218,7 +7218,7 @@
     "subjectType": "교필",
     "subjectGrade": "1",
     "classHour": ["화)14:00∼15:00", "목)14:00∼15:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "다니엘베이커",
     "maxStudent": "0",
     "subjectScore": "2"
@@ -7232,7 +7232,7 @@
     "subjectType": "교필",
     "subjectGrade": "1",
     "classHour": ["월)14:00∼15:00", "수)09:00∼10:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "알도혹스",
     "maxStudent": "0",
     "subjectScore": "2"
@@ -7246,7 +7246,7 @@
     "subjectType": "교필",
     "subjectGrade": "1",
     "classHour": ["월)14:00∼15:00", "수)09:00∼10:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "마이클버커트",
     "maxStudent": "0",
     "subjectScore": "2"
@@ -7260,7 +7260,7 @@
     "subjectType": "교필",
     "subjectGrade": "1",
     "classHour": ["월)10:00∼11:00", "수)10:00∼11:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "솔로몬하킴",
     "maxStudent": "0",
     "subjectScore": "2"
@@ -7274,7 +7274,7 @@
     "subjectType": "교필",
     "subjectGrade": "1",
     "classHour": ["월)10:00∼11:00", "수)10:00∼11:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "브라이언매글리아로",
     "maxStudent": "0",
     "subjectScore": "2"
@@ -7288,7 +7288,7 @@
     "subjectType": "교필",
     "subjectGrade": "1",
     "classHour": ["월)13:00∼14:00", "수)10:00∼11:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "마이클버커트",
     "maxStudent": "0",
     "subjectScore": "2"
@@ -7302,7 +7302,7 @@
     "subjectType": "교필",
     "subjectGrade": "1",
     "classHour": ["월)13:00∼14:00", "수)10:00∼11:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "알도혹스",
     "maxStudent": "0",
     "subjectScore": "2"
@@ -7316,7 +7316,7 @@
     "subjectType": "교필",
     "subjectGrade": "1",
     "classHour": ["월)10:00∼11:00", "수)11:00∼12:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "썸머브룩리",
     "maxStudent": "0",
     "subjectScore": "2"
@@ -7330,7 +7330,7 @@
     "subjectType": "교필",
     "subjectGrade": "1",
     "classHour": ["월)10:00∼11:00", "수)11:00∼12:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "썬더",
     "maxStudent": "0",
     "subjectScore": "2"
@@ -7344,7 +7344,7 @@
     "subjectType": "교필",
     "subjectGrade": "1",
     "classHour": ["월)12:00∼13:00", "수)11:00∼12:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "솔로몬하킴",
     "maxStudent": "0",
     "subjectScore": "2"
@@ -7358,7 +7358,7 @@
     "subjectType": "교필",
     "subjectGrade": "1",
     "classHour": ["월)12:00∼13:00", "수)11:00∼12:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "마이클버커트",
     "maxStudent": "0",
     "subjectScore": "2"
@@ -7372,7 +7372,7 @@
     "subjectType": "교필",
     "subjectGrade": "1",
     "classHour": ["월)11:00∼12:00", "수)14:00∼15:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "썸머브룩리",
     "maxStudent": "0",
     "subjectScore": "2"
@@ -7386,7 +7386,7 @@
     "subjectType": "교필",
     "subjectGrade": "1",
     "classHour": ["월)11:00∼12:00", "수)14:00∼15:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "썬더",
     "maxStudent": "0",
     "subjectScore": "2"
@@ -7400,7 +7400,7 @@
     "subjectType": "교필",
     "subjectGrade": "1",
     "classHour": ["화)10:00∼11:00", "목)11:00∼12:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "마이클버커트",
     "maxStudent": "0",
     "subjectScore": "2"
@@ -7414,7 +7414,7 @@
     "subjectType": "교필",
     "subjectGrade": "1",
     "classHour": ["화)10:00∼11:00", "목)11:00∼12:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "다니엘베이커",
     "maxStudent": "0",
     "subjectScore": "2"
@@ -7428,7 +7428,7 @@
     "subjectType": "교필",
     "subjectGrade": "1",
     "classHour": ["월)13:00∼14:00", "수)13:00∼14:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "로보트번즈",
     "maxStudent": "0",
     "subjectScore": "2"
@@ -7442,7 +7442,7 @@
     "subjectType": "교필",
     "subjectGrade": "1",
     "classHour": ["화)14:00∼15:00", "목)12:00∼13:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "썸머브룩리",
     "maxStudent": "0",
     "subjectScore": "2"
@@ -7456,7 +7456,7 @@
     "subjectType": "교필",
     "subjectGrade": "1",
     "classHour": ["화)14:00∼15:00", "목)12:00∼13:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "로보트번즈",
     "maxStudent": "0",
     "subjectScore": "2"
@@ -7470,7 +7470,7 @@
     "subjectType": "교필",
     "subjectGrade": "1",
     "classHour": ["월)14:00∼15:00", "수)14:00∼15:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "로보트번즈",
     "maxStudent": "0",
     "subjectScore": "2"
@@ -7484,7 +7484,7 @@
     "subjectType": "교필",
     "subjectGrade": "1",
     "classHour": ["월)14:00∼15:00", "수)14:00∼15:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "브라이언매글리아로",
     "maxStudent": "0",
     "subjectScore": "2"
@@ -7498,7 +7498,7 @@
     "subjectType": "교필",
     "subjectGrade": "1",
     "classHour": ["화)15:00∼16:00", "목)10:00∼11:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "마이클버커트",
     "maxStudent": "0",
     "subjectScore": "2"
@@ -7512,7 +7512,7 @@
     "subjectType": "교필",
     "subjectGrade": "1",
     "classHour": ["화)15:00∼16:00", "목)10:00∼11:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "알도혹스",
     "maxStudent": "0",
     "subjectScore": "2"
@@ -7526,7 +7526,7 @@
     "subjectType": "교필",
     "subjectGrade": "1",
     "classHour": ["화)10:00∼11:00", "목)10:00∼11:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "솔로몬하킴",
     "maxStudent": "0",
     "subjectScore": "2"
@@ -7540,7 +7540,7 @@
     "subjectType": "교필",
     "subjectGrade": "1",
     "classHour": ["화)10:00∼11:00", "목)10:00∼11:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "썸머브룩리",
     "maxStudent": "0",
     "subjectScore": "2"
@@ -7554,7 +7554,7 @@
     "subjectType": "교필",
     "subjectGrade": "1",
     "classHour": ["화)11:00∼12:00", "목)11:00∼12:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "솔로몬하킴",
     "maxStudent": "0",
     "subjectScore": "2"
@@ -7568,7 +7568,7 @@
     "subjectType": "교필",
     "subjectGrade": "1",
     "classHour": ["화)11:00∼12:00", "목)11:00∼12:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "썸머브룩리",
     "maxStudent": "0",
     "subjectScore": "2"
@@ -7582,7 +7582,7 @@
     "subjectType": "교필",
     "subjectGrade": "1",
     "classHour": ["월)09:00∼10:00", "수)09:00∼10:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "솔로몬하킴",
     "maxStudent": "0",
     "subjectScore": "2"
@@ -7596,7 +7596,7 @@
     "subjectType": "교필",
     "subjectGrade": "1",
     "classHour": ["월)09:00∼10:00", "수)09:00∼10:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "로보트번즈",
     "maxStudent": "0",
     "subjectScore": "2"
@@ -7610,7 +7610,7 @@
     "subjectType": "교필",
     "subjectGrade": "1",
     "classHour": ["월)09:00∼10:00", "수)09:00∼10:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "브라이언매글리아로",
     "maxStudent": "0",
     "subjectScore": "2"
@@ -7624,7 +7624,7 @@
     "subjectType": "교필",
     "subjectGrade": "1",
     "classHour": ["화)09:00∼10:00", "목)09:00∼10:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "솔로몬하킴",
     "maxStudent": "0",
     "subjectScore": "2"
@@ -7638,7 +7638,7 @@
     "subjectType": "교필",
     "subjectGrade": "1",
     "classHour": ["화)09:00∼10:00", "목)09:00∼10:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "로보트번즈",
     "maxStudent": "0",
     "subjectScore": "2"
@@ -7652,7 +7652,7 @@
     "subjectType": "교필",
     "subjectGrade": "1",
     "classHour": ["화)09:00∼10:00", "목)09:00∼10:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "브라이언매글리아로",
     "maxStudent": "0",
     "subjectScore": "2"
@@ -7666,7 +7666,7 @@
     "subjectType": "교필",
     "subjectGrade": "1",
     "classHour": ["월)09:00∼10:00", "수)13:00∼14:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "썬더",
     "maxStudent": "0",
     "subjectScore": "2"
@@ -7680,7 +7680,7 @@
     "subjectType": "교필",
     "subjectGrade": "1",
     "classHour": ["화)14:00∼15:00", "목)09:00∼10:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "알도혹스",
     "maxStudent": "0",
     "subjectScore": "2"
@@ -7694,7 +7694,7 @@
     "subjectType": "전선",
     "subjectGrade": "2",
     "classHour": ["수)14:00∼17:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "김성미",
     "maxStudent": "15",
     "subjectScore": "3"
@@ -7708,7 +7708,7 @@
     "subjectType": "전선",
     "subjectGrade": "2",
     "classHour": ["목)14:00∼17:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "김한택",
     "maxStudent": "30",
     "subjectScore": "3"
@@ -7722,7 +7722,7 @@
     "subjectType": "전선",
     "subjectGrade": "3",
     "classHour": ["화)13:30∼15:00", "목)12:00∼13:30"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "김선이",
     "maxStudent": "30",
     "subjectScore": "3"
@@ -7736,7 +7736,7 @@
     "subjectType": "전필",
     "subjectGrade": "2",
     "classHour": ["화)09:00∼10:30", "목)09:00∼10:30"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "조석진",
     "maxStudent": "55",
     "subjectScore": "3"
@@ -7750,7 +7750,7 @@
     "subjectType": "교필",
     "subjectGrade": "1",
     "classHour": ["목)15:00∼17:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "원상필/서명석",
     "maxStudent": "60",
     "subjectScore": "2"
@@ -7820,7 +7820,7 @@
     "subjectType": "전선",
     "subjectGrade": "4",
     "classHour": ["목)15:00∼18:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "이장원",
     "maxStudent": "60",
     "subjectScore": "3"
@@ -7876,7 +7876,7 @@
     "subjectType": "전필",
     "subjectGrade": "2",
     "classHour": ["월)09:00∼10:30", "수)10:30∼12:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "김선옥",
     "maxStudent": "65",
     "subjectScore": "3"
@@ -7890,7 +7890,7 @@
     "subjectType": "전필",
     "subjectGrade": "2",
     "classHour": ["월)10:30∼12:00", "수)09:00∼10:30"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "김선옥",
     "maxStudent": "46",
     "subjectScore": "3"
@@ -7904,7 +7904,7 @@
     "subjectType": "교필",
     "subjectGrade": "1",
     "classHour": ["금)13:00∼15:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "로보트앤소니",
     "maxStudent": "0",
     "subjectScore": "2"
@@ -7918,7 +7918,7 @@
     "subjectType": "교필",
     "subjectGrade": "1",
     "classHour": ["화)13:30∼15:00", "수)10:30∼12:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "최영훈",
     "maxStudent": "50",
     "subjectScore": "3"
@@ -7932,7 +7932,7 @@
     "subjectType": "교필",
     "subjectGrade": "1",
     "classHour": ["수)15:00∼16:30", "목)13:30∼15:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "최영훈",
     "maxStudent": "50",
     "subjectScore": "3"
@@ -8002,7 +8002,7 @@
     "subjectType": "전선",
     "subjectGrade": "3",
     "classHour": ["화)16:30∼18:00", "목)16:30∼18:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "최은주",
     "maxStudent": "58",
     "subjectScore": "3"
@@ -8026,7 +8026,7 @@
     "major": "항공정비융합",
     "classType": "일반",
     "subjectNumber": "0814",
-    "subjectName": "항공기MRO실습I비대면A",
+    "subjectName": "항공기MRO실습I-A",
     "subjectType": "전필",
     "subjectGrade": "3",
     "classHour": ["목)13:00∼19:00"],
@@ -8040,7 +8040,7 @@
     "major": "항공정비융합",
     "classType": "일반",
     "subjectNumber": "0815",
-    "subjectName": "항공기MRO실습II비대면B",
+    "subjectName": "항공기MRO실습II-B",
     "subjectType": "전필",
     "subjectGrade": "4",
     "classHour": ["금)13:00∼19:00"],
@@ -8226,7 +8226,7 @@
     "subjectType": "전필",
     "subjectGrade": "1",
     "classHour": ["목)14:00∼15:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "강석진",
     "maxStudent": "70",
     "subjectScore": "1"
@@ -8296,7 +8296,7 @@
     "subjectType": "전선",
     "subjectGrade": "3",
     "classHour": ["수)13:30∼15:00", "목)13:30∼15:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "하수동",
     "maxStudent": "40",
     "subjectScore": "3"
@@ -8334,7 +8334,7 @@
     "major": "항전정학부",
     "classType": "FL",
     "subjectNumber": "0859",
-    "subjectName": "드론시스템디자인비대면제어",
+    "subjectName": "드론시스템디자인-제어",
     "subjectType": "전필",
     "subjectGrade": "4",
     "classHour": ["금)09:00∼11:00"],
@@ -8348,7 +8348,7 @@
     "major": "항전정학부",
     "classType": "FL",
     "subjectNumber": "0860",
-    "subjectName": "드론시스템디자인비대면융합프로젝트",
+    "subjectName": "드론시스템디자인-융합프로젝트",
     "subjectType": "전필",
     "subjectGrade": "4",
     "classHour": ["화)18:00∼19:00"],
@@ -8366,7 +8366,7 @@
     "subjectType": "교필",
     "subjectGrade": "1",
     "classHour": ["화)14:00∼15:00", "목)15:00∼16:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "썬더",
     "maxStudent": "0",
     "subjectScore": "2"
@@ -8380,7 +8380,7 @@
     "subjectType": "교필",
     "subjectGrade": "1",
     "classHour": ["화)14:00∼15:00", "목)13:00∼14:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "브라이언매글리아로",
     "maxStudent": "0",
     "subjectScore": "2"
@@ -8394,7 +8394,7 @@
     "subjectType": "교필",
     "subjectGrade": "1",
     "classHour": ["월)12:00∼13:00", "수)12:00∼13:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "썬더",
     "maxStudent": "0",
     "subjectScore": "2"
@@ -8408,7 +8408,7 @@
     "subjectType": "교필",
     "subjectGrade": "1",
     "classHour": ["월)12:00∼13:00", "수)12:00∼13:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "브라이언매글리아로",
     "maxStudent": "0",
     "subjectScore": "2"
@@ -8422,7 +8422,7 @@
     "subjectType": "교필",
     "subjectGrade": "1",
     "classHour": ["화)11:00∼12:00", "목)11:00∼12:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "썬더",
     "maxStudent": "0",
     "subjectScore": "2"
@@ -8436,7 +8436,7 @@
     "subjectType": "교필",
     "subjectGrade": "1",
     "classHour": ["화)12:00∼13:00", "목)12:00∼13:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "썬더",
     "maxStudent": "0",
     "subjectScore": "2"
@@ -8450,7 +8450,7 @@
     "subjectType": "전선",
     "subjectGrade": "4",
     "classHour": ["화)10:30∼12:00", "목)10:30∼12:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "송요승",
     "maxStudent": "25",
     "subjectScore": "3"
@@ -8478,7 +8478,7 @@
     "subjectType": "전선",
     "subjectGrade": "3",
     "classHour": ["화)16:30∼18:00", "수)10:30∼12:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "황완식",
     "maxStudent": "25",
     "subjectScore": "3"
@@ -8506,7 +8506,7 @@
     "subjectType": "전선",
     "subjectGrade": "1",
     "classHour": ["월)12:00∼13:30", "목)12:00∼13:30"],
-    "classroom": "비대면/과학관217",
+    "classroom": "-/과학관217",
     "profName": "김카이",
     "maxStudent": "0",
     "subjectScore": "3"
@@ -8534,7 +8534,7 @@
     "subjectType": "전선",
     "subjectGrade": "3",
     "classHour": ["금)09:00∼12:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "김광은",
     "maxStudent": "50",
     "subjectScore": "3"
@@ -8576,7 +8576,7 @@
     "subjectType": "전필",
     "subjectGrade": "2",
     "classHour": ["화)10:30∼12:00", "목)10:30∼12:00"],
-    "classroom": "비대면",
+    "classroom": "-",
     "profName": "김현미",
     "maxStudent": "50",
     "subjectScore": "3"

@@ -5,9 +5,9 @@ export type majorType = {
 
 export const majors = [
   { value: "all", label: "전체 학과" },
-  { value: "sdu", label: "SDU" },
-  { value: "hyu", label: "HYU" },
-  { value: "ocu", label: "OCU" },
+  // { value: "sdu", label: "SDU" },
+  // { value: "hyu", label: "HYU" },
+  // { value: "ocu", label: "OCU" },
   { value: "mechanical", label: "항공우주 및 기계공학부" },
   { value: "electronics", label: "항공전자정보공학부" },
   { value: "material", label: "신소재공학과" },

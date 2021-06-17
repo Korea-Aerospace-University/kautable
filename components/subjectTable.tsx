@@ -27,13 +27,55 @@ const SubjectTable = () => {
   }, [semester, major]);
 
   const getSubjectList = async () => {
-    const data = await getSubjectsAPI(semester);
-    setSubjectDataList(data);
+    const data: any = await getSubjectsAPI(semester);
+    const filteredData = data.data.filter((subject) => {
+      switch (major) {
+        case "all":
+          return true;
+        case "material":
+          return subject.major === "항공재료";
+        case "electronics":
+          return subject.major === "항전정학부";
+        case "mechanical":
+          return subject.major === "항우기학부";
+        case "software":
+          return subject.major === "소프트";
+        case "flight":
+          return subject.major === "항공운항";
+        case "business":
+          return subject.major === "경영학부";
+        case "logistics-multi":
+          return subject.major === "항교물";
+        case "traffic":
+          return subject.major === "항공교통";
+        case "logistics":
+          return subject.major === "물류";
+        case "law":
+          return subject.major === "항공우주법";
+        case "business":
+          return subject.major === "경영학부";
+        case "moral":
+          return subject.major === "인문자연학부";
+        case "business-fusion":
+          return subject.major === "항공경영융합";
+        case "flight-fusion":
+          return subject.major === "조종융합";
+        case "mro-fusion":
+          return subject.major === "항공정비융합";
+        case "liberal":
+          return subject.major === "자유전공학부";
+        case "autonomous-fusion":
+          return subject.major === "자율주행융합전공";
+        default:
+          break;
+      }
+    });
+    setSubjectDataList(filteredData);
   };
 
   const selectSubject = (id: string) => {
     if (subjectDataList !== null) {
-      setSelectedSubject(subjectDataList.data.filter((subject) => subject.id === id)[0]);
+      setSelectedSubject(subjectDataList.filter((subject) => subject.id === id)[0]);
     }
   };
 
@@ -57,7 +99,7 @@ const SubjectTable = () => {
           </thead>
           <tbody className="h-[280px] lg:h-[350px]">
             {subjectDataList ? (
-              subjectDataList.data.map((subject: any) => (
+              subjectDataList.map((subject: any) => (
                 <SubjectItem key={subject.id} data={subject} selectSubject={selectSubject} />
               ))
             ) : (
