@@ -1,4 +1,5 @@
 import "../styles/globals.css";
+import "../styles/detail.css";
 import "tailwindcss/tailwind.css";
 import Header from "../components/header";
 

@@ -12,9 +12,9 @@ const Table = (props: Props) => {
 
   const toImage = () => {
     domtoimage
-      .toBlob(tableRef.current)
+      .toSvg(tableRef.current)
       .then(function (dataUrl) {
-        saveAs(dataUrl, "image__.png");
+        saveAs(dataUrl, "image__.svg");
       })
       .catch(function (error) {
         console.error("oops, something went wrong!", error);

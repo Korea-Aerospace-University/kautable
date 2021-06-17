@@ -19,6 +19,8 @@ const customStyles = {
     minWidth: "300px",
     borderRadius: "12px",
     transform: "translate(-50%, -50%)",
+    border: "0px",
+    padding: 0,
   },
   overlay: {
     backgroundColor: "rgba(72, 72, 72, 0.8)",

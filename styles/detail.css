@@ -1,0 +1,235 @@
+.detail-subtitle-HYU {
+  background-color: rgba(35, 105, 73, 0.8);
+  color: white;
+  border-radius: 8px;
+  padding: 5px 8px;
+}
+
+.detail-subtitle-SDU {
+  background-color: rgba(179, 176, 28, 0.8);
+  color: rgb(255, 255, 255);
+  border-radius: 8px;
+  padding: 5px 8px;
+}
+
+.detail-subtitle-OCU {
+  background-color: rgba(219, 96, 59, 0.8);
+  color: rgb(255, 255, 255);
+  border-radius: 8px;
+  padding: 5px 8px;
+}
+
+.detail-subtitle-항전정학부 {
+  background-color: rgba(24, 44, 109, 0.8);
+  color: white;
+  border-radius: 8px;
+  padding: 5px 8px;
+}
+
+.detail-subtitle-항우기학부 {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  border-radius: 8px;
+  padding: 5px 8px;
+}
+
+.detail-subtitle-항공정비융합 {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  border-radius: 8px;
+  padding: 5px 8px;
+}
+
+.detail-subtitle-자유전공학부 {
+  background-color: rgba(156, 13, 13, 0.9);
+  color: white;
+  border-radius: 8px;
+  padding: 5px 8px;
+}
+
+.detail-subtitle-자율주행융합전공 {
+  background-color: rgba(31, 180, 155, 0.9);
+  color: white;
+  border-radius: 8px;
+  padding: 5px 8px;
+}
+
+.detail-subtitle-항공재료 {
+  background-color: green;
+  color: white;
+  border-radius: 8px;
+  padding: 5px 8px;
+}
+
+.detail-subtitle-소프트 {
+  background-color: rgba(74, 142, 197, 0.9);
+  color: white;
+  border-radius: 8px;
+  padding: 5px 8px;
+}
+
+.detail-subtitle-항공운항 {
+  background-color: rgb(25, 20, 83);
+  color: white;
+  border-radius: 8px;
+  padding: 5px 8px;
+}
+
+.detail-subtitle-조종융합 {
+  background-color: rgb(25, 20, 83);
+  color: white;
+  border-radius: 8px;
+  padding: 5px 8px;
+}
+
+.detail-subtitle-항교물 {
+  background-color: rgba(160, 160, 160, 0.9);
+  color: white;
+  border-radius: 8px;
+  padding: 5px 8px;
+}
+
+.detail-subtitle-항공교통 {
+  background-color: rgba(160, 160, 160, 0.9);
+  color: white;
+  border-radius: 8px;
+  padding: 5px 8px;
+}
+
+.detail-subtitle-물류 {
+  background-color: rgba(160, 160, 160, 0.9);
+  color: white;
+  border-radius: 8px;
+  padding: 5px 8px;
+}
+
+.detail-subtitle-항공우주법 {
+  background-color: rgba(160, 160, 160, 0.9);
+  color: white;
+  border-radius: 8px;
+  padding: 5px 8px;
+}
+
+.detail-subtitle-경영학부 {
+  background-color: rgba(0, 0, 255, 0.9);
+  color: white;
+  border-radius: 8px;
+  padding: 5px 8px;
+}
+
+.detail-subtitle-항공경영융합 {
+  background-color: rgba(0, 0, 255, 0.9);
+  color: white;
+  border-radius: 8px;
+  padding: 5px 8px;
+}
+
+.detail-subtitle-인문자연학부 {
+  background-color: rgba(233, 187, 201, 0.9);
+  color: white;
+  border-radius: 8px;
+  padding: 5px 8px;
+}
+
+.detail-교필 {
+  background-color: rgba(52, 78, 165, 0.527);
+  padding: 5px 8px;
+  border-radius: 8px;
+  color: white;
+}
+
+.detail-교선 {
+  background-color: rgba(156, 42, 57, 0.7);
+  padding: 5px 8px;
+  border-radius: 8px;
+  color: white;
+}
+
+.detail-전필 {
+  background-color: rgba(189, 26, 75, 0.788);
+  padding: 5px 8px;
+  border-radius: 8px;
+  color: white;
+}
+
+.detail-전선 {
+  background-color: rgba(53, 165, 49, 0.849);
+  padding: 5px 8px;
+  border-radius: 8px;
+  color: white;
+}
+
+.detail-일선 {
+  background-color: rgba(52, 165, 140, 0.808);
+  padding: 5px 8px;
+  border-radius: 8px;
+  color: white;
+}
+
+.bg-항전정학부 {
+  background-color: rgba(24, 44, 109, 0.8);
+}
+
+.bg-항공재료 {
+  background-color: green;
+}
+
+.bg-항우기학부 {
+  background-color: rgba(7, 7, 7, 0.8);
+}
+
+.bg-항공정비융합 {
+  background-color: rgba(7, 7, 7, 0.8);
+}
+
+.bg-소프트 {
+  background-color: rgba(74, 142, 197, 0.9);
+}
+
+.bg-경영학부 {
+  background-color: rgba(0, 0, 255, 0.9);
+}
+
+.bg-항공경영융합 {
+  background-color: rgba(24, 44, 109, 0.8);
+}
+
+.bg-자유전공학부 {
+  background-color: rgba(156, 13, 13, 0.9);
+}
+
+.bg-인문자연학부 {
+  background-color: rgba(233, 187, 201, 0.9);
+}
+
+.bg-항공우주법 {
+  background-color: rgba(160, 160, 160, 0.9);
+}
+.bg-물류 {
+  background-color: rgba(160, 160, 160, 0.9);
+}
+.bg-항공교통 {
+  background-color: rgba(160, 160, 160, 0.9);
+}
+.bg-항교물 {
+  background-color: rgba(160, 160, 160, 0.9);
+}
+
+.bg-항공운항 {
+  background-color: rgb(25, 20, 83);
+}
+.bg-조종융합 {
+  background-color: rgb(25, 20, 83);
+}
+
+.bg-HYU {
+  background-color: rgba(35, 105, 73, 0.8);
+}
+
+.bg-SDU {
+  background-color: rgba(231, 228, 24, 0.8);
+}
+
+.bg-OCU {
+  background-color: rgba(219, 96, 59, 0.8);
+}
