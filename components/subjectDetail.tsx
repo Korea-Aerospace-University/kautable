@@ -44,7 +44,7 @@ const SubjectDetail: React.FC<Props> = ({ data }) => {
 
   return (
     <div className="flex flex-col h-full bg-white modal-detail">
-      <h1 className="text-gray-600 text-2xl lg:text-3xl p-5 border-gray-400 border-b-2">
+      <h1 className="text-gray-600 text-xl lg:text-3xl p-5 border-gray-400 border-b-2">
         {parseSubjectName(subjectName)}{" "}
         <span className={`text-xs ml-1 lg:text-base detail-subtitle-${major}`}>{major}</span>
       </h1>
