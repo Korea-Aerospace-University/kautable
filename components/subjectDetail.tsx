@@ -35,7 +35,7 @@ const SubjectDetail: React.FC<Props> = ({ data }) => {
         className={`flex flex-1 flex-col items-center lg:items-start justify-center p-5 lg:p-8 text-xs lg:text-base bg-${major}`}
       >
         <FadeIn transitionDuration={1500}>
-          <div className="bg-white p-8 rounded-lg shadow-2xl">
+          <div className="bg-white p-5 lg:p-8 rounded-lg shadow-2xl">
             <div className="flex items-cente mb-5">
               <header className="flex items-center">
                 <InformationCircleIcon className="h-5 w-5 mr-2 text-gray-500" />
@@ -72,7 +72,7 @@ const SubjectDetail: React.FC<Props> = ({ data }) => {
                   대상학년: {subjectGrade}
                 </div>
                 <div className="text-sm lg:text-base my-2 text-gray-700">
-                  이수구분:{" "}
+                  구분:{" "}
                   {
                     <span className={`detail-${subjectType} text-sm lg:text-base shadow-sm`}>
                       {subjectType}
