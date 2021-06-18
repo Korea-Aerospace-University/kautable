@@ -109,8 +109,8 @@ const SubjectTable = () => {
                 <SubjectItem key={subject.id} data={subject} selectSubject={selectSubject} />
               ))
             ) : (
-              <tr className="flex justify-center items-center noData">
-                <td className="flex flex-col text-gray-400 text-md lg:text-2xl ">
+              <tr className="noData">
+                <td className="flex justify-center items-center h-52 lg:h-auto flex-col text-gray-400 text-md lg:text-2xl ">
                   <ExclamationIcon className="h-16 my-2" />
                   이런, 아직 데이터가 없네요!
                 </td>
