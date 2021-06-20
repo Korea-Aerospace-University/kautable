@@ -118,7 +118,7 @@ table {
   width: 10px;
   height: 10px;
   border-radius: 50%;
-  background-color: green;
+  background-color: #0b644c;
 }
 .신소재:before {
   content: "";
@@ -127,7 +127,7 @@ table {
   width: 10px;
   height: 10px;
   border-radius: 50%;
-  background-color: green;
+  background-color: #0b644c;
 }
 
 .항공운항:before {
