@@ -105,7 +105,7 @@ const SubjectTable = () => {
             </tr>
           </thead>
           <tbody className="h-[280px] lg:h-[350px]">
-            {subjectDataList.length > 0 ? (
+            {subjectDataList?.length > 0 ? (
               subjectDataList.map((subject: any) => (
                 <SubjectItem key={subject.id} data={subject} selectSubject={selectSubject} />
               ))
