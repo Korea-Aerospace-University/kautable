@@ -4,6 +4,7 @@ import { ClockIcon, LibraryIcon, InformationCircleIcon } from "@heroicons/react/
 import Button from "./common/button";
 import FadeIn from "react-fade-in";
 import { parseSubjectName } from "../lib/parser/parseSubjectName";
+import { addSubject } from "../lib/localstorage/addSubject";
 
 interface Props {
   data: any;
@@ -113,7 +114,10 @@ const SubjectDetail: React.FC<Props> = ({ data }) => {
             </div>
             <div className="flex space-x-5 mt-5 justify-center">
               <Button text="취소" />
-              <Button text="시간표에 추가" />
+              <Button
+                text="시간표에 추가"
+                onClick={() => addSubject(semester, subjectNumber, subjectName, classHour)}
+              />
             </div>
           </div>
         </FadeIn>

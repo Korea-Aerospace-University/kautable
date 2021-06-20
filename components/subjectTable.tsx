@@ -5,6 +5,7 @@ import ModalContainer from "./common/modalContainer";
 import SubjectDetail from "./subjectDetail";
 import SubjectItem from "./subjectItem";
 import { ExclamationIcon } from "@heroicons/react/solid";
+import { SubjectContext } from "./subjectList";
 
 interface ISubjectResponse {
   data: [];
@@ -13,8 +14,8 @@ interface ISubjectResponse {
 export const ModalContext = createContext(null);
 
 const SubjectTable = () => {
-  const [selectedSubject, setSelectedSubject] = useState(null);
-  const [subjectDataList, setSubjectDataList] = useState(null);
+  const { selectedSubject, setSelectedSubject, subjectDataList, setSubjectDataList } =
+    useContext(SubjectContext);
   const [isModalOpen, setIsModalOpen] = useState(false);
   const { semester } = useContext(SemesterContext);
   const { major } = useContext(MajorContext);
@@ -28,7 +29,7 @@ const SubjectTable = () => {
 
   const getSubjectList = async () => {
     const data: any = await getSubjectsAPI(semester);
-    const filteredData = data.data.filter((subject) => {
+    const filteredData = data?.data.filter((subject) => {
       switch (major) {
         case "all":
           return true;
@@ -73,7 +74,7 @@ const SubjectTable = () => {
         case "autonomous-fusion":
           return subject.major === "자율주행융합전공";
         default:
-          break;
+          return true;
       }
     });
     setSubjectDataList(filteredData);
@@ -104,7 +105,7 @@ const SubjectTable = () => {
             </tr>
           </thead>
           <tbody className="h-[280px] lg:h-[350px]">
-            {subjectDataList ? (
+            {subjectDataList.length > 0 ? (
               subjectDataList.map((subject: any) => (
                 <SubjectItem key={subject.id} data={subject} selectSubject={selectSubject} />
               ))
