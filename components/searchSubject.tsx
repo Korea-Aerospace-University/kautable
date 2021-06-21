@@ -14,7 +14,7 @@ const SearchSubject = (props: Props) => {
   useEffect(() => {
     const delayDebounce = setTimeout(() => {
       getSubjectList();
-    }, 1000);
+    }, 800);
 
     return () => clearTimeout(delayDebounce);
   }, [searchTerm]);

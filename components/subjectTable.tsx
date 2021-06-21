@@ -2,7 +2,7 @@ import React, { createContext, useContext, useEffect, useState } from "react";
 import { getSubjectsAPI } from "../lib/api/subject";
 import { MajorContext, SemesterContext } from "../pages/Timetable";
 import ModalContainer from "./common/modalContainer";
-import SubjectDetail from "./subjectDetail";
+import SubjectDetailContainer from "./subjectDetailContainer";
 import SubjectItem from "./subjectItem";
 import { ExclamationIcon } from "@heroicons/react/solid";
 import { SubjectContext } from "./subjectList";
@@ -120,7 +120,7 @@ const SubjectTable = () => {
           </tbody>
         </table>
         <ModalContainer isOpen={isModalOpen} setIsOpen={setIsModalOpen}>
-          <SubjectDetail data={selectedSubject} />
+          <SubjectDetailContainer data={selectedSubject} />
         </ModalContainer>
       </div>
     </ModalContext.Provider>
