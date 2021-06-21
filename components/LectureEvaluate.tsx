@@ -1,8 +1,8 @@
 import { EmojiHappyIcon, EmojiSadIcon } from "@heroicons/react/solid";
 import React from "react";
-import OutlineButton from "./common/OutlineButton";
+import OutlineButton from "./common/outlineButton";
 
-interface Props {}
+interface Props {} //
 
 const LectureEvaluate = (props: Props) => {
   return (
