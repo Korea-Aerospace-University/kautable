@@ -1,14 +1,11 @@
 import React, { useContext } from "react";
 import { SemesterContext } from "../pages/Timetable";
-import { ClockIcon, LibraryIcon, InformationCircleIcon } from "@heroicons/react/outline";
 import FadeIn from "react-fade-in";
 import { isBrowser, isMobile } from "react-device-detect";
 import { parseSubjectName } from "../lib/parser/parseSubjectName";
 import { addSubject } from "../lib/localstorage/addSubject";
-import Button from "./common/button";
-import SubjectDetail from "./SubjectDetail";
-import LectureEvaluate from "./LectureEvaluate";
-import LectureComment from "./LectureComment";
+import SubjectDetail from "./subjectDetail";
+import LectureEvaluate from "./lectureEvaluate";
 
 interface Props {
   data: any;
