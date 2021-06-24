@@ -8,6 +8,7 @@ interface Props {}
 
 const SubjectDetail = ({ data }) => {
   const { semester } = useContext(SemesterContext);
+
   const {
     id,
     major,
@@ -92,7 +93,9 @@ const SubjectDetail = ({ data }) => {
 
         <Button
           text="시간표에 추가"
-          onClick={() => addSubject(semester, subjectNumber, subjectName, classHour)}
+          onClick={() => {
+            addSubject(semester, subjectNumber, subjectName, classHour, subjectType);
+          }}
         />
       </div>
     </div>

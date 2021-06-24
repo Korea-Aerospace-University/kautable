@@ -191,6 +191,14 @@ const Table = (props: Props) => {
             <td className="border-t border-r border-blue-100"></td>
             <td className="border-t border-r border-blue-100"></td>
           </tr>
+          <tr>
+            <td className="border-t border-r-2 border-blue-100">18:00</td>
+            <td className="border-t border-r border-blue-100"></td>
+            <td className="border-t border-r border-blue-100"></td>
+            <td className="border-t border-r border-blue-100"></td>
+            <td className="border-t border-r border-blue-100"></td>
+            <td className="border-t border-r border-blue-100"></td>
+          </tr>
         </tbody>
       </table>
       <Button Icon={DownloadIcon} onClick={toImage} text="이미지로 저장하기" />

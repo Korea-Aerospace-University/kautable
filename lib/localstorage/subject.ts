@@ -4,7 +4,8 @@ export const addSubject = (
   semester: string,
   subjectNumber: string,
   subjectName: string,
-  classHour: Array<string>
+  classHour: Array<string>,
+  subjectType: string
 ) => {
   const notifySuccess = () => toast(`${subjectName} 과목을(를) 추가했습니다.`);
   const notifyFailure = () => toast(`(;° ロ°) 이미 추가된 과목입니다!`);
@@ -22,6 +23,7 @@ export const addSubject = (
     id,
     name: subjectName,
     classHour: classHour,
+    subjectType,
   });
   notifySuccess();
 
