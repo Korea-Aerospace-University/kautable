@@ -27,3 +27,20 @@ export const addSubject = (
 
   localStorage.setItem(`${semester}`, JSON.stringify(subjectArray));
 };
+
+export const getAllSubject = (semester: string) => {
+  const subjectList = JSON.parse(localStorage.getItem(`${semester}`)) ?? [];
+  return subjectList;
+};
+
+export const getSubject = (semester: string, id: string) => {
+  const subjectList = JSON.parse(localStorage.getItem(`${semester}`)) ?? [];
+  const subject = subjectList.find((subject) => subject.id === id);
+  return subject;
+};
+
+export const removeSubject = (semester: string, id: string) => {
+  const subjectList = JSON.parse(localStorage.getItem(`${semester}`)) ?? [];
+  const updatedSubject = subjectList.filter((subject) => id !== subject.id);
+  localStorage.setItem(`${semester}`, JSON.stringify(updatedSubject));
+};

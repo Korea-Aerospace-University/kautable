@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import { InformationCircleIcon, ClockIcon, LibraryIcon } from "@heroicons/react/outline";
 import { SemesterContext } from "../pages/Timetable";
 import Button from "./common/button";
-import { addSubject } from "../lib/localstorage/addSubject";
+import { addSubject } from "../lib/localstorage/subject";
 
 interface Props {}
 

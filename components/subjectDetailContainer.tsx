@@ -3,7 +3,7 @@ import { SemesterContext } from "../pages/Timetable";
 import FadeIn from "react-fade-in";
 import { isBrowser, isMobile } from "react-device-detect";
 import { parseSubjectName } from "../lib/parser/parseSubjectName";
-import { addSubject } from "../lib/localstorage/addSubject";
+import { addSubject } from "../lib/localstorage/subject";
 import SubjectDetail from "./subjectDetail";
 import LectureEvaluate from "./lectureEvaluate";
 

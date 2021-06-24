@@ -6,7 +6,7 @@
 }
 
 .detail-subtitle-SDU {
-  background-color: rgba(179, 176, 28, 0.8);
+  background-color: #cac713;
   color: rgb(255, 255, 255);
   border-radius: 8px;
   padding: 5px 8px;
@@ -269,7 +269,7 @@
 }
 
 .bg-SDU {
-  background: linear-gradient(270deg, #dee976, #c0d129, #c8d14f);
+  background: linear-gradient(270deg, #f7f317, #fff235, #c8d14f);
   background-size: 600% 600%;
   animation: AnimationName 12s ease infinite;
 }

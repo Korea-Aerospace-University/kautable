@@ -19,6 +19,7 @@ const customStyles = {
     minWidth: "300px",
     borderRadius: "12px",
     transform: "translate(-50%, -50%)",
+    background: "transparent",
     border: "0px",
     padding: 0,
   },
