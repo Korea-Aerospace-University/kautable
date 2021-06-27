@@ -2,12 +2,15 @@ import React, { useContext } from "react";
 import { InformationCircleIcon, ClockIcon, LibraryIcon } from "@heroicons/react/outline";
 import { SemesterContext } from "../pages/Timetable";
 import Button from "./common/button";
-import { addSubject } from "../lib/localstorage/addSubject";
+import { addSubject, getAllSubject } from "../lib/localstorage/subject";
+import { SubjectContext } from "./tableContainer";
 
 interface Props {}
 
 const SubjectDetail = ({ data }) => {
   const { semester } = useContext(SemesterContext);
+  const { setSubjectBasketList } = useContext(SubjectContext);
+
   const {
     id,
     major,
@@ -21,6 +24,11 @@ const SubjectDetail = ({ data }) => {
     maxStudent,
     subjectScore,
   } = data;
+
+  const addSubjectToBasket = () => {
+    addSubject(semester, subjectNumber, subjectName, classHour, subjectType);
+    setSubjectBasketList(getAllSubject(semester));
+  };
 
   return (
     <div className="bg-white p-5 lg:px-8 lg:py-6 mb-5 w-full h-full rounded-lg shadow-2xl">
@@ -92,7 +100,9 @@ const SubjectDetail = ({ data }) => {
 
         <Button
           text="시간표에 추가"
-          onClick={() => addSubject(semester, subjectNumber, subjectName, classHour)}
+          onClick={() => {
+            addSubjectToBasket();
+          }}
         />
       </div>
     </div>

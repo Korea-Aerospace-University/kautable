@@ -3,7 +3,7 @@ import { SemesterContext } from "../pages/Timetable";
 import FadeIn from "react-fade-in";
 import { isBrowser, isMobile } from "react-device-detect";
 import { parseSubjectName } from "../lib/parser/parseSubjectName";
-import { addSubject } from "../lib/localstorage/addSubject";
+import { addSubject } from "../lib/localstorage/subject";
 import SubjectDetail from "./subjectDetail";
 import LectureEvaluate from "./lectureEvaluate";
 
@@ -34,7 +34,7 @@ const SubjectDetailContainer: React.FC<Props> = ({ data }) => {
         <span className={`text-xs ml-1 lg:text-base detail-subtitle-${major}`}>{major}</span>
       </h1>
       <div
-        className={`flex flex-col lg:flex-row  scrollbar-hidden items-center lg:items-start justify-center p-5 lg:p-8 text-xs lg:text-base bg-${major}`}
+        className={`flex flex-col lg:flex-row h-auto lg:h-full scrollbar-hidden items-center lg:items-start justify-center p-5 lg:p-8 text-xs lg:text-base bg-${major}`}
       >
         <>
           <SubjectDetail data={data} />

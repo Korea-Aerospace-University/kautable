@@ -1,7 +1,7 @@
 import React, { useContext, useEffect, useState } from "react";
 import { MajorContext, SemesterContext } from "../pages/Timetable";
 import { getSubjectsAPI } from "../lib/api/subject";
-import { SubjectContext } from "./subjectList";
+import { SubjectContext } from "./tableContainer";
 
 interface Props {}
 

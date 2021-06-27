@@ -5,7 +5,7 @@ import ModalContainer from "./common/modalContainer";
 import SubjectDetailContainer from "./subjectDetailContainer";
 import SubjectItem from "./subjectItem";
 import { ExclamationIcon } from "@heroicons/react/solid";
-import { SubjectContext } from "./subjectList";
+import { SubjectContext } from "./tableContainer";
 
 interface ISubjectResponse {
   data: [];
