@@ -5,6 +5,7 @@ import { XIcon } from "@heroicons/react/outline";
 import ModalContainer from "./common/modalContainer";
 import SubjectDetailContainer from "./subjectDetailContainer";
 import { SubjectContext } from "./tableContainer";
+import { localSubjectData } from "../types/subject";
 
 interface Props {}
 
@@ -70,6 +71,16 @@ const SubjectBasket = (props: Props) => {
               강의를 <span className="font-bold">클릭</span>한 후,{" "}
               <span className="font-bold">[시간표 추가하기]</span> 를 선택해 과목을 추가해보세요.
             </p>
+          </div>
+        )}
+        {subjectBasketList.length > 0 && (
+          <div className="text-center p-3 shadow-md bg-white rounded-lg text-sm text-gray-500 inline-block">
+            ✅ 신청과목 : {subjectBasketList.length}과목 / 신청학점 :{" "}
+            {subjectBasketList?.reduce(
+              (sum: number, current: localSubjectData) => sum + Number(current.subjectScore),
+              0
+            )}
+            학점
           </div>
         )}
       </div>
