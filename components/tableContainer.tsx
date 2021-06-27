@@ -14,7 +14,14 @@ const TableContainer = (props: Props) => {
 
   return (
     <SubjectContext.Provider
-      value={{ selectedSubject, setSelectedSubject, subjectDataList, setSubjectDataList }}
+      value={{
+        selectedSubject,
+        setSelectedSubject,
+        subjectDataList,
+        setSubjectDataList,
+        subjectBasketList,
+        setSubjectBasketList,
+      }}
     >
       <div className="flex flex-col lg:flex-row w-full justify-between">
         <SubjectList />

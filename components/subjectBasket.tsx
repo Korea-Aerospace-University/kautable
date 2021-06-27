@@ -13,15 +13,16 @@ const SubjectBasket = (props: Props) => {
   const [parsedSemester, setParsedSemester] = useState(semester.split("-"));
   const [modalIsOpen, setModalIsOpen] = useState(false);
   const [selectedSubject, setSelectedSubject] = useState(null);
-  const [basketList, setBasketList] = useState([]);
-  const { subjectDataList, setSubjectDataList } = useContext(SubjectContext);
+  const { subjectDataList, setSubjectDataList, subjectBasketList, setSubjectBasketList } =
+    useContext(SubjectContext);
 
   useEffect(() => {
     setParsedSemester(semester.split("-"));
   }, [semester]);
 
   useEffect(() => {
-    setBasketList(getAllSubject(semester));
+    // 학기를 바꿀 때마다 로컬스토리지에서 수강내역 읽어옴
+    setSubjectBasketList(getAllSubject(semester));
   }, [semester]);
 
   const selectSubjectById = (id) => {
@@ -31,7 +32,7 @@ const SubjectBasket = (props: Props) => {
   };
 
   const removeSubjectFromBasket = (e, subject) => {
-    setBasketList(basketList.filter((_subject) => subject.id !== _subject.id));
+    setSubjectBasketList(subjectBasketList.filter((_subject) => subject.id !== _subject.id));
     removeSubject(semester, subject.id);
     e.stopPropagation();
   };
@@ -40,11 +41,11 @@ const SubjectBasket = (props: Props) => {
     <div>
       <h1 className="text-xl md:text-2xl p-1 lg:p-3 mt-7 lg:mt-10 border-b-2 border-blue-900 mb-5">
         🧺 과목 장바구니{" "}
-        <span className="text-sm lg:text-base text-gray-500 ml-2">{`(${parsedSemester[0]}년 ${parsedSemester[1]}학기)`}</span>
+        <span className="font-light text-sm lg:text-base text-gray-500 ml-2">{`(${parsedSemester[0]}년 ${parsedSemester[1]}학기)`}</span>
       </h1>
       <div className="bg-blue-50 p-3 rounded-md">
-        {basketList.length > 0 ? (
-          basketList.map((subject) => (
+        {subjectBasketList.length > 0 ? (
+          subjectBasketList.map((subject) => (
             <div
               className="flex cursor-pointer hover:bg-blue-100 transition-colors shadow-md items-center justify-between p-3 bg-white rounded-xl my-3 text-gray-500 border-gray-300"
               onClick={() => {

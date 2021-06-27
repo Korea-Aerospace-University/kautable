@@ -1,14 +1,19 @@
-import React, { useRef } from "react";
+import React, { useContext, useEffect, useRef } from "react";
 import TableMenu from "./tableMenu";
 import Button from "./common/button";
 import { DownloadIcon } from "@heroicons/react/solid";
 import domtoimage from "dom-to-image";
 import { saveAs } from "file-saver";
+import { getAllSubject } from "../lib/localstorage/subject";
+import { SemesterContext } from "../pages/Timetable";
+import { SubjectContext } from "./tableContainer";
 
 interface Props {}
 
 const Table = (props: Props) => {
   const tableRef: any = useRef(null);
+  const { semester } = useContext(SemesterContext);
+  const { subjectBasketList } = useContext(SubjectContext);
 
   const toImage = () => {
     domtoimage
@@ -20,6 +25,10 @@ const Table = (props: Props) => {
         console.error("oops, something went wrong!", error);
       });
   };
+
+  useEffect(() => {
+    console.log(subjectBasketList);
+  }, [semester]);
 
   return (
     <div className="w-full lg:w-[400px] flex flex-col ml-0 lg:ml-10">
