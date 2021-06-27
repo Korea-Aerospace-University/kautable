@@ -6,6 +6,7 @@ import SubjectDetailContainer from "./subjectDetailContainer";
 import SubjectItem from "./subjectItem";
 import { ExclamationIcon } from "@heroicons/react/solid";
 import { SubjectContext } from "./tableContainer";
+import { SubjectData } from "../types/subject";
 
 interface ISubjectResponse {
   data: [];
@@ -28,8 +29,8 @@ const SubjectTable = () => {
   }, [semester, major]);
 
   const getSubjectList = async () => {
-    const data: any = await getSubjectsAPI(semester);
-    const filteredData = data?.data.filter((subject) => {
+    const { data } = await getSubjectsAPI(semester);
+    const filteredData = data?.filter((subject) => {
       switch (major) {
         case "all":
           return true;
@@ -82,7 +83,7 @@ const SubjectTable = () => {
 
   const selectSubject = (id: string) => {
     if (subjectDataList !== null) {
-      setSelectedSubject(subjectDataList.filter((subject) => subject.id === id)[0]);
+      setSelectedSubject(subjectDataList.filter((subject: SubjectData) => subject.id === id)[0]);
     }
   };
 

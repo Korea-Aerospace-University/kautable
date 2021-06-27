@@ -1,11 +1,11 @@
 import React, { useContext } from "react";
 import { parseSubjectName } from "../lib/parser/parseSubjectName";
+import { SubjectData } from "../types/subject";
 import { ModalContext } from "./subjectTable";
-
 
 const SubjectItem = ({ data, selectSubject }) => {
   const { isModalOpen, setIsModalOpen } = useContext(ModalContext);
-  const { id, major, subjectName, profName, subjectScore } = data;
+  const { id, major, subjectName, profName, subjectScore }: SubjectData = data;
 
   return (
     <tr

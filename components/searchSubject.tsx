@@ -2,10 +2,9 @@ import React, { useContext, useEffect, useState } from "react";
 import { MajorContext, SemesterContext } from "../pages/Timetable";
 import { getSubjectsAPI } from "../lib/api/subject";
 import { SubjectContext } from "./tableContainer";
+import { SubjectData } from "../types/subject";
 
-interface Props {}
-
-const SearchSubject = (props: Props) => {
+const SearchSubject = () => {
   const [searchTerm, setSearchTerm] = useState("");
   const { semester } = useContext(SemesterContext);
   const { major } = useContext(MajorContext);
@@ -21,7 +20,7 @@ const SearchSubject = (props: Props) => {
 
   const getSubjectList = async () => {
     const data: any = await getSubjectsAPI(semester);
-    const filteredData = data?.data.filter((subject) => {
+    const filteredData: SubjectData[] = data?.data.filter((subject) => {
       switch (major) {
         case "all":
           return true;

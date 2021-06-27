@@ -5,13 +5,13 @@ export const addSubject = (
   subjectNumber: string,
   subjectName: string,
   classHour: Array<string>,
-  subjectType: string
+  subjectType: string,
+  subjectScore: string
 ) => {
   const notifySuccess = () => toast(`${subjectName} 과목을(를) 추가했습니다.`);
   const notifyFailure = (message: string) => toast(message);
   const id = `${semester}-${subjectNumber}`;
   const subjectArray = JSON.parse(localStorage.getItem(`${semester}`)) ?? [];
-  console.log(subjectArray);
   // 이미 과목이 포함되어 있는 경우
   for (let subject of subjectArray) {
     if (subject.id === id) {
@@ -28,6 +28,7 @@ export const addSubject = (
     name: subjectName,
     classHour: classHour,
     subjectType,
+    subjectScore,
   });
   notifySuccess();
 

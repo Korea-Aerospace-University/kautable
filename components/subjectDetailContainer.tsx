@@ -6,6 +6,7 @@ import { parseSubjectName } from "../lib/parser/parseSubjectName";
 import { addSubject } from "../lib/localstorage/subject";
 import SubjectDetail from "./subjectDetail";
 import LectureEvaluate from "./lectureEvaluate";
+import { SubjectData } from "../types/subject";
 
 interface Props {
   data: any;
@@ -13,19 +14,7 @@ interface Props {
 
 const SubjectDetailContainer: React.FC<Props> = ({ data }) => {
   const { semester } = useContext(SemesterContext);
-  const {
-    id,
-    major,
-    subjectName,
-    subjectNumber,
-    subjectType,
-    subjectGrade,
-    classHour,
-    classroom,
-    profName,
-    maxStudent,
-    subjectScore,
-  } = data;
+  const { major, subjectName }: SubjectData = data;
 
   return (
     <div className="flex flex-col h-full bg-white modal-detail overflow-y-auto lg:overflow-hidden">

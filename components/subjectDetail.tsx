@@ -4,6 +4,7 @@ import { SemesterContext } from "../pages/Timetable";
 import Button from "./common/button";
 import { addSubject, getAllSubject } from "../lib/localstorage/subject";
 import { SubjectContext } from "./tableContainer";
+import { SubjectData } from "../types/subject";
 
 interface Props {}
 
@@ -23,10 +24,12 @@ const SubjectDetail = ({ data }) => {
     profName,
     maxStudent,
     subjectScore,
-  } = data;
+  }: SubjectData = data;
 
   const addSubjectToBasket = () => {
-    addSubject(semester, subjectNumber, subjectName, classHour, subjectType);
+    // 로컬스토리지에 수강신청 과목 추가
+    addSubject(semester, subjectNumber, subjectName, classHour, subjectType, subjectScore);
+    // 로컬스토리지에 과목을 추가하면 화면의 장바구니 목록도 업데이트하는 코드
     setSubjectBasketList(getAllSubject(semester));
   };
 
