@@ -5,15 +5,12 @@ import ModalContainer from "./common/modalContainer";
 import SubjectDetailContainer from "./subjectDetailContainer";
 import SubjectItem from "./subjectItem";
 import { ExclamationIcon } from "@heroicons/react/solid";
-import { SubjectContext } from "./tableContainer";
-import { SubjectData } from "../types/subject";
-
-export const ModalContext = createContext(null);
+import { ModalContext, SubjectContext } from "./tableContainer";
 
 const SubjectTable = () => {
   const { selectedSubject, setSelectedSubject, subjectDataList, setSubjectDataList } =
     useContext(SubjectContext);
-  const [isModalOpen, setIsModalOpen] = useState(false);
+  const { isModalOpen, setIsModalOpen } = useContext(ModalContext);
   const { semester } = useContext(SemesterContext);
   const { major } = useContext(MajorContext);
 
@@ -78,41 +75,39 @@ const SubjectTable = () => {
   };
 
   return (
-    <ModalContext.Provider value={{ isModalOpen, setIsModalOpen }}>
-      <div className="flex w-full text-sm justify-around my-5 shadow-md max-h-[350px] lg:max-h-[450px] scrollbar-hide overflow-scroll">
-        <table className="border-2 border-gray-100 w-full h-full rounded-2xl table-fixed">
-          <thead className="flex flex-col lg:flex-row justify-center">
-            <tr className="flex flex-1 p-2 justify-between border-b-2 border-[#40368a]">
-              <th className="hidden lg:block lg:w-[20%] p-2 text-center text-md lg:text-lg text-gray-600">
-                전공
-              </th>
-              <th className="lg:w-[30%] p-2 text-center text-md lg:text-lg text-gray-600">
-                담당교수
-              </th>
-              <th className="lg:w-[35%] p-2 text-center text-md lg:text-lg text-gray-600">
-                교과목명
-              </th>
-              <th className="lg:w-[10%] p-2 text-center text-md lg:text-lg text-gray-600">학점</th>
+    <div className="flex w-full text-sm justify-around my-5 shadow-md max-h-[350px] lg:max-h-[450px] scrollbar-hide overflow-scroll">
+      <table className="border-2 border-gray-100 w-full h-full rounded-2xl table-fixed">
+        <thead className="flex flex-col lg:flex-row justify-center">
+          <tr className="flex flex-1 p-2 justify-between border-b-2 border-[#40368a]">
+            <th className="hidden lg:block lg:w-[20%] p-2 text-center text-md lg:text-lg text-gray-600">
+              전공
+            </th>
+            <th className="lg:w-[30%] p-2 text-center text-md lg:text-lg text-gray-600">
+              담당교수
+            </th>
+            <th className="lg:w-[35%] p-2 text-center text-md lg:text-lg text-gray-600">
+              교과목명
+            </th>
+            <th className="lg:w-[10%] p-2 text-center text-md lg:text-lg text-gray-600">학점</th>
+          </tr>
+        </thead>
+        <tbody className="h-[280px] lg:h-[350px]">
+          {subjectDataList?.length > 0 ? (
+            subjectDataList.map((subject: any) => <SubjectItem key={subject.id} data={subject} />)
+          ) : (
+            <tr className="noData flex justify-center items-center">
+              <td className="flex justify-center items-center h-52 lg:h-auto flex-col text-gray-400 text-md lg:text-2xl ">
+                <ExclamationIcon className="h-16 my-2" />
+                이런, 아직 데이터가 없네요!
+              </td>
             </tr>
-          </thead>
-          <tbody className="h-[280px] lg:h-[350px]">
-            {subjectDataList?.length > 0 ? (
-              subjectDataList.map((subject: any) => <SubjectItem key={subject.id} data={subject} />)
-            ) : (
-              <tr className="noData flex justify-center items-center">
-                <td className="flex justify-center items-center h-52 lg:h-auto flex-col text-gray-400 text-md lg:text-2xl ">
-                  <ExclamationIcon className="h-16 my-2" />
-                  이런, 아직 데이터가 없네요!
-                </td>
-              </tr>
-            )}
-          </tbody>
-        </table>
-        <ModalContainer isOpen={isModalOpen} setIsOpen={setIsModalOpen}>
-          <SubjectDetailContainer />
-        </ModalContainer>
-      </div>
-    </ModalContext.Provider>
+          )}
+        </tbody>
+      </table>
+      <ModalContainer isOpen={isModalOpen} setIsOpen={setIsModalOpen}>
+        <SubjectDetailContainer />
+      </ModalContainer>
+    </div>
   );
 };
 

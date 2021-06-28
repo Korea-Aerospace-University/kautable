@@ -1,16 +1,12 @@
 import React, { useContext } from "react";
-import { SemesterContext } from "../pages/Timetable";
-import FadeIn from "react-fade-in";
-import { isBrowser, isMobile } from "react-device-detect";
 import { parseSubjectName } from "../lib/parser/parseSubjectName";
-import { addSubject } from "../lib/localstorage/subject";
 import SubjectDetail from "./subjectDetail";
 import LectureEvaluate from "./lectureEvaluate";
 import { SubjectContext } from "./tableContainer";
 
 const SubjectDetailContainer = () => {
   const { selectedSubject } = useContext(SubjectContext);
-  // console.log(selectedSubject);
+  console.log(selectedSubject);
   const { major, subjectName } = selectedSubject;
 
   return (

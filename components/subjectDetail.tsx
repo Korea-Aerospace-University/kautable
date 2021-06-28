@@ -6,8 +6,6 @@ import { addSubject, getAllSubject } from "../lib/localstorage/subject";
 import { SubjectContext } from "./tableContainer";
 import { SubjectData } from "../types/subject";
 
-interface Props {}
-
 const SubjectDetail = ({ data }) => {
   const { semester } = useContext(SemesterContext);
   const { setSubjectBasketList } = useContext(SubjectContext);
@@ -59,7 +57,7 @@ const SubjectDetail = ({ data }) => {
               </span>
             }
           </li>
-          <li className="text-sm lg:text-base my-2 text-gray-700">교수명: {profName}</li>
+          <li className="text-sm lg:text-sm my-2 text-gray-700">교수명: {profName}</li>
           <li className="text-sm lg:text-base my-2 text-gray-700 ">수강정원: {maxStudent}명</li>
           <li className="text-sm lg:text-base my-2 text-gray-700 ">학점: {subjectScore}학점</li>
         </ul>

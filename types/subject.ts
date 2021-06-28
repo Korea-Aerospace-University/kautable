@@ -1,5 +1,5 @@
 export type SubjectData = {
-  id: string;
+  id: Number;
   major: string;
   subjectName: string;
   subjectNumber: string;

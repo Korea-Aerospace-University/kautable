@@ -5,10 +5,9 @@ import { SearchIcon } from "@heroicons/react/solid";
 import Button from "./common/button";
 import { MajorContext } from "../pages/Timetable";
 
-interface Props {}
 
-const MajorSelect = (props: Props) => {
-  const { major, setMajor } = useContext(MajorContext);
+const MajorSelect = () => {
+  const { setMajor } = useContext(MajorContext);
 
   const handleMajorChange = (selectedMajor: majorType) => {
     setMajor(selectedMajor.value);

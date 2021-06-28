@@ -7,19 +7,17 @@ import SubjectDetailContainer from "./subjectDetailContainer";
 import { SubjectContext } from "./tableContainer";
 import { localSubjectData, SubjectData } from "../types/subject";
 import { getSubjectsAPI } from "../lib/api/subject";
+import { ModalContext } from "./tableContainer";
 
 interface Props {}
 
 const SubjectBasket = (props: Props) => {
   const { semester } = useContext(SemesterContext);
   const [parsedSemester, setParsedSemester] = useState(semester.split("-"));
-  const [modalIsOpen, setModalIsOpen] = useState(false);
+  const { isModalOpen, setIsModalOpen } = useContext(ModalContext);
   const {
-    subjectDataList,
-    setSubjectDataList,
     subjectBasketList,
     setSubjectBasketList,
-    selectedSubject,
     setSelectedSubject,
   }: {
     subjectDataList: SubjectData[];
@@ -42,9 +40,9 @@ const SubjectBasket = (props: Props) => {
   // 전체 과목 리스트에서 장바구니에 있는 과목 정보를 검색함
   const selectSubjectById = async (id: string) => {
     const { data } = await getSubjectsAPI(semester);
-    setSelectedSubject(
-      data.find((subject: SubjectData) => subject.subjectNumber === id.slice(id.length - 4))
-    );
+    if (data !== null) {
+      setSelectedSubject(data.filter((subject: SubjectData) => subject.id === Number(id))[0]);
+    }
   };
 
   const removeSubjectFromBasket = (e: any, subject: localSubjectData) => {
@@ -66,8 +64,8 @@ const SubjectBasket = (props: Props) => {
               key={idx}
               className="flex cursor-pointer hover:bg-blue-100 transition-colors shadow-md items-center justify-between p-3 bg-white rounded-xl my-3 text-gray-500 border-gray-300"
               onClick={() => {
+                setIsModalOpen(true);
                 selectSubjectById(subject.id.split("-")[2]);
-                setModalIsOpen(true);
               }}
             >
               <div>
@@ -90,7 +88,7 @@ const SubjectBasket = (props: Props) => {
           </div>
         )}
         {subjectBasketList.length > 0 && (
-          <div className="text-center p-3 shadow-md bg-white rounded-lg text-sm text-gray-500 inline-block">
+          <div className="text-center p-3 shadow-md bg-white rounded-lg text-sm text-gray-500">
             ✅ 신청과목 : {subjectBasketList.length}과목 / 신청학점 :{" "}
             {subjectBasketList?.reduce(
               (sum: number, current: localSubjectData) => sum + Number(current.subjectScore),
@@ -100,9 +98,6 @@ const SubjectBasket = (props: Props) => {
           </div>
         )}
       </div>
-      <ModalContainer isOpen={modalIsOpen} setIsOpen={setModalIsOpen}>
-        <SubjectDetailContainer />
-      </ModalContainer>
     </div>
   );
 };

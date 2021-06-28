@@ -1,4 +1,5 @@
 import { toast } from "react-toastify";
+import { localSubjectData } from "../../types/subject";
 
 export const addSubject = (
   semester: string,
@@ -42,7 +43,7 @@ export const getAllSubject = (semester: string) => {
 
 export const getSubject = (semester: string, id: string) => {
   const subjectList = JSON.parse(localStorage.getItem(`${semester}`)) ?? [];
-  const subject = subjectList.find((subject) => subject.id === id);
+  const subject = subjectList.find((subject: localSubjectData) => subject.id === id);
   return subject;
 };
 

@@ -8,7 +8,7 @@ const SearchSubject = () => {
   const [searchTerm, setSearchTerm] = useState("");
   const { semester } = useContext(SemesterContext);
   const { major } = useContext(MajorContext);
-  const { setSubjectDataList } = useContext(SubjectContext);
+  const { setSelectedSubject, setSubjectDataList } = useContext(SubjectContext);
 
   useEffect(() => {
     const delayDebounce = setTimeout(() => {
@@ -72,6 +72,8 @@ const SearchSubject = () => {
       (data) => data.profName.includes(searchTerm) || data.subjectName.includes(searchTerm)
     );
     setSubjectDataList(searchResult);
+    // 이게 왜 되는건지..
+    setSelectedSubject(searchResult[0]);
   };
 
   return (
