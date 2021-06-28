@@ -25,7 +25,7 @@ export const addSubject = (
   }
   subjectArray.push({
     id,
-    name: subjectName,
+    subjectName,
     classHour: classHour,
     subjectType,
     subjectScore,

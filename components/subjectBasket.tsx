@@ -5,7 +5,8 @@ import { XIcon } from "@heroicons/react/outline";
 import ModalContainer from "./common/modalContainer";
 import SubjectDetailContainer from "./subjectDetailContainer";
 import { SubjectContext } from "./tableContainer";
-import { localSubjectData } from "../types/subject";
+import { localSubjectData, SubjectData } from "../types/subject";
+import { getSubjectsAPI } from "../lib/api/subject";
 
 interface Props {}
 
@@ -13,9 +14,21 @@ const SubjectBasket = (props: Props) => {
   const { semester } = useContext(SemesterContext);
   const [parsedSemester, setParsedSemester] = useState(semester.split("-"));
   const [modalIsOpen, setModalIsOpen] = useState(false);
-  const [selectedSubject, setSelectedSubject] = useState(null);
-  const { subjectDataList, setSubjectDataList, subjectBasketList, setSubjectBasketList } =
-    useContext(SubjectContext);
+  const {
+    subjectDataList,
+    setSubjectDataList,
+    subjectBasketList,
+    setSubjectBasketList,
+    selectedSubject,
+    setSelectedSubject,
+  }: {
+    subjectDataList: SubjectData[];
+    selectedSubject: SubjectData;
+    subjectBasketList: localSubjectData[];
+    setSubjectDataList: any;
+    setSubjectBasketList: any;
+    setSelectedSubject: any;
+  } = useContext(SubjectContext);
 
   useEffect(() => {
     setParsedSemester(semester.split("-"));
@@ -26,13 +39,15 @@ const SubjectBasket = (props: Props) => {
     setSubjectBasketList(getAllSubject(semester));
   }, [semester]);
 
-  const selectSubjectById = (id) => {
+  // 전체 과목 리스트에서 장바구니에 있는 과목 정보를 검색함
+  const selectSubjectById = async (id: string) => {
+    const { data } = await getSubjectsAPI(semester);
     setSelectedSubject(
-      subjectDataList.find((subject) => subject.subjectNumber === id.slice(id.length - 4))
+      data.find((subject: SubjectData) => subject.subjectNumber === id.slice(id.length - 4))
     );
   };
 
-  const removeSubjectFromBasket = (e, subject) => {
+  const removeSubjectFromBasket = (e: any, subject: localSubjectData) => {
     setSubjectBasketList(subjectBasketList.filter((_subject) => subject.id !== _subject.id));
     removeSubject(semester, subject.id);
     e.stopPropagation();
@@ -46,17 +61,18 @@ const SubjectBasket = (props: Props) => {
       </h1>
       <div className="bg-blue-50 p-3 rounded-md">
         {subjectBasketList.length > 0 ? (
-          subjectBasketList.map((subject) => (
+          subjectBasketList.map((subject: localSubjectData, idx: number) => (
             <div
+              key={idx}
               className="flex cursor-pointer hover:bg-blue-100 transition-colors shadow-md items-center justify-between p-3 bg-white rounded-xl my-3 text-gray-500 border-gray-300"
               onClick={() => {
-                selectSubjectById(subject.id);
+                selectSubjectById(subject.id.split("-")[2]);
                 setModalIsOpen(true);
               }}
             >
               <div>
                 <span className={`detail-${subject.subjectType} mr-4`}>{subject.subjectType}</span>
-                <span className="text-gray-500">{subject.name}</span>
+                <span className="text-gray-500">{subject.subjectName}</span>
               </div>
               <XIcon
                 className="h-5 cursor-pointer text-red-400"
@@ -85,7 +101,7 @@ const SubjectBasket = (props: Props) => {
         )}
       </div>
       <ModalContainer isOpen={modalIsOpen} setIsOpen={setModalIsOpen}>
-        <SubjectDetailContainer data={selectedSubject}></SubjectDetailContainer>
+        <SubjectDetailContainer />
       </ModalContainer>
     </div>
   );

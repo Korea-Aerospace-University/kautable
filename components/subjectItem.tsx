@@ -2,10 +2,18 @@ import React, { useContext } from "react";
 import { parseSubjectName } from "../lib/parser/parseSubjectName";
 import { SubjectData } from "../types/subject";
 import { ModalContext } from "./subjectTable";
+import { SubjectContext } from "./tableContainer";
 
-const SubjectItem = ({ data, selectSubject }) => {
+const SubjectItem = ({ data }) => {
   const { isModalOpen, setIsModalOpen } = useContext(ModalContext);
+  const { selectedSubject, subjectDataList, setSelectedSubject } = useContext(SubjectContext);
   const { id, major, subjectName, profName, subjectScore }: SubjectData = data;
+
+  const selectSubject = (id: string) => {
+    if (subjectDataList !== null) {
+      setSelectedSubject(subjectDataList.filter((subject: SubjectData) => subject.id === id)[0]);
+    }
+  };
 
   return (
     <tr

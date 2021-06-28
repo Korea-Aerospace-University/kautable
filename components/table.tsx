@@ -7,13 +7,13 @@ import { saveAs } from "file-saver";
 import { getAllSubject } from "../lib/localstorage/subject";
 import { SemesterContext } from "../pages/Timetable";
 import { SubjectContext } from "./tableContainer";
+import { localSubjectData } from "../types/subject";
 
-interface Props {}
-
-const Table = (props: Props) => {
+const Table = () => {
   const tableRef: any = useRef(null);
   const { semester } = useContext(SemesterContext);
-  const { subjectBasketList } = useContext(SubjectContext);
+  const { subjectBasketList }: { subjectBasketList: localSubjectData[] } =
+    useContext(SubjectContext);
 
   const toImage = () => {
     domtoimage
@@ -27,8 +27,21 @@ const Table = (props: Props) => {
   };
 
   useEffect(() => {
-    console.log(subjectBasketList);
+    renderTable();
   }, [semester]);
+
+  const renderTable = () => {
+    for (const subject of subjectBasketList) {
+      let classDay = subject.classHour;
+      parseClassHour(classDay);
+    }
+  };
+
+  const parseClassHour = (classHourList: any) => {
+    for (const classHour of classHourList) {
+      console.log(classHour);
+    }
+  };
 
   return (
     <div className="w-full lg:w-[400px] flex flex-col ml-0 lg:ml-10">
@@ -58,155 +71,155 @@ const Table = (props: Props) => {
         <tbody className="text-xs">
           <tr>
             <td className="border-t-2 border-r-2 border-blue-100">09:00</td>
-            <td className="border-t border-r border-blue-100"></td>
-            <td className="border-t border-r border-blue-100"></td>
-            <td className="border-t border-r border-blue-100"></td>
-            <td className="border-t border-r border-blue-100"></td>
-            <td className="border-t border-r border-blue-100"></td>
+            <td className="border-t border-r border-blue-100 monday"></td>
+            <td className="border-t border-r border-blue-100 tuesday"></td>
+            <td className="border-t border-r border-blue-100 wednesday"></td>
+            <td className="border-t border-r border-blue-100 thursday"></td>
+            <td className="border-t border-r border-blue-100 friday"></td>
           </tr>
           <tr>
             <td className="border-t border-r-2 border-blue-100">09:30</td>
-            <td className="border-t border-r border-blue-100"></td>
-            <td className="border-t border-r border-blue-100"></td>
-            <td className="border-t border-r border-blue-100"></td>
-            <td className="border-t border-r border-blue-100"></td>
-            <td className="border-t border-r border-blue-100"></td>
+            <td className="border-t border-r border-blue-100 monday"></td>
+            <td className="border-t border-r border-blue-100 tuesday"></td>
+            <td className="border-t border-r border-blue-100 wednesday"></td>
+            <td className="border-t border-r border-blue-100 thursday"></td>
+            <td className="border-t border-r border-blue-100 friday"></td>
           </tr>
           <tr>
             <td className="border-t border-r-2 border-blue-100">10:00</td>
-            <td className="border-t border-r border-blue-100"></td>
-            <td className="border-t border-r border-blue-100"></td>
-            <td className="border-t border-r border-blue-100"></td>
-            <td className="border-t border-r border-blue-100"></td>
-            <td className="border-t border-r border-blue-100"></td>
+            <td className="border-t border-r border-blue-100 monday"></td>
+            <td className="border-t border-r border-blue-100 tuesday"></td>
+            <td className="border-t border-r border-blue-100 wednesday"></td>
+            <td className="border-t border-r border-blue-100 thursday"></td>
+            <td className="border-t border-r border-blue-100 friday"></td>
           </tr>
           <tr>
             <td className="border-t border-r-2 border-blue-100">10:30</td>
-            <td className="border-t border-r border-blue-100"></td>
-            <td className="border-t border-r border-blue-100"></td>
-            <td className="border-t border-r border-blue-100"></td>
-            <td className="border-t border-r border-blue-100"></td>
-            <td className="border-t border-r border-blue-100"></td>
+            <td className="border-t border-r border-blue-100 monday"></td>
+            <td className="border-t border-r border-blue-100 tuesday"></td>
+            <td className="border-t border-r border-blue-100 wednesday"></td>
+            <td className="border-t border-r border-blue-100 thursday"></td>
+            <td className="border-t border-r border-blue-100 friday"></td>
           </tr>
           <tr>
             <td className="border-t border-r-2 border-blue-100">11:00</td>
-            <td className="border-t border-r border-blue-100"></td>
-            <td className="border-t border-r border-blue-100"></td>
-            <td className="border-t border-r border-blue-100"></td>
-            <td className="border-t border-r border-blue-100"></td>
-            <td className="border-t border-r border-blue-100"></td>
+            <td className="border-t border-r border-blue-100 monday"></td>
+            <td className="border-t border-r border-blue-100 tuesday"></td>
+            <td className="border-t border-r border-blue-100 wednesday"></td>
+            <td className="border-t border-r border-blue-100 thursday"></td>
+            <td className="border-t border-r border-blue-100 friday"></td>
           </tr>
           <tr>
             <td className="border-t border-r-2 border-blue-100">11:30</td>
-            <td className="border-t border-r border-blue-100"></td>
-            <td className="border-t border-r border-blue-100"></td>
-            <td className="border-t border-r border-blue-100"></td>
-            <td className="border-t border-r border-blue-100"></td>
-            <td className="border-t border-r border-blue-100"></td>
+            <td className="border-t border-r border-blue-100 monday"></td>
+            <td className="border-t border-r border-blue-100 tuesday"></td>
+            <td className="border-t border-r border-blue-100 wednesday"></td>
+            <td className="border-t border-r border-blue-100 thursday"></td>
+            <td className="border-t border-r border-blue-100 friday"></td>
           </tr>
           <tr>
             <td className="border-t border-r-2 border-blue-100">12:00</td>
-            <td className="border-t border-r border-blue-100"></td>
-            <td className="border-t border-r border-blue-100"></td>
-            <td className="border-t border-r border-blue-100"></td>
-            <td className="border-t border-r border-blue-100"></td>
-            <td className="border-t border-r border-blue-100"></td>
+            <td className="border-t border-r border-blue-100 monday"></td>
+            <td className="border-t border-r border-blue-100 tuesday"></td>
+            <td className="border-t border-r border-blue-100 wednesday"></td>
+            <td className="border-t border-r border-blue-100 thursday"></td>
+            <td className="border-t border-r border-blue-100 friday"></td>
           </tr>
           <tr>
             <td className="border-t border-r-2 border-blue-100">12:30</td>
-            <td className="border-t border-r border-blue-100"></td>
-            <td className="border-t border-r border-blue-100"></td>
-            <td className="border-t border-r border-blue-100"></td>
-            <td className="border-t border-r border-blue-100"></td>
-            <td className="border-t border-r border-blue-100"></td>
+            <td className="border-t border-r border-blue-100 monday"></td>
+            <td className="border-t border-r border-blue-100 tuesday"></td>
+            <td className="border-t border-r border-blue-100 wednesday"></td>
+            <td className="border-t border-r border-blue-100 thursday"></td>
+            <td className="border-t border-r border-blue-100 friday"></td>
           </tr>
           <tr>
             <td className="border-t border-r-2 border-blue-100">13:00</td>
-            <td className="border-t border-r border-blue-100"></td>
-            <td className="border-t border-r border-blue-100"></td>
-            <td className="border-t border-r border-blue-100"></td>
-            <td className="border-t border-r border-blue-100"></td>
-            <td className="border-t border-r border-blue-100"></td>
+            <td className="border-t border-r border-blue-100 monday"></td>
+            <td className="border-t border-r border-blue-100 tuesday"></td>
+            <td className="border-t border-r border-blue-100 wednesday"></td>
+            <td className="border-t border-r border-blue-100 thursday"></td>
+            <td className="border-t border-r border-blue-100 friday"></td>
           </tr>
           <tr>
             <td className="border-t border-r-2 border-blue-100">13:30</td>
-            <td className="border-t border-r border-blue-100"></td>
-            <td className="border-t border-r border-blue-100"></td>
-            <td className="border-t border-r border-blue-100"></td>
-            <td className="border-t border-r border-blue-100"></td>
-            <td className="border-t border-r border-blue-100"></td>
+            <td className="border-t border-r border-blue-100 monday"></td>
+            <td className="border-t border-r border-blue-100 tuesday"></td>
+            <td className="border-t border-r border-blue-100 wednesday"></td>
+            <td className="border-t border-r border-blue-100 thursday"></td>
+            <td className="border-t border-r border-blue-100 friday"></td>
           </tr>
           <tr>
             <td className="border-t border-r-2 border-blue-100">14:00</td>
-            <td className="border-t border-r border-blue-100"></td>
-            <td className="border-t border-r border-blue-100"></td>
-            <td className="border-t border-r border-blue-100"></td>
-            <td className="border-t border-r border-blue-100"></td>
-            <td className="border-t border-r border-blue-100"></td>
+            <td className="border-t border-r border-blue-100 monday"></td>
+            <td className="border-t border-r border-blue-100 tuesday"></td>
+            <td className="border-t border-r border-blue-100 wednesday"></td>
+            <td className="border-t border-r border-blue-100 thursday"></td>
+            <td className="border-t border-r border-blue-100 friday"></td>
           </tr>
           <tr>
             <td className="border-t border-r-2 border-blue-100">14:30</td>
-            <td className="border-t border-r border-blue-100"></td>
-            <td className="border-t border-r border-blue-100"></td>
-            <td className="border-t border-r border-blue-100"></td>
-            <td className="border-t border-r border-blue-100"></td>
-            <td className="border-t border-r border-blue-100"></td>
+            <td className="border-t border-r border-blue-100 monday"></td>
+            <td className="border-t border-r border-blue-100 tuesday"></td>
+            <td className="border-t border-r border-blue-100 wednesday"></td>
+            <td className="border-t border-r border-blue-100 thursday"></td>
+            <td className="border-t border-r border-blue-100 friday"></td>
           </tr>
           <tr>
             <td className="border-t border-r-2 border-blue-100">15:00</td>
-            <td className="border-t border-r border-blue-100"></td>
-            <td className="border-t border-r border-blue-100"></td>
-            <td className="border-t border-r border-blue-100"></td>
-            <td className="border-t border-r border-blue-100"></td>
-            <td className="border-t border-r border-blue-100"></td>
+            <td className="border-t border-r border-blue-100 monday"></td>
+            <td className="border-t border-r border-blue-100 tuesday"></td>
+            <td className="border-t border-r border-blue-100 wednesday"></td>
+            <td className="border-t border-r border-blue-100 thursday"></td>
+            <td className="border-t border-r border-blue-100 friday"></td>
           </tr>
           <tr>
             <td className="border-t border-r-2 border-blue-100">15:30</td>
-            <td className="border-t border-r border-blue-100"></td>
-            <td className="border-t border-r border-blue-100"></td>
-            <td className="border-t border-r border-blue-100"></td>
-            <td className="border-t border-r border-blue-100"></td>
-            <td className="border-t border-r border-blue-100"></td>
+            <td className="border-t border-r border-blue-100 monday"></td>
+            <td className="border-t border-r border-blue-100 tuesday"></td>
+            <td className="border-t border-r border-blue-100 wednesday"></td>
+            <td className="border-t border-r border-blue-100 thursday"></td>
+            <td className="border-t border-r border-blue-100 friday"></td>
           </tr>
           <tr>
             <td className="border-t border-r-2 border-blue-100">16:00</td>
-            <td className="border-t border-r border-blue-100"></td>
-            <td className="border-t border-r border-blue-100"></td>
-            <td className="border-t border-r border-blue-100"></td>
-            <td className="border-t border-r border-blue-100"></td>
-            <td className="border-t border-r border-blue-100"></td>
+            <td className="border-t border-r border-blue-100 monday"></td>
+            <td className="border-t border-r border-blue-100 tuesday"></td>
+            <td className="border-t border-r border-blue-100 wednesday"></td>
+            <td className="border-t border-r border-blue-100 thursday"></td>
+            <td className="border-t border-r border-blue-100 friday"></td>
           </tr>
           <tr>
             <td className="border-t border-r-2 border-blue-100">16:30</td>
-            <td className="border-t border-r border-blue-100"></td>
-            <td className="border-t border-r border-blue-100"></td>
-            <td className="border-t border-r border-blue-100"></td>
-            <td className="border-t border-r border-blue-100"></td>
-            <td className="border-t border-r border-blue-100"></td>
+            <td className="border-t border-r border-blue-100 monday"></td>
+            <td className="border-t border-r border-blue-100 tuesday"></td>
+            <td className="border-t border-r border-blue-100 wednesday"></td>
+            <td className="border-t border-r border-blue-100 thursday"></td>
+            <td className="border-t border-r border-blue-100 friday"></td>
           </tr>
           <tr>
             <td className="border-t border-r-2 border-blue-100">17:00</td>
-            <td className="border-t border-r border-blue-100"></td>
-            <td className="border-t border-r border-blue-100"></td>
-            <td className="border-t border-r border-blue-100"></td>
-            <td className="border-t border-r border-blue-100"></td>
-            <td className="border-t border-r border-blue-100"></td>
+            <td className="border-t border-r border-blue-100 monday"></td>
+            <td className="border-t border-r border-blue-100 tuesday"></td>
+            <td className="border-t border-r border-blue-100 wednesday"></td>
+            <td className="border-t border-r border-blue-100 thursday"></td>
+            <td className="border-t border-r border-blue-100 friday"></td>
           </tr>
           <tr>
             <td className="border-t border-r-2 border-blue-100">17:30</td>
-            <td className="border-t border-r border-blue-100"></td>
-            <td className="border-t border-r border-blue-100"></td>
-            <td className="border-t border-r border-blue-100"></td>
-            <td className="border-t border-r border-blue-100"></td>
-            <td className="border-t border-r border-blue-100"></td>
+            <td className="border-t border-r border-blue-100 monday"></td>
+            <td className="border-t border-r border-blue-100 tuesday"></td>
+            <td className="border-t border-r border-blue-100 wednesday"></td>
+            <td className="border-t border-r border-blue-100 thursday"></td>
+            <td className="border-t border-r border-blue-100 friday"></td>
           </tr>
           <tr>
             <td className="border-t border-r-2 border-blue-100">18:00</td>
-            <td className="border-t border-r border-blue-100"></td>
-            <td className="border-t border-r border-blue-100"></td>
-            <td className="border-t border-r border-blue-100"></td>
-            <td className="border-t border-r border-blue-100"></td>
-            <td className="border-t border-r border-blue-100"></td>
+            <td className="border-t border-r border-blue-100 monday"></td>
+            <td className="border-t border-r border-blue-100 tuesday"></td>
+            <td className="border-t border-r border-blue-100 wednesday"></td>
+            <td className="border-t border-r border-blue-100 thursday"></td>
+            <td className="border-t border-r border-blue-100 friday"></td>
           </tr>
         </tbody>
       </table>

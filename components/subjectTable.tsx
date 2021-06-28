@@ -8,10 +8,6 @@ import { ExclamationIcon } from "@heroicons/react/solid";
 import { SubjectContext } from "./tableContainer";
 import { SubjectData } from "../types/subject";
 
-interface ISubjectResponse {
-  data: [];
-}
-
 export const ModalContext = createContext(null);
 
 const SubjectTable = () => {
@@ -81,12 +77,6 @@ const SubjectTable = () => {
     setSubjectDataList(filteredData);
   };
 
-  const selectSubject = (id: string) => {
-    if (subjectDataList !== null) {
-      setSelectedSubject(subjectDataList.filter((subject: SubjectData) => subject.id === id)[0]);
-    }
-  };
-
   return (
     <ModalContext.Provider value={{ isModalOpen, setIsModalOpen }}>
       <div className="flex w-full text-sm justify-around my-5 shadow-md max-h-[350px] lg:max-h-[450px] scrollbar-hide overflow-scroll">
@@ -107,9 +97,7 @@ const SubjectTable = () => {
           </thead>
           <tbody className="h-[280px] lg:h-[350px]">
             {subjectDataList?.length > 0 ? (
-              subjectDataList.map((subject: any) => (
-                <SubjectItem key={subject.id} data={subject} selectSubject={selectSubject} />
-              ))
+              subjectDataList.map((subject: any) => <SubjectItem key={subject.id} data={subject} />)
             ) : (
               <tr className="noData flex justify-center items-center">
                 <td className="flex justify-center items-center h-52 lg:h-auto flex-col text-gray-400 text-md lg:text-2xl ">
@@ -121,7 +109,7 @@ const SubjectTable = () => {
           </tbody>
         </table>
         <ModalContainer isOpen={isModalOpen} setIsOpen={setIsModalOpen}>
-          <SubjectDetailContainer data={selectedSubject} />
+          <SubjectDetailContainer />
         </ModalContainer>
       </div>
     </ModalContext.Provider>

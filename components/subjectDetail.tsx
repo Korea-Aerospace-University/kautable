@@ -24,6 +24,7 @@ const SubjectDetail = ({ data }) => {
     profName,
     maxStudent,
     subjectScore,
+    liberalType,
   }: SubjectData = data;
 
   const addSubjectToBasket = () => {
@@ -45,7 +46,11 @@ const SubjectDetail = ({ data }) => {
       <div className="flex justify-center lg:justify-center">
         <ul className="flex flex-col mr-10 lg:list-disc">
           <li className="text-sm lg:text-base my-2 text-gray-700">과목번호: {subjectNumber}</li>
-          <li className="text-sm lg:text-base my-2 text-gray-700">대상학년: {subjectGrade}</li>
+          {liberalType ? (
+            <li className="text-sm lg:text-base my-2 text-gray-700">교양분류: {liberalType}</li>
+          ) : (
+            <li className="text-sm lg:text-base my-2 text-gray-700">대상학년: {subjectGrade}</li>
+          )}
           <li className="text-sm lg:text-base my-2 text-gray-700">
             구분:{" "}
             {

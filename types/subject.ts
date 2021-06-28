@@ -10,9 +10,11 @@ export type SubjectData = {
   profName: string;
   maxStudent: string;
   subjectScore: string;
+  liberalType?: string;
 };
 
 export type localSubjectData = {
+  id: string;
   semester: string;
   subjectNumber: string;
   subjectName: string;
