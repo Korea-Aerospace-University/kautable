@@ -36,8 +36,9 @@ const Table = () => {
     const weekdayList = ["monday", "tuesday", "wednesday", "thursday", "friday"];
     for (let i = 0; i < 5; i++) {
       for (let j = 1; j <= 21; j++) {
-        document.getElementsByClassName(`${weekdayList[i]}-${j}`)[0].style.cssText =
-          "background-color: white; border-top: 1px solid rgb(219, 234, 254)";
+        Array.from(
+          document.getElementsByClassName(`${weekdayList[i]}-${j}`) as HTMLCollectionOf<HTMLElement>
+        )[0].style.cssText = "background-color: white; border-top: 1px solid rgb(219, 234, 254)";
       }
     }
   };
@@ -47,8 +48,9 @@ const Table = () => {
     Object.keys(table).forEach((row) => {
       for (let col = 1; col <= 21; col++) {
         if (table[row][col] === true) {
-          document.getElementsByClassName(`${row}-${col}`)[0].style.cssText =
-            "background-color: red; border-top: 0px solid transparent";
+          Array.from(
+            document.getElementsByClassName(`${row}-${col}`) as HTMLCollectionOf<HTMLElement>
+          )[0].style.cssText = "background-color: red; border-top: 0px solid transparent";
         }
       }
     });
