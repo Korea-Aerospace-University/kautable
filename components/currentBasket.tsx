@@ -22,7 +22,7 @@ const CurrentBasket = () => {
               >
                 <div className={`detail-${subject.subjectType}`}>{subject.subjectType}</div>
                 <div>{subject.subjectName}</div>
-                <div className="flex flex-col">
+                <div className="flex-col hidden lg:flex">
                   {subject.classHour.map((classhour) => (
                     <span className="text-xs lg:text-sm">{classhour}</span>
                   ))}
@@ -32,7 +32,7 @@ const CurrentBasket = () => {
             ))}
           </div>
         ) : (
-          <div className="text-center bg-gray-50 rounded-xl text-sm p-2">
+          <div className="text-center bg-gray-50 rounded-xl text-xs lg:text-sm p-2">
             <p className="mb-2">이런, 아직 추가한 과목이 없네요! \(´∀｀)/</p>
             <p>
               <span className="font-bold text-red-600">[즐겨찾기]</span> 버튼을 눌러 관심 과목을
