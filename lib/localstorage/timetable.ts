@@ -94,9 +94,16 @@ export const checkColor = (id: string) => {
 // 시간표 데이터를 생성하고 리턴하는 함수
 export const setTimeTable = (semester: string) => {
   const subjectList = getAllSubject(semester);
+  console.log(subjectList);
   Object.keys(timeTable).forEach((weekday) => {
     for (let col = 1; col <= 21; col++) {
-      timeTable[weekday][col].occupied = false;
+      timeTable[weekday][col] = {
+        occupied: false,
+        subjectName: "",
+        id: "",
+        color: "",
+        classRoom: "",
+      };
     }
   });
 
@@ -118,10 +125,12 @@ export const setTimeTable = (semester: string) => {
       }
     });
   });
+  console.log(timeTable);
   return timeTable;
 };
 
 export const getTimeTable = (semester: string) => {
+  console.log(timeTable);
   return timeTable;
 };
 

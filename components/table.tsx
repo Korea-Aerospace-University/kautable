@@ -31,7 +31,7 @@ const Table = () => {
     setTimeTable(semester);
     setTable(getTimeTable(semester));
     renderTable();
-  }, [subjectBasketList]);
+  }, [subjectBasketList, semester]);
 
   const initTable = () => {
     const weekdayList = ["monday", "tuesday", "wednesday", "thursday", "friday"];
