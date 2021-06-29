@@ -10,6 +10,7 @@ const TableContainer = () => {
   const [subjectBasketList, setSubjectBasketList] = useState([]);
   const [selectedSubject, setSelectedSubject] = useState(null);
   const [subjectDataList, setSubjectDataList] = useState(null);
+  const [favoriteList, setFavoriteList] = useState([]);
   const [isModalOpen, setIsModalOpen] = useState(false);
 
   return (
@@ -21,6 +22,8 @@ const TableContainer = () => {
         setSubjectDataList,
         subjectBasketList,
         setSubjectBasketList,
+        favoriteList,
+        setFavoriteList,
       }}
     >
       <ModalContext.Provider value={{ isModalOpen, setIsModalOpen }}>

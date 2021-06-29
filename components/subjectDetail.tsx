@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+import React, { useContext, useEffect } from "react";
 import { InformationCircleIcon, ClockIcon, LibraryIcon } from "@heroicons/react/outline";
 import { SemesterContext } from "../pages/Timetable";
 import Button from "./common/button";
@@ -7,14 +7,22 @@ import { SubjectContext } from "./tableContainer";
 import { SubjectData } from "../types/subject";
 import { HeartIcon } from "@heroicons/react/solid";
 import { HeartIcon as HeartIconOutline } from "@heroicons/react/outline";
+import {
+  addFavorite,
+  checkReduplicateFavorite,
+  getAllFavorite,
+  removeFavorite,
+} from "../lib/localstorage/favorite";
 
 const SubjectDetail = ({ data }) => {
   const { semester } = useContext(SemesterContext);
-  const { setSubjectBasketList } = useContext(SubjectContext);
+  const { setSubjectBasketList, setFavoriteList } = useContext(SubjectContext);
+
+  useEffect(() => {
+    setFavoriteList(getAllFavorite(semester));
+  }, [semester]);
 
   const {
-    id,
-    major,
     subjectName,
     subjectNumber,
     subjectType,
@@ -42,6 +50,26 @@ const SubjectDetail = ({ data }) => {
     setSubjectBasketList(getAllSubject(semester));
   };
 
+  const handleFavoriteSubject = () => {
+    const id = `${semester}-${subjectNumber}`;
+    // 관심 목록에 이미 있을 시 true
+    if (checkReduplicateFavorite(semester, id) === false) {
+      addFavorite(
+        semester,
+        subjectNumber,
+        subjectName,
+        classHour,
+        subjectType,
+        subjectScore,
+        classroom
+      );
+      setFavoriteList(getAllFavorite(semester));
+    } else {
+      removeFavorite(semester, id);
+      setFavoriteList(getAllFavorite(semester));
+    }
+  };
+
   return (
     <div className="bg-white p-5 lg:px-8 lg:py-6 mb-5 w-full h-full rounded-lg shadow-2xl">
       <header className="flex items-center justify-between">
@@ -49,10 +77,23 @@ const SubjectDetail = ({ data }) => {
           <InformationCircleIcon className="h-5 w-5 mr-2 text-gray-500" />
           <h1 className="text-lg lg:text-xl text-bold text-gray-500">교과목 정보</h1>
         </div>
-        <div className="flex items-center border rounded-lg px-2 py-1 cursor-pointer hover:border-gray-400 transition-color">
-          <HeartIconOutline className="h-4 mr-2" />
-          <div className="text-sm">관심</div>
-        </div>
+        {checkReduplicateFavorite(semester, `${semester}-${subjectNumber}`) ? (
+          <div
+            className="flex items-center border rounded-lg px-2 py-1 cursor-pointer hover:border-gray-400 transition-color"
+            onClick={handleFavoriteSubject}
+          >
+            <HeartIcon className="h-4 mr-2 text-red-400" />
+            <div className="text-sm">관심 취소</div>
+          </div>
+        ) : (
+          <div
+            className="flex items-center border rounded-lg px-2 py-1 cursor-pointer hover:border-gray-400 transition-color"
+            onClick={handleFavoriteSubject}
+          >
+            <HeartIconOutline className="h-4 mr-2" />
+            <div className="text-sm">관심</div>
+          </div>
+        )}
       </header>
       <div className="border-b-[1px] border-gray-300 mt-2 mb-3 w-full"></div>
       <div className="flex justify-center lg:justify-center">
