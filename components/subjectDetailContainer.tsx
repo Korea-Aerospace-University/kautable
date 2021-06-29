@@ -1,31 +1,13 @@
 import React, { useContext } from "react";
-import { SemesterContext } from "../pages/Timetable";
-import FadeIn from "react-fade-in";
-import { isBrowser, isMobile } from "react-device-detect";
 import { parseSubjectName } from "../lib/parser/parseSubjectName";
-import { addSubject } from "../lib/localstorage/subject";
 import SubjectDetail from "./subjectDetail";
-import LectureEvaluate from "./lectureEvaluate";
+// import LectureEvaluate from "./lectureEvaluate";
+import { SubjectContext } from "./tableContainer";
+import CurrentBasket from "./currentBasket";
 
-interface Props {
-  data: any;
-}
-
-const SubjectDetailContainer: React.FC<Props> = ({ data }) => {
-  const { semester } = useContext(SemesterContext);
-  const {
-    id,
-    major,
-    subjectName,
-    subjectNumber,
-    subjectType,
-    subjectGrade,
-    classHour,
-    classroom,
-    profName,
-    maxStudent,
-    subjectScore,
-  } = data;
+const SubjectDetailContainer = () => {
+  const { subjectBasketList, selectedSubject } = useContext(SubjectContext);
+  const { major, subjectName } = selectedSubject;
 
   return (
     <div className="flex flex-col h-full bg-white modal-detail overflow-y-auto lg:overflow-hidden">
@@ -37,27 +19,9 @@ const SubjectDetailContainer: React.FC<Props> = ({ data }) => {
         className={`flex flex-col lg:flex-row h-auto lg:h-full scrollbar-hidden items-center lg:items-start justify-center p-5 lg:p-8 text-xs lg:text-base bg-${major}`}
       >
         <>
-          <SubjectDetail data={data} />
-          <LectureEvaluate />
+          <SubjectDetail data={selectedSubject} />
+          <CurrentBasket />
         </>
-        {/* {isBrowser && (
-          <FadeIn
-            transitionDuration={1500}
-            delay={700}
-            childClassName="fade-wrapper"
-            className="flex-col lg:flex-row flex justify-evenly w-full"
-          >
-            <SubjectDetail data={data} />
-            <LectureEvaluate />
-          </FadeIn>
-        )}
-
-        {isMobile && (
-          <>
-            <SubjectDetail data={data} />
-            <LectureEvaluate />
-          </>
-        )} */}
       </div>
     </div>
   );

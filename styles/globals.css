@@ -35,6 +35,21 @@
 
 table {
   border-width: 2px !important;
+  table-layout: fixed !important;
+}
+
+.timetable > tbody > tr > td {
+  width: 65px;
+  max-width: 60px !important;
+  font-size: 11px;
+}
+
+@media (max-width: 768px) {
+  .timetable > tbody > tr > td {
+    width: 40px;
+    max-width: 45px !important;
+    font-size: 10px;
+  }
 }
 
 .noData {
@@ -120,7 +135,7 @@ table {
   border-radius: 50%;
   background-color: #0b644c;
 }
-.신소재:before {
+.신소재공학과:before {
   content: "";
   display: inline-block;
   margin-right: 12px;

@@ -1,7 +1,6 @@
-import React, { createContext, useEffect, useState } from "react";
+import React, { createContext, useState } from "react";
 import TableContainer from "../components/tableContainer";
-import { getSubjectsAPI } from "../lib/api/subject";
-import { defaultSemester } from "../types/semester";
+import { defaultSemester } from "../constant/semester";
 
 interface Props {}
 

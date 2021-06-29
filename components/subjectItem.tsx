@@ -1,11 +1,20 @@
 import React, { useContext } from "react";
 import { parseSubjectName } from "../lib/parser/parseSubjectName";
-import { ModalContext } from "./subjectTable";
+import { SubjectData } from "../types/subject";
+import { SubjectContext, ModalContext } from "./tableContainer";
 
+const SubjectItem = ({ data }) => {
+  const { setIsModalOpen } = useContext(ModalContext);
+  const { subjectDataList, setSelectedSubject } = useContext(SubjectContext);
+  const { id, major, subjectName, profName, subjectScore }: SubjectData = data;
 
-const SubjectItem = ({ data, selectSubject }) => {
-  const { isModalOpen, setIsModalOpen } = useContext(ModalContext);
-  const { id, major, subjectName, profName, subjectScore } = data;
+  const selectSubject = (id: Number) => {
+    if (subjectDataList !== null) {
+      setSelectedSubject(
+        subjectDataList.filter((subject: SubjectData) => subject.id === Number(id))[0]
+      );
+    }
+  };
 
   return (
     <tr
@@ -22,12 +31,12 @@ const SubjectItem = ({ data, selectSubject }) => {
         {major}
       </td>
       <td
-        className="lg:w-[30%] lg:flex justify-center items-center px-2 text-xs lg:text-sm"
+        className="w-[35%] lg:w-[30%] lg:flex justify-center items-center text-xs lg:text-sm mr-4"
         valign="middle"
       >
         {profName}
       </td>
-      <td className="lg:w-[40%] lg:flex justify-center items-center text-xs lg:text-sm">
+      <td className="w-[60%] lg:w-[40%] lg:flex justify-center items-center text-xs lg:text-sm">
         {parseSubjectName(subjectName)}
       </td>
       <td className="lg:w-[10%] lg:flex justify-center items-center px-2 text-xs lg:text-sm">

@@ -2,14 +2,13 @@ import React, { useContext, useEffect, useState } from "react";
 import { MajorContext, SemesterContext } from "../pages/Timetable";
 import { getSubjectsAPI } from "../lib/api/subject";
 import { SubjectContext } from "./tableContainer";
+import { SubjectData } from "../types/subject";
 
-interface Props {}
-
-const SearchSubject = (props: Props) => {
+const SearchSubject = () => {
   const [searchTerm, setSearchTerm] = useState("");
   const { semester } = useContext(SemesterContext);
   const { major } = useContext(MajorContext);
-  const { setSubjectDataList } = useContext(SubjectContext);
+  const { setSelectedSubject, setSubjectDataList } = useContext(SubjectContext);
 
   useEffect(() => {
     const delayDebounce = setTimeout(() => {
@@ -21,7 +20,7 @@ const SearchSubject = (props: Props) => {
 
   const getSubjectList = async () => {
     const data: any = await getSubjectsAPI(semester);
-    const filteredData = data?.data.filter((subject) => {
+    const filteredData: SubjectData[] = data?.data.filter((subject) => {
       switch (major) {
         case "all":
           return true;
@@ -73,6 +72,8 @@ const SearchSubject = (props: Props) => {
       (data) => data.profName.includes(searchTerm) || data.subjectName.includes(searchTerm)
     );
     setSubjectDataList(searchResult);
+    // 이게 왜 되는건지..
+    setSelectedSubject(searchResult[0]);
   };
 
   return (

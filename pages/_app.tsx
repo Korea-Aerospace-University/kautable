@@ -9,7 +9,7 @@ const MyApp = ({ Component, pageProps }) => {
     <div className="bg-blue-50">
       {/* <Header /> */}
       <Component />
-      <ToastContainer />
+      <ToastContainer autoClose={3000} />
     </div>
   );
 };

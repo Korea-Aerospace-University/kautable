@@ -1,5 +1,6 @@
 import React, { useContext } from "react";
-import { defaultSemester, semester, semeterType } from "../types/semester";
+import { semeterType } from "../types/semester";
+import { defaultSemester, semester } from "../constant/semester";
 import Select from "react-select";
 import { SemesterContext } from "../pages/Timetable";
 
