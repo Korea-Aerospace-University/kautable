@@ -81,7 +81,7 @@ const SearchSubject = () => {
       <input
         type="text"
         placeholder="교수명 또는 과목명을 입력하세요"
-        className="border-blue-100 text-xs border-2 p-2 rounded-xl w-full"
+        className="border-blue-100 text-sm border-2 p-2 rounded-xl w-full"
         onChange={(e) => setSearchTerm(e.target.value)}
       />
     </div>
