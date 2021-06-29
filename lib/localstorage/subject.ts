@@ -44,15 +44,15 @@ export const addSubject = (
   for (let subject of subjectArray) {
     if (subject.id === id) {
       notifyFailure(`(;° ロ°) 이미 추가된 과목입니다!`);
-      return;
+      return false;
     }
     if (subject.subjectName === subjectName) {
       notifyFailure(`(;° ロ°) 동일한 이름의 과목이 존재합니다!`);
-      return;
+      return false;
     }
     if (checkTime(semester, classHour) === true) {
       notifyFailure(`(;° ロ°) 해당 시간에 다른 수업이 존재합니다!`);
-      return;
+      return false;
     }
   }
   subjectArray.push({
@@ -64,8 +64,8 @@ export const addSubject = (
     classRoom,
   });
   notifySuccess();
-
   localStorage.setItem(`${semester}`, JSON.stringify(subjectArray));
+  return true;
 };
 
 export const getAllSubject = (semester: string) => {

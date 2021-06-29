@@ -1,7 +1,7 @@
 import React, { useContext, useEffect, useState } from "react";
 import { getAllSubject, removeSubject } from "../lib/localstorage/subject";
 import { SemesterContext } from "../pages/Timetable";
-import { XIcon } from "@heroicons/react/outline";
+import { XIcon, PencilIcon } from "@heroicons/react/outline";
 import { SubjectContext } from "./tableContainer";
 import { localSubjectData, SubjectData } from "../types/subject";
 import { getSubjectsAPI } from "../lib/api/subject";
@@ -54,6 +54,19 @@ const SubjectBasket = () => {
         <span className="font-light text-sm lg:text-base text-gray-500 ml-2">{`(${parsedSemester[0]}년 ${parsedSemester[1]}학기)`}</span>
       </h1>
       <div className="bg-blue-50 p-3 rounded-md">
+        {subjectBasketList.length > 0 && (
+          <div className="text-center p-3 shadow-md bg-white rounded-lg text-sm text-gray-500">
+            <div className="flex justify-center">
+              <PencilIcon className="h-5 mr-2 text-xl" />
+              신청과목 : {subjectBasketList.length}과목 / 신청학점 :{" "}
+              {subjectBasketList?.reduce(
+                (sum: number, current: localSubjectData) => sum + Number(current.subjectScore),
+                0
+              )}
+              학점
+            </div>
+          </div>
+        )}
         {subjectBasketList.length > 0 ? (
           subjectBasketList.map((subject: localSubjectData, idx: number) => (
             <div
@@ -66,7 +79,10 @@ const SubjectBasket = () => {
             >
               <div>
                 <span className={`detail-${subject.subjectType} mr-4`}>{subject.subjectType}</span>
-                <span className="text-gray-500">{subject.subjectName}</span>
+                <span className="text-gray-500 mr-4">
+                  {subject.subjectName}
+                  <span className="ml-2 text-gray-400">({subject.subjectScore}학점)</span>
+                </span>
               </div>
               <XIcon
                 className="h-5 cursor-pointer text-red-400"
@@ -79,18 +95,8 @@ const SubjectBasket = () => {
             <p className="mb-2">아직 저장된 시간표가 없어요! (O Д O）</p>
             <p>
               강의를 <span className="font-bold">클릭</span>한 후,{" "}
-              <span className="font-bold">[시간표 추가하기]</span> 를 선택해 과목을 추가해보세요.
+              <span className="font-bold">[시간표에 추가]</span> 를 선택해 과목을 추가해보세요.
             </p>
-          </div>
-        )}
-        {subjectBasketList.length > 0 && (
-          <div className="text-center p-3 shadow-md bg-white rounded-lg text-sm text-gray-500">
-            ✅ 신청과목 : {subjectBasketList.length}과목 / 신청학점 :{" "}
-            {subjectBasketList?.reduce(
-              (sum: number, current: localSubjectData) => sum + Number(current.subjectScore),
-              0
-            )}
-            학점
           </div>
         )}
       </div>

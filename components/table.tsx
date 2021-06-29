@@ -75,7 +75,7 @@ const Table = () => {
   };
 
   return (
-    <div className="w-full lg:w-[400px] flex flex-col ml-0 lg:ml-10">
+    <div className="w-full lg:w-[40%] flex flex-col ml-0 lg:ml-10">
       <TableMenu />
       <table
         ref={tableRef}

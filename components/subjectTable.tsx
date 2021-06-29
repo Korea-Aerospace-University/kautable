@@ -74,7 +74,7 @@ const SubjectTable = () => {
   };
 
   return (
-    <div className="flex w-full text-sm justify-around my-5 shadow-md max-h-[350px] lg:max-h-[450px] scrollbar-hide overflow-scroll">
+    <div className="flex w-full text-sm justify-around my-5 shadow-md h-[350px] lg:h-[450px] scrollbar-hide overflow-scroll">
       <table className="border-2 border-gray-100 w-full h-full rounded-2xl table-fixed">
         <thead className="flex flex-col lg:flex-row justify-center">
           <tr className="flex flex-1 p-2 justify-between border-b-2 border-[#40368a]">
