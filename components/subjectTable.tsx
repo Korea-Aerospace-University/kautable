@@ -82,7 +82,7 @@ const SubjectTable = () => {
               전공
             </th>
             <th className="w-[30%] lg:w-[30%] p-2 text-center text-md lg:text-lg text-gray-600">
-              담당교수
+              담당교수
             </th>
             <th className="w-[50%] lg:w-[35%] p-2 text-center text-md lg:text-lg text-gray-600">
               교과목명
