@@ -1,11 +1,12 @@
 import React, { useContext } from "react";
 import { parseSubjectName } from "../lib/parser/parseSubjectName";
 import SubjectDetail from "./subjectDetail";
-import LectureEvaluate from "./lectureEvaluate";
+// import LectureEvaluate from "./lectureEvaluate";
 import { SubjectContext } from "./tableContainer";
+import CurrentBasket from "./CurrentBasket";
 
 const SubjectDetailContainer = () => {
-  const { selectedSubject } = useContext(SubjectContext);
+  const { subjectBasketList, selectedSubject } = useContext(SubjectContext);
   const { major, subjectName } = selectedSubject;
 
   return (
@@ -19,7 +20,7 @@ const SubjectDetailContainer = () => {
       >
         <>
           <SubjectDetail data={selectedSubject} />
-          <LectureEvaluate />
+          <CurrentBasket />
         </>
       </div>
     </div>

@@ -8,8 +8,7 @@ import { ExclamationIcon } from "@heroicons/react/solid";
 import { ModalContext, SubjectContext } from "./tableContainer";
 
 const SubjectTable = () => {
-  const { selectedSubject, setSelectedSubject, subjectDataList, setSubjectDataList } =
-    useContext(SubjectContext);
+  const { subjectDataList, setSubjectDataList } = useContext(SubjectContext);
   const { isModalOpen, setIsModalOpen } = useContext(ModalContext);
   const { semester } = useContext(SemesterContext);
   const { major } = useContext(MajorContext);
