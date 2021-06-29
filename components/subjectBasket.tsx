@@ -51,7 +51,7 @@ const SubjectBasket = () => {
     <div>
       <h1 className="text-xl md:text-2xl p-1 lg:p-3 mt-7 lg:mt-10 border-b-2 border-blue-900 mb-5">
         🧺 과목 장바구니{" "}
-        <span className="font-light text-sm lg:text-base text-gray-500 ml-2">{`(${parsedSemester[0]}년 ${parsedSemester[1]}학기)`}</span>
+        <span className="font-light text-sm lg:text-base text-gray-500 ml-2">{`(${parsedSemester[0]}년 ${parsedSemester[1][1]}학기)`}</span>
       </h1>
       <div className="bg-blue-50 p-3 rounded-md">
         {subjectBasketList.length > 0 && (
