@@ -5,6 +5,8 @@ import Button from "./common/button";
 import { addSubject, getAllSubject } from "../lib/localstorage/subject";
 import { SubjectContext } from "./tableContainer";
 import { SubjectData } from "../types/subject";
+import { HeartIcon } from "@heroicons/react/solid";
+import { HeartIcon as HeartIconOutline } from "@heroicons/react/outline";
 
 const SubjectDetail = ({ data }) => {
   const { semester } = useContext(SemesterContext);
@@ -42,12 +44,16 @@ const SubjectDetail = ({ data }) => {
 
   return (
     <div className="bg-white p-5 lg:px-8 lg:py-6 mb-5 w-full h-full rounded-lg shadow-2xl">
-      <div className="flex items-center">
-        <header className="flex items-center">
+      <header className="flex items-center justify-between">
+        <div className="flex items-center">
           <InformationCircleIcon className="h-5 w-5 mr-2 text-gray-500" />
           <h1 className="text-lg lg:text-xl text-bold text-gray-500">교과목 정보</h1>
-        </header>
-      </div>
+        </div>
+        <div className="flex items-center border rounded-lg px-2 py-1 cursor-pointer hover:border-gray-400 transition-color">
+          <HeartIconOutline className="h-4 mr-2" />
+          <div className="text-sm">관심</div>
+        </div>
+      </header>
       <div className="border-b-[1px] border-gray-300 mt-2 mb-3 w-full"></div>
       <div className="flex justify-center lg:justify-center">
         <ul className="flex flex-col mr-10 lg:list-disc">

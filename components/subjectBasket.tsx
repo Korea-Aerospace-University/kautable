@@ -1,20 +1,16 @@
-import React, { useCallback, useContext, useEffect, useState } from "react";
+import React, { useContext, useEffect, useState } from "react";
 import { getAllSubject, removeSubject } from "../lib/localstorage/subject";
 import { SemesterContext } from "../pages/Timetable";
 import { XIcon } from "@heroicons/react/outline";
-import ModalContainer from "./common/modalContainer";
-import SubjectDetailContainer from "./subjectDetailContainer";
 import { SubjectContext } from "./tableContainer";
 import { localSubjectData, SubjectData } from "../types/subject";
 import { getSubjectsAPI } from "../lib/api/subject";
 import { ModalContext } from "./tableContainer";
 
-interface Props {}
-
-const SubjectBasket = (props: Props) => {
+const SubjectBasket = () => {
   const { semester } = useContext(SemesterContext);
   const [parsedSemester, setParsedSemester] = useState(semester.split("-"));
-  const { isModalOpen, setIsModalOpen } = useContext(ModalContext);
+  const { setIsModalOpen } = useContext(ModalContext);
   const {
     subjectBasketList,
     setSubjectBasketList,
