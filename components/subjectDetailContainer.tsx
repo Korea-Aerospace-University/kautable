@@ -3,7 +3,7 @@ import { parseSubjectName } from "../lib/parser/parseSubjectName";
 import SubjectDetail from "./subjectDetail";
 // import LectureEvaluate from "./lectureEvaluate";
 import { SubjectContext } from "./tableContainer";
-import CurrentBasket from "./CurrentBasket";
+import CurrentBasket from "./currentBasket";
 
 const SubjectDetailContainer = () => {
   const { subjectBasketList, selectedSubject } = useContext(SubjectContext);
