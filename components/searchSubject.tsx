@@ -16,7 +16,7 @@ const SearchSubject = () => {
     }, 800);
 
     return () => clearTimeout(delayDebounce);
-  }, [searchTerm]);
+  }, [searchTerm, semester]);
 
   const getSubjectList = async () => {
     const data: any = await getSubjectsAPI(semester);
