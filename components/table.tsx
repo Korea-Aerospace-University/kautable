@@ -7,8 +7,7 @@ import { saveAs } from "file-saver";
 import { SemesterContext } from "../pages/Timetable";
 import { SubjectContext } from "./tableContainer";
 import { localSubjectData } from "../types/subject";
-import { getTimeTable, timeTable } from "../lib/localstorage/timetable";
-import { getRandomColor } from "../lib/data/palette";
+import { getTimeTable, setTimeTable, timeTable } from "../lib/localstorage/timetable";
 
 const Table = () => {
   const tableRef: any = useRef(null);
@@ -21,7 +20,7 @@ const Table = () => {
     domtoimage
       .toSvg(tableRef.current)
       .then(function (dataUrl) {
-        saveAs(dataUrl, "image__.svg");
+        saveAs(dataUrl, `${semester}-시간표.svg`);
       })
       .catch(function (error) {
         console.error("oops, something went wrong!", error);
@@ -29,6 +28,7 @@ const Table = () => {
   };
 
   useEffect(() => {
+    setTimeTable(semester);
     setTable(getTimeTable(semester));
     renderTable();
   }, [subjectBasketList]);
@@ -67,7 +67,7 @@ const Table = () => {
             document.getElementsByClassName(`${row}-${col}`) as HTMLCollectionOf<HTMLElement>
           )[0].style.cssText = `background-color: ${table[row][col].color}; border-top: 0px solid transparent; overflow: hidden !important; text-overflow: ellipsis; white-space: nowrap;`;
         }
-        if (table[row][col].occupied === false) {
+        if (table[row][col].occupied === false || table[row][col].id !== table[row][col + 1].id) {
           checkedSubject = false;
         }
       }
@@ -79,7 +79,7 @@ const Table = () => {
       <TableMenu />
       <table
         ref={tableRef}
-        className="border-blue-100 border-2 h-[450px] my-5 text-xs lg:text-sm text-gray-600 text-center"
+        className="border-blue-100 border-2 h-[450px] my-5 text-xs lg:text-sm text-gray-600 text-center timetable"
       >
         <thead>
           <tr>

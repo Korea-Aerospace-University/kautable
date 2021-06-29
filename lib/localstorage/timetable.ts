@@ -2,7 +2,7 @@ import { localSubjectData } from "../../types/subject";
 import { getRandomColor } from "../data/palette";
 import { getAllSubject } from "./subject";
 
-const parseTimeToPeriod = (time: string): number => {
+export const parseTimeToPeriod = (time: string): number => {
   switch (time) {
     case "09:00":
       return 1;
@@ -51,7 +51,7 @@ const parseTimeToPeriod = (time: string): number => {
   }
 };
 
-const parseWeekday = (weekday: string) => {
+export const parseWeekday = (weekday: string) => {
   switch (weekday) {
     case "월":
       return "monday";
@@ -92,7 +92,7 @@ export const checkColor = (id: string) => {
 };
 
 // 시간표 데이터를 생성하고 리턴하는 함수
-export const getTimeTable = (semester: string) => {
+export const setTimeTable = (semester: string) => {
   const subjectList = getAllSubject(semester);
   Object.keys(timeTable).forEach((weekday) => {
     for (let col = 1; col <= 21; col++) {
@@ -109,7 +109,7 @@ export const getTimeTable = (semester: string) => {
       const row = parseWeekday(classhour[0]);
       const timeFrom = parseTimeToPeriod(hourString.split("∼")[0]);
       const timeTo = parseTimeToPeriod(hourString.split("∼")[1]);
-      for (let i = timeFrom; i <= timeTo; i++) {
+      for (let i = timeFrom; i < timeTo; i++) {
         timeTable[row][i].occupied = true;
         timeTable[row][i].subjectName = subject.subjectName;
         timeTable[row][i].id = subject.id;
@@ -118,7 +118,10 @@ export const getTimeTable = (semester: string) => {
       }
     });
   });
-  console.log(timeTable);
+  return timeTable;
+};
+
+export const getTimeTable = (semester: string) => {
   return timeTable;
 };
 

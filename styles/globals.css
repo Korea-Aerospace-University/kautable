@@ -38,6 +38,13 @@ table {
   table-layout: fixed !important;
 }
 
+.timetable > tbody > tr > td {
+  width: 65px;
+  min-width: 50px;
+  max-width: 60px !important;
+  font-size: 11px;
+}
+
 .noData {
   height: 100%;
 }

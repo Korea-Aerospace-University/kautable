@@ -6,7 +6,6 @@ import { SubjectContext } from "./tableContainer";
 
 const SubjectDetailContainer = () => {
   const { selectedSubject } = useContext(SubjectContext);
-  console.log(selectedSubject);
   const { major, subjectName } = selectedSubject;
 
   return (
