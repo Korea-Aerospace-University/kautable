@@ -21,4 +21,5 @@ export type localSubjectData = {
   classHour: Array<string>;
   subjectType: string;
   subjectScore: string;
+  classRoom: string;
 };

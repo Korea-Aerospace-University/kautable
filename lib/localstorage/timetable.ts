@@ -1,4 +1,5 @@
 import { localSubjectData } from "../../types/subject";
+import { getRandomColor } from "../data/palette";
 import { getAllSubject } from "./subject";
 
 const parseTimeToPeriod = (time: string): number => {
@@ -77,22 +78,43 @@ export const validateTimeTable = (semester: string) => {};
 // 주의 : 저 물결표시는 키보드의 ~ 물결이 아님!
 // 꼭 아래 코드의 물결을 사용할 것..
 
+// 과목별로 이미 사용된 색이 있다면 사용하고
+// 없으면 새로운 색을 리턴해 과목에 부여한다.
+export const checkColor = (id: string) => {
+  Object.keys(timeTable).forEach((weekday) => {
+    for (let col = 1; col <= 21; col++) {
+      if (timeTable[weekday][col].id === id && timeTable[weekday][col].color !== "") {
+        return timeTable[weekday][col].color;
+      }
+    }
+  });
+  return getRandomColor();
+};
+
+// 시간표 데이터를 생성하고 리턴하는 함수
 export const getTimeTable = (semester: string) => {
   const subjectList = getAllSubject(semester);
   Object.keys(timeTable).forEach((weekday) => {
     for (let col = 1; col <= 21; col++) {
-      timeTable[weekday][col] = false;
+      timeTable[weekday][col].occupied = false;
     }
   });
 
   subjectList.forEach((subject: localSubjectData) => {
+    // checkColor는 과목이 시간표의 다른 요일에 있는지를 검사하고,
+    // 있다면 해당 과목의 색깔을, 없다면 랜덤 색깔을 새로 부여한다.
+    const _color = checkColor(subject.id);
     subject.classHour.forEach((classhour: string) => {
       const hourString = classhour.slice(2);
       const row = parseWeekday(classhour[0]);
       const timeFrom = parseTimeToPeriod(hourString.split("∼")[0]);
       const timeTo = parseTimeToPeriod(hourString.split("∼")[1]);
       for (let i = timeFrom; i <= timeTo; i++) {
-        timeTable[row][i] = true;
+        timeTable[row][i].occupied = true;
+        timeTable[row][i].subjectName = subject.subjectName;
+        timeTable[row][i].id = subject.id;
+        timeTable[row][i].color = _color;
+        timeTable[row][i].classRoom = subject.classRoom;
       }
     });
   });
@@ -104,126 +126,126 @@ export const timeTable = {
   monday: [
     // 월요일
     null,
-    false,
-    false,
-    false,
-    false,
-    false,
-    false,
-    false,
-    false,
-    false,
-    false,
-    false,
-    false,
-    false,
-    false,
-    false,
-    false,
-    false,
-    false,
-    false,
-    false,
-    false,
+    { occupied: false, subjectName: "", id: "", color: "", classRoom: "" },
+    { occupied: false, subjectName: "", id: "", color: "", classRoom: "" },
+    { occupied: false, subjectName: "", id: "", color: "", classRoom: "" },
+    { occupied: false, subjectName: "", id: "", color: "", classRoom: "" },
+    { occupied: false, subjectName: "", id: "", color: "", classRoom: "" },
+    { occupied: false, subjectName: "", id: "", color: "", classRoom: "" },
+    { occupied: false, subjectName: "", id: "", color: "", classRoom: "" },
+    { occupied: false, subjectName: "", id: "", color: "", classRoom: "" },
+    { occupied: false, subjectName: "", id: "", color: "", classRoom: "" },
+    { occupied: false, subjectName: "", id: "", color: "", classRoom: "" },
+    { occupied: false, subjectName: "", id: "", color: "", classRoom: "" },
+    { occupied: false, subjectName: "", id: "", color: "", classRoom: "" },
+    { occupied: false, subjectName: "", id: "", color: "", classRoom: "" },
+    { occupied: false, subjectName: "", id: "", color: "", classRoom: "" },
+    { occupied: false, subjectName: "", id: "", color: "", classRoom: "" },
+    { occupied: false, subjectName: "", id: "", color: "", classRoom: "" },
+    { occupied: false, subjectName: "", id: "", color: "", classRoom: "" },
+    { occupied: false, subjectName: "", id: "", color: "", classRoom: "" },
+    { occupied: false, subjectName: "", id: "", color: "", classRoom: "" },
+    { occupied: false, subjectName: "", id: "", color: "", classRoom: "" },
+    { occupied: false, subjectName: "", id: "", color: "", classRoom: "" },
   ],
   tuesday: [
     // 화요일
     null,
-    false,
-    false,
-    false,
-    false,
-    false,
-    false,
-    false,
-    false,
-    false,
-    false,
-    false,
-    false,
-    false,
-    false,
-    false,
-    false,
-    false,
-    false,
-    false,
-    false,
-    false,
+    { occupied: false, subjectName: "", id: "", color: "", classRoom: "" },
+    { occupied: false, subjectName: "", id: "", color: "", classRoom: "" },
+    { occupied: false, subjectName: "", id: "", color: "", classRoom: "" },
+    { occupied: false, subjectName: "", id: "", color: "", classRoom: "" },
+    { occupied: false, subjectName: "", id: "", color: "", classRoom: "" },
+    { occupied: false, subjectName: "", id: "", color: "", classRoom: "" },
+    { occupied: false, subjectName: "", id: "", color: "", classRoom: "" },
+    { occupied: false, subjectName: "", id: "", color: "", classRoom: "" },
+    { occupied: false, subjectName: "", id: "", color: "", classRoom: "" },
+    { occupied: false, subjectName: "", id: "", color: "", classRoom: "" },
+    { occupied: false, subjectName: "", id: "", color: "", classRoom: "" },
+    { occupied: false, subjectName: "", id: "", color: "", classRoom: "" },
+    { occupied: false, subjectName: "", id: "", color: "", classRoom: "" },
+    { occupied: false, subjectName: "", id: "", color: "", classRoom: "" },
+    { occupied: false, subjectName: "", id: "", color: "", classRoom: "" },
+    { occupied: false, subjectName: "", id: "", color: "", classRoom: "" },
+    { occupied: false, subjectName: "", id: "", color: "", classRoom: "" },
+    { occupied: false, subjectName: "", id: "", color: "", classRoom: "" },
+    { occupied: false, subjectName: "", id: "", color: "", classRoom: "" },
+    { occupied: false, subjectName: "", id: "", color: "", classRoom: "" },
+    { occupied: false, subjectName: "", id: "", color: "", classRoom: "" },
   ],
   wednesday: [
     // 수요일
     null,
-    false,
-    false,
-    false,
-    false,
-    false,
-    false,
-    false,
-    false,
-    false,
-    false,
-    false,
-    false,
-    false,
-    false,
-    false,
-    false,
-    false,
-    false,
-    false,
-    false,
-    false,
+    { occupied: false, subjectName: "", id: "", color: "", classRoom: "" },
+    { occupied: false, subjectName: "", id: "", color: "", classRoom: "" },
+    { occupied: false, subjectName: "", id: "", color: "", classRoom: "" },
+    { occupied: false, subjectName: "", id: "", color: "", classRoom: "" },
+    { occupied: false, subjectName: "", id: "", color: "", classRoom: "" },
+    { occupied: false, subjectName: "", id: "", color: "", classRoom: "" },
+    { occupied: false, subjectName: "", id: "", color: "", classRoom: "" },
+    { occupied: false, subjectName: "", id: "", color: "", classRoom: "" },
+    { occupied: false, subjectName: "", id: "", color: "", classRoom: "" },
+    { occupied: false, subjectName: "", id: "", color: "", classRoom: "" },
+    { occupied: false, subjectName: "", id: "", color: "", classRoom: "" },
+    { occupied: false, subjectName: "", id: "", color: "", classRoom: "" },
+    { occupied: false, subjectName: "", id: "", color: "", classRoom: "" },
+    { occupied: false, subjectName: "", id: "", color: "", classRoom: "" },
+    { occupied: false, subjectName: "", id: "", color: "", classRoom: "" },
+    { occupied: false, subjectName: "", id: "", color: "", classRoom: "" },
+    { occupied: false, subjectName: "", id: "", color: "", classRoom: "" },
+    { occupied: false, subjectName: "", id: "", color: "", classRoom: "" },
+    { occupied: false, subjectName: "", id: "", color: "", classRoom: "" },
+    { occupied: false, subjectName: "", id: "", color: "", classRoom: "" },
+    { occupied: false, subjectName: "", id: "", color: "", classRoom: "" },
   ],
   thursday: [
     // 목요일
     null,
-    false,
-    false,
-    false,
-    false,
-    false,
-    false,
-    false,
-    false,
-    false,
-    false,
-    false,
-    false,
-    false,
-    false,
-    false,
-    false,
-    false,
-    false,
-    false,
-    false,
-    false,
+    { occupied: false, subjectName: "", id: "", color: "", classRoom: "" },
+    { occupied: false, subjectName: "", id: "", color: "", classRoom: "" },
+    { occupied: false, subjectName: "", id: "", color: "", classRoom: "" },
+    { occupied: false, subjectName: "", id: "", color: "", classRoom: "" },
+    { occupied: false, subjectName: "", id: "", color: "", classRoom: "" },
+    { occupied: false, subjectName: "", id: "", color: "", classRoom: "" },
+    { occupied: false, subjectName: "", id: "", color: "", classRoom: "" },
+    { occupied: false, subjectName: "", id: "", color: "", classRoom: "" },
+    { occupied: false, subjectName: "", id: "", color: "", classRoom: "" },
+    { occupied: false, subjectName: "", id: "", color: "", classRoom: "" },
+    { occupied: false, subjectName: "", id: "", color: "", classRoom: "" },
+    { occupied: false, subjectName: "", id: "", color: "", classRoom: "" },
+    { occupied: false, subjectName: "", id: "", color: "", classRoom: "" },
+    { occupied: false, subjectName: "", id: "", color: "", classRoom: "" },
+    { occupied: false, subjectName: "", id: "", color: "", classRoom: "" },
+    { occupied: false, subjectName: "", id: "", color: "", classRoom: "" },
+    { occupied: false, subjectName: "", id: "", color: "", classRoom: "" },
+    { occupied: false, subjectName: "", id: "", color: "", classRoom: "" },
+    { occupied: false, subjectName: "", id: "", color: "", classRoom: "" },
+    { occupied: false, subjectName: "", id: "", color: "", classRoom: "" },
+    { occupied: false, subjectName: "", id: "", color: "", classRoom: "" },
   ],
   friday: [
     // 금요일
     null,
-    false,
-    false,
-    false,
-    false,
-    false,
-    false,
-    false,
-    false,
-    false,
-    false,
-    false,
-    false,
-    false,
-    false,
-    false,
-    false,
-    false,
-    false,
-    false,
-    false,
-    false,
+    { occupied: false, subjectName: "", id: "", color: "", classRoom: "" },
+    { occupied: false, subjectName: "", id: "", color: "", classRoom: "" },
+    { occupied: false, subjectName: "", id: "", color: "", classRoom: "" },
+    { occupied: false, subjectName: "", id: "", color: "", classRoom: "" },
+    { occupied: false, subjectName: "", id: "", color: "", classRoom: "" },
+    { occupied: false, subjectName: "", id: "", color: "", classRoom: "" },
+    { occupied: false, subjectName: "", id: "", color: "", classRoom: "" },
+    { occupied: false, subjectName: "", id: "", color: "", classRoom: "" },
+    { occupied: false, subjectName: "", id: "", color: "", classRoom: "" },
+    { occupied: false, subjectName: "", id: "", color: "", classRoom: "" },
+    { occupied: false, subjectName: "", id: "", color: "", classRoom: "" },
+    { occupied: false, subjectName: "", id: "", color: "", classRoom: "" },
+    { occupied: false, subjectName: "", id: "", color: "", classRoom: "" },
+    { occupied: false, subjectName: "", id: "", color: "", classRoom: "" },
+    { occupied: false, subjectName: "", id: "", color: "", classRoom: "" },
+    { occupied: false, subjectName: "", id: "", color: "", classRoom: "" },
+    { occupied: false, subjectName: "", id: "", color: "", classRoom: "" },
+    { occupied: false, subjectName: "", id: "", color: "", classRoom: "" },
+    { occupied: false, subjectName: "", id: "", color: "", classRoom: "" },
+    { occupied: false, subjectName: "", id: "", color: "", classRoom: "" },
+    { occupied: false, subjectName: "", id: "", color: "", classRoom: "" },
   ],
 };

@@ -8,6 +8,7 @@ import { SemesterContext } from "../pages/Timetable";
 import { SubjectContext } from "./tableContainer";
 import { localSubjectData } from "../types/subject";
 import { getTimeTable, timeTable } from "../lib/localstorage/timetable";
+import { getRandomColor } from "../lib/data/palette";
 
 const Table = () => {
   const tableRef: any = useRef(null);
@@ -39,6 +40,9 @@ const Table = () => {
         Array.from(
           document.getElementsByClassName(`${weekdayList[i]}-${j}`) as HTMLCollectionOf<HTMLElement>
         )[0].style.cssText = "background-color: white; border-top: 1px solid rgb(219, 234, 254)";
+        Array.from(
+          document.getElementsByClassName(`${weekdayList[i]}-${j}`) as HTMLCollectionOf<HTMLElement>
+        )[0].innerHTML = "";
       }
     }
   };
@@ -46,11 +50,25 @@ const Table = () => {
   const renderTable = () => {
     initTable();
     Object.keys(table).forEach((row) => {
+      let checkedSubject = false;
       for (let col = 1; col <= 21; col++) {
-        if (table[row][col] === true) {
+        if (table[row][col].occupied === true) {
+          if (checkedSubject === false) {
+            Array.from(
+              document.getElementsByClassName(`${row}-${col}`) as HTMLCollectionOf<HTMLElement>
+            )[0].innerHTML = table[row][col].subjectName;
+            Array.from(
+              document.getElementsByClassName(`${row}-${col + 1}`) as HTMLCollectionOf<HTMLElement>
+            )[0].innerHTML = table[row][col].classRoom;
+            checkedSubject = true;
+          }
+
           Array.from(
             document.getElementsByClassName(`${row}-${col}`) as HTMLCollectionOf<HTMLElement>
-          )[0].style.cssText = "background-color: red; border-top: 0px solid transparent";
+          )[0].style.cssText = `background-color: ${table[row][col].color}; border-top: 0px solid transparent; overflow: hidden !important; text-overflow: ellipsis; white-space: nowrap;`;
+        }
+        if (table[row][col].occupied === false) {
+          checkedSubject = false;
         }
       }
     });

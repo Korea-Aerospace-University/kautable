@@ -27,7 +27,15 @@ const SubjectDetail = ({ data }) => {
 
   const addSubjectToBasket = () => {
     // 로컬스토리지에 수강신청 과목 추가
-    addSubject(semester, subjectNumber, subjectName, classHour, subjectType, subjectScore);
+    addSubject(
+      semester,
+      subjectNumber,
+      subjectName,
+      classHour,
+      subjectType,
+      subjectScore,
+      classroom
+    );
     // 로컬스토리지에 과목을 추가하면 화면의 장바구니 목록도 업데이트하는 코드
     setSubjectBasketList(getAllSubject(semester));
   };
