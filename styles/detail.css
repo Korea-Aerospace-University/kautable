@@ -61,6 +61,13 @@
   padding: 5px 8px;
 }
 
+.detail-subtitle-신소재공학과 {
+  background-color: #0b644c;
+  color: white;
+  border-radius: 8px;
+  padding: 5px 8px;
+}
+
 .detail-subtitle-소프트 {
   background-color: rgba(74, 142, 197, 0.9);
   color: white;
@@ -173,6 +180,12 @@
 }
 
 .bg-항공재료 {
+  background: linear-gradient(270deg, #0b644c, #2fa385, #226351);
+  background-size: 600% 600%;
+  animation: AnimationName 12s ease infinite;
+}
+
+.bg-신소재공학과 {
   background: linear-gradient(270deg, #0b644c, #2fa385, #226351);
   background-size: 600% 600%;
   animation: AnimationName 12s ease infinite;

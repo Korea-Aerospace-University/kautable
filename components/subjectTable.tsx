@@ -81,10 +81,10 @@ const SubjectTable = () => {
             <th className="hidden lg:block lg:w-[20%] p-2 text-center text-md lg:text-lg text-gray-600">
               전공
             </th>
-            <th className="lg:w-[30%] p-2 text-center text-md lg:text-lg text-gray-600">
+            <th className="w-[30%] lg:w-[30%] p-2 text-center text-md lg:text-lg text-gray-600">
               담당교수
             </th>
-            <th className="lg:w-[35%] p-2 text-center text-md lg:text-lg text-gray-600">
+            <th className="w-[50%] lg:w-[35%] p-2 text-center text-md lg:text-lg text-gray-600">
               교과목명
             </th>
             <th className="lg:w-[10%] p-2 text-center text-md lg:text-lg text-gray-600">학점</th>

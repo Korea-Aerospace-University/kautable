@@ -1,22 +1,40 @@
 import React, { useContext } from "react";
-import { localSubjectData } from "../types/subject";
-import { SubjectContext } from "./tableContainer";
+import { localSubjectData, SubjectData } from "../types/subject";
+import { ModalContext, SubjectContext } from "./tableContainer";
+import { getSubjectsAPI } from "../lib/api/subject";
+import { SemesterContext } from "../pages/Timetable";
 
 const CurrentBasket = () => {
-  const { favoriteList }: { favoriteList: localSubjectData[] } = useContext(SubjectContext);
+  const {
+    favoriteList,
+    setSelectedSubject,
+  }: { favoriteList: localSubjectData[]; setSelectedSubject: any } = useContext(SubjectContext);
+  const { setIsModalOpen } = useContext(ModalContext);
+  const { semester } = useContext(SemesterContext);
+
+  const selectSubjectById = async (id: string) => {
+    const { data } = await getSubjectsAPI(semester);
+    if (data !== null) {
+      setSelectedSubject(data.filter((subject: SubjectData) => subject.id === Number(id))[0]);
+    }
+  };
 
   return (
-    <div className="bg-white ml-0 lg:ml-8 p-5 lg:p-8 lg:flex-1 lg:min-w-[60%] rounded-lg shadow-2xl min-h-[280px] lg:h-full w-full ">
-      <h1 className="text-sm lg:text-xltext-gray-500 mb-4 lg:mb-5">
-        📄  관심 과목 목록
-      </h1>
+    <div className="bg-white ml-0 lg:ml-8 p-5 lg:py-6 lg:px-8 lg:flex-1 lg:min-w-[60%] rounded-lg shadow-2xl min-h-[280px] lg:h-full w-full ">
+      <h1 className="text-sm lg:text-xl text-gray-500">📄 관심 과목 목록</h1>
+      <div className="border-b-[1px] border-gray-300 my-3 w-full"></div>
+
       <div>
         {favoriteList.length > 0 ? (
           <div className="flex flex-col max-h-[200px] lg:max-h-[300px] overflow-y-scroll scrollbar-hide">
             {favoriteList?.map((subject: localSubjectData) => (
               <div
                 key={subject.subjectNumber}
-                className="flex py-2 px-4 justify-between items-center border-gray-50 border rounded-xl shadow-md mb-2"
+                className="flex py-2 px-4 justify-between items-center border-gray-50 border rounded-xl shadow-md mb-2 cursor-pointer hover:bg-red-50 transition-colors"
+                onClick={() => {
+                  setIsModalOpen(true);
+                  selectSubjectById(subject.id.split("-")[2]);
+                }}
               >
                 <div className={`detail-${subject.subjectType}`}>{subject.subjectType}</div>
                 <div className="w-[40%]">{subject.subjectName}</div>

@@ -31,12 +31,12 @@ const SubjectItem = ({ data }) => {
         {major}
       </td>
       <td
-        className="lg:w-[30%] lg:flex justify-center items-center px-2 text-xs lg:text-sm"
+        className="w-[35%] lg:w-[30%] lg:flex justify-center items-center text-xs lg:text-sm mr-4"
         valign="middle"
       >
         {profName}
       </td>
-      <td className="lg:w-[40%] lg:flex justify-center items-center text-xs lg:text-sm">
+      <td className="w-[60%] lg:w-[40%] lg:flex justify-center items-center text-xs lg:text-sm">
         {parseSubjectName(subjectName)}
       </td>
       <td className="lg:w-[10%] lg:flex justify-center items-center px-2 text-xs lg:text-sm">

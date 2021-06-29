@@ -95,7 +95,7 @@ const SubjectDetail = ({ data }) => {
           </div>
         )}
       </header>
-      <div className="border-b-[1px] border-gray-300 mt-2 mb-3 w-full"></div>
+      <div className="border-b-[1px] border-gray-300 my-3 w-full"></div>
       <div className="flex justify-center lg:justify-center">
         <ul className="flex flex-col mr-5 lg:mr-10 lg:list-disc">
           <li className="text-xs lg:text-base my-2 text-gray-700">과목번호: {subjectNumber}</li>
