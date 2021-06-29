@@ -97,42 +97,42 @@ const SubjectDetail = ({ data }) => {
       </header>
       <div className="border-b-[1px] border-gray-300 mt-2 mb-3 w-full"></div>
       <div className="flex justify-center lg:justify-center">
-        <ul className="flex flex-col mr-10 lg:list-disc">
-          <li className="text-sm lg:text-base my-2 text-gray-700">과목번호: {subjectNumber}</li>
+        <ul className="flex flex-col mr-5 lg:mr-10 lg:list-disc">
+          <li className="text-xs lg:text-base my-2 text-gray-700">과목번호: {subjectNumber}</li>
           {liberalType ? (
-            <li className="text-sm lg:text-base my-2 text-gray-700">교양분류: {liberalType}</li>
+            <li className="text-xs lg:text-base my-2 text-gray-700">교양분류: {liberalType}</li>
           ) : (
-            <li className="text-sm lg:text-base my-2 text-gray-700">대상학년: {subjectGrade}</li>
+            <li className="text-xs lg:text-base my-2 text-gray-700">대상학년: {subjectGrade}</li>
           )}
-          <li className="text-sm lg:text-base my-2 text-gray-700">
+          <li className="text-xs lg:text-base my-2 text-gray-700">
             구분:{" "}
             {
-              <span className={`detail-${subjectType} text-sm lg:text-base shadow-sm`}>
+              <span className={`detail-${subjectType} text-xs lg:text-base shadow-sm`}>
                 {subjectType}
               </span>
             }
           </li>
-          <li className="text-sm lg:text-sm my-2 text-gray-700">교수명: {profName}</li>
-          <li className="text-sm lg:text-base my-2 text-gray-700 ">수강정원: {maxStudent}명</li>
-          <li className="text-sm lg:text-base my-2 text-gray-700 ">학점: {subjectScore}학점</li>
+          <li className="text-xs lg:text-base my-2 text-gray-700">교수명: {profName}</li>
+          <li className="text-xs lg:text-base my-2 text-gray-700 ">수강정원: {maxStudent}명</li>
+          <li className="text-xs lg:text-base my-2 text-gray-700 ">학점: {subjectScore}학점</li>
         </ul>
         <div className="flex flex-col">
           <div className="flex flex-col flex-1 items-center">
-            <div className="flex items-center text-sm my-2 lg:text-base text-gray-700">
+            <div className="flex items-center text-xs my-2 lg:text-base text-gray-700">
               <ClockIcon className="h-5 w-5 mr-2" />
               강의시간
             </div>
             {classHour.length === 1 ? (
-              <div>{classHour[0]}</div>
+              <p className="text-gray-700">{classHour[0]}</p>
             ) : (
               <div>
-                <div>{classHour[0]}</div>
-                <div>{classHour[1]}</div>
+                <p className="text-gray-700">{classHour[0]}</p>
+                <p className="text-gray-700">{classHour[1]}</p>
               </div>
             )}
           </div>
           <div className="flex flex-col flex-1 items-center">
-            <div className="flex items-center text-sm my-2 lg:text-base text-gray-700">
+            <div className="flex items-center text-xs my-2 lg:text-base text-gray-700">
               <LibraryIcon className="h-5 w-5 mr-2" />
               강의실
             </div>
@@ -152,7 +152,7 @@ const SubjectDetail = ({ data }) => {
             <input type="hidden" name="pram3" value={subjectNumber} />
             <button
               type="submit"
-              className="bg-indigo-400 hover:bg-indigo-500 transition-colors rounded-xl text-white px-3 py-2  text-xs lg:text-sm ml-4"
+              className="bg-indigo-400 hover:bg-indigo-500 transition-colors rounded-xl text-white px-3 py-2  text-xs lg:text-xs ml-4"
             >
               강의계획서
             </button>

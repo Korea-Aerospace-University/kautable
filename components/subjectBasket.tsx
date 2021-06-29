@@ -58,7 +58,7 @@ const SubjectBasket = () => {
           subjectBasketList.map((subject: localSubjectData, idx: number) => (
             <div
               key={idx}
-              className="flex cursor-pointer hover:bg-blue-100 transition-colors shadow-md items-center justify-between p-3 bg-white rounded-xl my-3 text-gray-500 border-gray-300"
+              className="flex cursor-pointer text-sm lg:text-base hover:bg-blue-100 transition-colors shadow-md items-center justify-between p-3 bg-white rounded-xl my-3 text-gray-500 border-gray-300"
               onClick={() => {
                 setIsModalOpen(true);
                 selectSubjectById(subject.id.split("-")[2]);
