@@ -38,6 +38,12 @@ table {
   table-layout: fixed !important;
 }
 
+td {
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+  white-space: nowrap;
+}
+
 .timetable > tbody > tr > td {
   width: 65px;
   max-width: 60px !important;

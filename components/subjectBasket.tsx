@@ -57,7 +57,7 @@ const SubjectBasket = () => {
         {subjectBasketList.length > 0 && (
           <div className="text-center p-3 shadow-md bg-white rounded-lg text-sm text-gray-500">
             <div className="flex justify-center">
-              <PencilIcon className="h-5 mr-2 text-xl" />
+              <PencilIcon className="h-5 mr-2 text-xl " />
               신청과목 : {subjectBasketList.length}과목 / 신청학점 :{" "}
               {subjectBasketList?.reduce(
                 (sum: number, current: localSubjectData) => sum + Number(current.subjectScore),

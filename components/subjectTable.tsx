@@ -77,17 +77,20 @@ const SubjectTable = () => {
     <div className="flex w-full text-sm justify-around my-5 shadow-md max-h-[350px] lg:max-h-[450px] scrollbar-hide overflow-scroll">
       <table className="border-2 border-gray-100 w-full h-full rounded-2xl table-fixed">
         <thead className="flex flex-col lg:flex-row justify-center">
-          <tr className="flex flex-1 p-2 justify-between border-b-2 border-[#40368a]">
-            <th className="hidden lg:block lg:w-[20%] p-2 text-center text-md lg:text-lg text-gray-600">
+          <tr className="flex flex-1 py-3 px-2 lg:mx-2 justify-between border-b-2 border-[#40368a]">
+            <th className="hidden lg:block lg:w-[20%] text-center text-md lg:text-lg text-gray-600">
               전공
             </th>
-            <th className="w-[30%] lg:w-[30%] p-2 text-center text-md lg:text-lg text-gray-600">
+
+            <th className="w-[25%] lg:w-[25%]text-center text-md lg:text-lg text-gray-600">
               담당교수
             </th>
-            <th className="w-[50%] lg:w-[35%] p-2 text-center text-md lg:text-lg text-gray-600">
+            <th className="w-[45%] lg:w-[40%] text-center text-md lg:text-lg text-gray-600">
               교과목명
             </th>
-            <th className="lg:w-[10%] p-2 text-center text-md lg:text-lg text-gray-600">학점</th>
+            <th className="w-[25%] lg:w-[15%] text-center text-md lg:text-lg text-gray-600">
+              구분
+            </th>
           </tr>
         </thead>
         <tbody className="h-[280px] lg:h-[350px]">
