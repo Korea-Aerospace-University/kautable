@@ -1,4 +1,5 @@
 import { toast } from "react-toastify";
+import Timetable from "../../pages/Timetable";
 import { localSubjectData } from "../../types/subject";
 import { getTimeTable, parseTimeToPeriod, parseWeekday } from "./timetable";
 
@@ -8,13 +9,13 @@ export const checkTime = (semester: string, classHour: Array<string>) => {
   classHour.forEach((classhour: string) => {
     if (reduplicate === true) return;
     const day = parseWeekday(classhour[0]);
-    console.log(classhour);
+    console.log("checktime", Timetable);
     const hourString = classhour.slice(2);
     const timeFrom = parseTimeToPeriod(hourString.split("∼")[0]);
     const timeTo = parseTimeToPeriod(hourString.split("∼")[1]);
     Object.keys(table).forEach((weekday) => {
       if (weekday === day) {
-        for (let col = timeFrom; col <= timeTo; col++) {
+        for (let col = timeFrom; col < timeTo; col++) {
           console.log(day, weekday, table[weekday][col]);
           if (table[weekday][col].occupied === true) {
             reduplicate = true;
@@ -44,15 +45,15 @@ export const addSubject = (
   for (let subject of subjectArray) {
     if (subject.id === id) {
       notifyFailure(`(;° ロ°) 이미 추가된 과목입니다!`);
-      return;
+      return false;
     }
     if (subject.subjectName === subjectName) {
       notifyFailure(`(;° ロ°) 동일한 이름의 과목이 존재합니다!`);
-      return;
+      return false;
     }
     if (checkTime(semester, classHour) === true) {
       notifyFailure(`(;° ロ°) 해당 시간에 다른 수업이 존재합니다!`);
-      return;
+      return false;
     }
   }
   subjectArray.push({
@@ -64,8 +65,8 @@ export const addSubject = (
     classRoom,
   });
   notifySuccess();
-
   localStorage.setItem(`${semester}`, JSON.stringify(subjectArray));
+  return true;
 };
 
 export const getAllSubject = (semester: string) => {

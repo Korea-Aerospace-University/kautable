@@ -43,15 +43,15 @@ const CurrentBasket = () => {
                     <span className="text-xs lg:text-sm">{classhour}</span>
                   ))}
                 </div>
-                <div>{subject.subjectScore}학점</div>
+                <div className="text-gray-400">({subject.subjectScore}학점)</div>
               </div>
             ))}
           </div>
         ) : (
-          <div className="text-center bg-gray-50 rounded-xl text-xs lg:text-sm p-2">
+          <div className="text-center bg-gray-50 rounded-xl text-xs h-full lg:text-sm p-2">
             <p className="mb-2">이런, 아직 추가한 과목이 없네요! \(´∀｀)/</p>
             <p>
-              <span className="font-bold text-red-600">[즐겨찾기]</span> 버튼을 눌러 관심 과목을
+              <span className="font-bold text-red-600">[관심]</span> 버튼을 눌러 관심 과목을
               담아보세요!
             </p>
           </div>

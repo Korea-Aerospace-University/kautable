@@ -3,7 +3,7 @@ import { InformationCircleIcon, ClockIcon, LibraryIcon } from "@heroicons/react/
 import { SemesterContext } from "../pages/Timetable";
 import Button from "./common/button";
 import { addSubject, getAllSubject } from "../lib/localstorage/subject";
-import { SubjectContext } from "./tableContainer";
+import { ModalContext, SubjectContext } from "./tableContainer";
 import { SubjectData } from "../types/subject";
 import { HeartIcon } from "@heroicons/react/solid";
 import { HeartIcon as HeartIconOutline } from "@heroicons/react/outline";
@@ -17,6 +17,7 @@ import {
 const SubjectDetail = ({ data }) => {
   const { semester } = useContext(SemesterContext);
   const { setSubjectBasketList, setFavoriteList } = useContext(SubjectContext);
+  const { setIsModalOpen } = useContext(ModalContext);
 
   useEffect(() => {
     setFavoriteList(getAllFavorite(semester));
@@ -37,7 +38,7 @@ const SubjectDetail = ({ data }) => {
 
   const addSubjectToBasket = () => {
     // 로컬스토리지에 수강신청 과목 추가
-    addSubject(
+    const addSucess = addSubject(
       semester,
       subjectNumber,
       subjectName,
@@ -48,6 +49,7 @@ const SubjectDetail = ({ data }) => {
     );
     // 로컬스토리지에 과목을 추가하면 화면의 장바구니 목록도 업데이트하는 코드
     setSubjectBasketList(getAllSubject(semester));
+    if (addSucess) setIsModalOpen(false);
   };
 
   const handleFavoriteSubject = () => {
@@ -150,12 +152,7 @@ const SubjectDetail = ({ data }) => {
             <input type="hidden" name="pram1" value={Number(semester.split("-")[1]) * 10} />
             <input type="hidden" name="pram2" value="A0000" />
             <input type="hidden" name="pram3" value={subjectNumber} />
-            <button
-              type="submit"
-              className="bg-indigo-400 hover:bg-indigo-500 transition-colors rounded-xl text-white px-3 py-2  text-xs lg:text-xs ml-4"
-            >
-              강의계획서
-            </button>
+            <Button type="submit" text="강의계획서" className="bg-indigo-400 hover:bg-indigo-500" />
           </form>
         </div>
 

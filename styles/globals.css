@@ -20,7 +20,7 @@
 .ReactModal__Overlay {
   opacity: 0;
   transform: translateY(-50%);
-  transition: all 700ms ease-in-out;
+  transition: all 450ms ease-in-out;
 }
 
 .ReactModal__Overlay--after-open {
@@ -36,6 +36,12 @@
 table {
   border-width: 2px !important;
   table-layout: fixed !important;
+}
+
+td {
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+  white-space: nowrap;
 }
 
 .timetable > tbody > tr > td {
