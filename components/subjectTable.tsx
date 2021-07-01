@@ -33,7 +33,13 @@ const SubjectTable = () => {
         case "ocu":
           return subject.major === "OCU";
         case "material":
-          return subject.major === "항공재료" || subject.major === "신소재";
+          if (subject.major === "항공재료") {
+            return subject.major === "항공재료";
+          } else if (subject.major === "신소재공학과") {
+            return subject.major === "신소재공학과";
+          }
+          break;
+
         case "electronics":
           return subject.major === "항전정학부";
         case "mechanical":
