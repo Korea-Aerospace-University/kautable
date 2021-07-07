@@ -68,6 +68,13 @@
   padding: 5px 8px;
 }
 
+.detail-subtitle-스마트드론공학과 {
+  background-color: #105fb9;
+  color: white;
+  border-radius: 8px;
+  padding: 5px 8px;
+}
+
 .detail-subtitle-소프트 {
   background-color: rgba(74, 142, 197, 0.9);
   color: white;
@@ -211,6 +218,12 @@
 
 .bg-소프트 {
   background: linear-gradient(270deg, #1c5d75, #1e77aa, #1779a7b9);
+  background-size: 600% 600%;
+  animation: AnimationName 12s ease infinite;
+}
+
+.bg-스마트드론공학과 {
+  background: linear-gradient(270deg, #163d92, #2f6ba3, #0e4ba7);
   background-size: 600% 600%;
   animation: AnimationName 12s ease infinite;
 }

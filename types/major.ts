@@ -12,6 +12,7 @@ export const majors = [
   { value: "electronics", label: "항공전자정보공학부" },
   { value: "material", label: "신소재공학과" },
   { value: "software", label: "소프트웨어학과" },
+  { value: "smartdrone", label: "스마트드론공학과" },
   { value: "flight", label: "항공운항학과" },
   { value: "logistics-multi", label: "항공교통물류학부" },
   { value: "traffic", label: "항공교통전공" },

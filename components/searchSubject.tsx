@@ -42,6 +42,8 @@ const SearchSubject = () => {
           return subject.major === "항전정학부";
         case "mechanical":
           return subject.major === "항우기학부";
+        case "smartdrone":
+          return subject.major === "스마트드론공학과";
         case "software":
           return subject.major === "소프트";
         case "flight":

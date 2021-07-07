@@ -39,7 +39,8 @@ const SubjectTable = () => {
             return subject.major === "신소재공학과";
           }
           break;
-
+        case "smartdrone":
+          return subject.major === "스마트드론공학과";
         case "electronics":
           return subject.major === "항전정학부";
         case "mechanical":
