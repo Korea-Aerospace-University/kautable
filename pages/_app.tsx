@@ -9,7 +9,7 @@ const MyApp = ({ Component, pageProps }) => {
   useEffect(() => {
     notifyChangeLog();
   }, []);
-  const notifyChangeLog = () => toast(`2021년 7월 7일 : 소학 & 스드공 데이터가 추가되었습니다.`);
+  const notifyChangeLog = () => toast(`2021년 7월 8일 : 항교물 과목 데이터가 추가되었습니다.`);
 
   return (
     <div className="bg-blue-50">
