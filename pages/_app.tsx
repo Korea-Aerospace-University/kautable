@@ -9,7 +9,8 @@ const MyApp = ({ Component, pageProps }) => {
   useEffect(() => {
     notifyChangeLog();
   }, []);
-  const notifyChangeLog = () => toast(`2021년 7월 8일 : 항교물 과목 데이터가 추가되었습니다.`);
+  const notifyChangeLog = () =>
+    toast(`2021년 7월 12일 : 항공운항 & 정비융합전공 데이터가 추가되었습니다.`);
 
   return (
     <div className="bg-blue-50">
