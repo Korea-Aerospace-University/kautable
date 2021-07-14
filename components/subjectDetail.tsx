@@ -138,7 +138,7 @@ const SubjectDetail = ({ data }) => {
               <LibraryIcon className="h-5 w-5 mr-2" />
               강의실
             </div>
-            <div>{classroom}</div>
+            <div>{classroom ? classroom : "미배정"}</div>
           </div>
         </div>
       </div>

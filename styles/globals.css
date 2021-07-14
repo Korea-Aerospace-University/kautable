@@ -151,6 +151,16 @@ td {
   background-color: #0b644c;
 }
 
+.스마트드론공학과:before {
+  content: "";
+  display: inline-block;
+  margin-right: 12px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #105fb9;
+}
+
 .항공운항:before {
   content: "";
   display: inline-block;
